@@ -1,0 +1,13 @@
+ul {
+    opacity: 0.95;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#searchResults {
+    z-index: 999;
+    position: relative;
+}
