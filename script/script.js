@@ -8,8 +8,9 @@ var searchList = []
 
 var tempText
 var tempTitle
-// this is me not going god mode
+// this is me going ultra god mode
 function load() {
+    document.getElementById("searchResults").innerHTML = ""
     // search term
     var resources = ["accounting.json", "IT.json", "product.json", "marketing.json"]
     var search = document.getElementById("searchBar").value;
@@ -29,16 +30,17 @@ function load() {
                 //  length of json file loop
                 for (i = 0; i < this.answer.length; i++) {
                     this.answer[i].tags.forEach((tag) => {
-                        populateSearch();
+                        
                         //find tag in json object
-                        if (tag.toLowerCase() == search.toLowerCase()) {
+                        if (tag.toLowerCase() != search.toLowerCase()) {
+                            return;
+                        } else if (tag.toLowerCase() == search.toLowerCase() && tempTitle != tag.toLowerCase()) {
                             tempTitle = this.answer[i].title
-                            tempText = this.answer[i].source 
-                        } else if(tag.toLowerCase() != search.toLowerCase()) {
+                            tempText = this.answer[i].source
+                            populateSearch();
+                        } else {
                             return;
                         }
-
-
                     })
 
                 }
@@ -50,8 +52,12 @@ function load() {
 }
 
 function populateSearch() {
+
     Result.title = tempTitle
-    Result.text = tempText
-    document.getElementById("searchResults").innerHTML += "<button class=\"list-group-item\">" + Result.title + "</button>"
+    Result.source = tempText
+    if(Result.title == undefined) {
+        return;
+    }
+    document.getElementById("searchResults").innerHTML += "<a class=\"list-group-item\" href=\"" + Result.source + "\">" + Result.title + "</a>"
     Result = {}
 }
