@@ -54,15 +54,22 @@
                     <input type="text" class="form-control" placeholder="Search" aria-label="Search"
                         aria-describedby="inputText" id="searchBar">
                     <button class="btn btn-outline-light" type="button" id="inputText" onclick="load()">Search</button>
+
                 </div>
+            </div>
+        </div>
+        
+        <div class="row mx-auto">
+            <div class="col col-md-6 mx-auto text-center" style="z-index: 10;">
+                <ul class="list-group list-group-flush" id="searchResults">
+                  </ul>
             </div>
         </div>
 
         <div class="row mx-auto py-3">
             <div class="col col-md-10 mx-auto text-center">
-                <div class="text-light" id="resolutionframe">loading...</div>
-                <!--<iframe class="w-100 vh-100"
-                    src="https://docs.google.com/document/d/1uBxBlALyEP8_D8rgB7-mPfGbiM4Ao2m1GydvxqyfaR8/edit#bookmark=id.2v2hsqvh4a2u"></iframe> -->
+                <iframe class="w-100 vh-100" id="resolutionframe" style="display:none"
+                    ></iframe>
             </div>
         </div>
     </div>

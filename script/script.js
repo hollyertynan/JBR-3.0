@@ -1,17 +1,21 @@
-let Result = {
+var Result = {
 
 }
 
-let resources = ["accounting.json", "IT.json", "product.json", "marketing.json"]
+var searchList = []
 
-let resolutionFrame = document.getElementById("resolutionframe");
-// this is me going god mode
+
+
+var tempText
+var tempTitle
+// this is me not going god mode
 function load() {
     // search term
-    let search = document.getElementById("searchBar").value;
+    var resources = ["accounting.json", "IT.json", "product.json", "marketing.json"]
+    var search = document.getElementById("searchBar").value;
 
     // processes for each file from resources[]
-    for (let i in resources) {
+    for (let i = 0; i < resources.length; i++) {
         fetch("script/json/" + resources[i])
             .then(response => {
                 if (!response.ok) {
@@ -25,19 +29,29 @@ function load() {
                 //  length of json file loop
                 for (i = 0; i < this.answer.length; i++) {
                     this.answer[i].tags.forEach((tag) => {
+                        populateSearch();
                         //find tag in json object
                         if (tag.toLowerCase() == search.toLowerCase()) {
-                            Result.title = this.answer[i].title
-                            Result.text = this.answer[i].text
-                            document.getElementById("resolutionframe").src = this.answer[i].source
-                            
+                            tempTitle = this.answer[i].title
+                            tempText = this.answer[i].source 
+                        } else if(tag.toLowerCase() != search.toLowerCase()) {
+                            return;
                         }
+
+
                     })
-                    
+
                 }
             })
-
     }
+    console.log(Result)
+    
+    
+}
 
-
+function populateSearch() {
+    Result.title = tempTitle
+    Result.text = tempText
+    document.getElementById("searchResults").innerHTML += "<button class=\"list-group-item\">" + Result.title + "</button>"
+    Result = {}
 }
