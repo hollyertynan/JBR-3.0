@@ -12,6 +12,7 @@ function handleCredentialResponse(response) {
     const responsePayLoad = parseJwt(response.credential);
 
     $("#signIn").attr("hidden",true);
+    $("#g_id_onload").attr("hidden",true);
 
     $("#fillData").attr("hidden",false);
     $("#name").html("Welcome, " + responsePayLoad.name);
