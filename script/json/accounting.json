@@ -2,6 +2,6 @@
     {
         "title": "accounting",
         "text": "accountingtest",
-        "tags": ["invoice", "accounting", "overage", "shortage"]
+        "tags": ["invoice", "accounting", "overage", "shortage", "PO"]
     }
 ]
