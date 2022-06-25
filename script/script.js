@@ -52,12 +52,22 @@ function load() {
 }
 
 function populateSearch() {
-
     Result.title = tempTitle
     Result.source = tempText
     if(Result.title == undefined) {
         return;
     }
-    document.getElementById("searchResults").innerHTML += "<a class=\"list-group-item\" href=\"" + Result.source + "\">" + Result.title + "</a>"
+    document.getElementById("searchResults").innerHTML += "<button class=\"list-group-item py-3\" onclick=\"window.location='" + Result.source + "';\">" + Result.title + "</button>"
     Result = {}
+    $("#searchResults").fadeIn(250)
+    $("button").on({
+        mouseenter: function(){
+            $(this).css("background-color", "#f5f5f5");
+        },
+
+        mouseleave: function(){
+            $(this).css("background-color", "#FFFFFF");
+        }
+        
+    })
 }
