@@ -10,6 +10,13 @@ function parseJwt(token) {
 
 function handleCredentialResponse(response) {
     const responsePayLoad = parseJwt(response.credential);
+
+    $("#signIn").attr("hidden",true);
+
+    $("#fillData").attr("hidden",false);
+    $("#name").html("Welcome, " + responsePayLoad.name);
+    $("#image").attr("src", responsePayLoad.picture);
+    /*
     console.log("ID: " + responsePayLoad.sub);
     console.log('Full Name: ' + responsePayLoad.name);
     console.log('Given Name: ' + responsePayLoad.given_name);
@@ -17,4 +24,5 @@ function handleCredentialResponse(response) {
     console.log("Image URL: " + responsePayLoad.picture);
     console.log("Email: " + responsePayLoad.email); 
     alert(responsePayLoad.email);
+    */
 }
