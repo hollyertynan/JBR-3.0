@@ -39,10 +39,15 @@
         <div class="row mx-auto">
             <div class="col col-md-6 mx-auto text-center">
                 <img src="assets/RSC_LOGO.png" class="img-fluid py-3">
-                <input class="form-control" id="inputText">
+                <div class="input-group">
+                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" id="searchBar" />
+                    <button type="button" class="btn btn-outline-light" id="inputText" onclick="load()">search</button>
+                </div>
             </div>
         </div>
+        
     </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
