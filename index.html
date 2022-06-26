@@ -15,10 +15,38 @@
 </head>
 
 <body class="bg-dark" onload="clock()">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <i class="bi bi-wrench-adjustable navbar-brand"></i>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <div class="nav-link active navbar-brand">JBR 3.0</div>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-link active navbar-brand">
+                        <div id="clock"></div>
+                    </div>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <script src="https://accounts.google.com/gsi/client" async defer></script>
+                <div id="g_id_onload"
+                    data-client_id="176962672918-072st1hpbfv8pfhrtue6g5v6tjeb9mge.apps.googleusercontent.com"
+                    data-auto_select="true" data-callback="handleCredentialResponse" data-auto_prompt="false">
+                </div>
+                <div class="g_id_signin" data-type="standard" data-size="large" data-theme="outline"
+                    data-text="sign_in_with" data-shape="rectangular" data-logo_alignment="left" id="signIn">
+                </div>
+                <div id="name" class="navbar-brand" hidden>Welcome, Tynan Hollyer</div>
+                <img src="" id="image" class="rounded-circle img-fluid float-end my-auto"
+                    style="max-height:35px;max-width:35px;" hidden>
+            </form>
+        </div>
+    </nav>
 
+    <!--
     <nav class="navbar navbar-dark bg-dark" id="navbar">
         <div class="container-fluid">
-                
             <div class="row navbar-brand">
                 <div class="col"><i class="bi bi-wrench-adjustable"></i></div>
                 <div class="col">JBR 3.0</div>
@@ -54,6 +82,7 @@
             </div>
         </div>
     </nav>
+    -->
 
     <div class="container-fluid py-5">
         <div class="row mx-auto">
@@ -68,18 +97,18 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="row mx-auto">
             <div class="col col-md-6 mx-auto text-center" style="z-index: 10;">
-                <ul class="list-group list-group-flush" id="searchResults" style="display:none;max-height:350px;overflow:auto">
+                <ul class="list-group list-group-flush" id="searchResults"
+                    style="display:none;max-height:350px;overflow:auto">
                 </ul>
             </div>
         </div>
 
         <div class="row mx-auto py-3">
             <div class="col col-md-10 mx-auto text-center">
-                <iframe class="w-100 vh-100" id="resolutionframe" style="display:none"
-                    ></iframe>
+                <iframe class="w-100 vh-100" id="resolutionframe" style="display:none"></iframe>
             </div>
         </div>
     </div>
@@ -91,7 +120,7 @@
     <script>
         let matched = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-        if(matched) {
+        if (matched) {
             console.log("Is Dark Mode")
         } else {
             $("body").addClass("bg-light").removeClass("bg-dark")
