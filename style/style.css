@@ -8,6 +8,7 @@ a {
 }
 
 #searchResults {
+    width: 48%;
     z-index: 999;
-    position: relative;
+    position: absolute;
 }

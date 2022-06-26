@@ -4,7 +4,7 @@ var Result = {
 
 var globalSearch = []
 var searchBuffer = []
-var wordExclusionFromSearch = ['the', 'to', 'and', 'or', 'where', 'what', 'a', 'an']
+var wordExclusionFromSearch = ['the', 'to', 'and', 'or', 'where', 'what', 'a', 'an', 'it', 'how']
 
 function splitAndRefineSearchList(searchToSplit) {
     var searchList = []
@@ -33,7 +33,8 @@ function load() {
     // search term
     var resources = ["accounting.json", "IT.json", "product.json", "marketing.json"]
     var search = document.getElementById("searchBar").value;
-    splitAndRefineSearchList(search)
+    splitAndRefineSearchList(search);
+    $("#searchResults").toggle(100)
 
     // processes for each file from resources[]
     for (let i = 0; i < resources.length; i++) {
@@ -72,8 +73,11 @@ function load() {
             })
     }
     console.log(Result)
+}
 
-
+function fillIframe(iframeValue) {
+    document.getElementById("resolutionframe").src = iframeValue;
+    $("#resolutionframe").show(100)
 }
 
 function populateSearch() {
@@ -82,7 +86,7 @@ function populateSearch() {
     if (Result.title == undefined) {
         return;
     }
-    document.getElementById("searchResults").innerHTML += "<button class=\"list-group-item py-3\" onclick=\"window.location='" + Result.source + "';\">" + Result.title + "</button>"
+    document.getElementById("searchResults").innerHTML += "<button class=\"list-group-item py-3\" value=\"" + Result.source + "\" onclick=\"fillIframe(this.value)\">" + Result.title + "</button>"
     Result = {}
     $("#searchResults").fadeIn(250)
     $("button").on({
@@ -94,5 +98,10 @@ function populateSearch() {
             $(this).css("background-color", "#FFFFFF");
         }
 
+    })
+    $("#logoAubuchon").hide(200)
+    $("#searchWrapper").animate({top: "2%"}, 200)
+    $(".list-group-item").click(function() {
+        $("#searchResults").hide(300)
     })
 }
