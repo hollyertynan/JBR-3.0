@@ -104,7 +104,7 @@ function populateSearch() {
             $(this).css("background-color", "#FFFFFF");
         }
     })
-    $("#logoAubuchon").hide(200)
+    $(".img-fluid").hide(200)
     $("#searchWrapper").animate({top: "2%"}, 200)
     $("#searchResults").fadeIn(250)
     $(".list-group-item").click(function() {
