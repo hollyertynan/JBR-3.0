@@ -15,7 +15,7 @@
 </head>
 
 <body class="bg-dark" onload="clock()">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container-fluid">
             <i class="bi bi-wrench-adjustable navbar-brand"></i>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -44,35 +44,32 @@
         </div>
     </nav>
 
-    <div id="searchWrapper">
-        <div class="container-fluid py-5">
-            <div class="row mx-auto">
-                <div class="col col-md-6 mx-auto text-center">
-                    <img src="assets/logo.png" id="logoAubuchon" class="img-fluid py-3" id="logo">
+    <div class="container-fluid py-5">
+        <div class="row mx-auto">
+            <div class="col col-md-6 mx-auto text-center">
+                <img src="assets/logo.png" class="img-fluid py-3" id="logo">
 
-                    <div class="input-group pt-3 mb-1">
-                        <input type="text" class="form-control" placeholder="Search" aria-label="Search"
-                            aria-describedby="inputText" id="searchBar">
-                        <button class="btn btn-outline-light" type="button" id="inputText"
-                            onclick="load()">Search</button>
+                <div class="input-group pt-3 mb-1">
+                    <input type="text" class="form-control" placeholder="Search" aria-label="Search"
+                        aria-describedby="inputText" id="searchBar">
+                    <button class="btn btn-outline-light" type="button" id="inputText" onclick="load()">Search</button>
 
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mx-auto">
-                <div class="col col-md-6 mx-auto text-center" style="z-index: 10;">
-                    <ul class="list-group list-group-flush" id="searchResults"
-                        style="display:none;max-height:350px;overflow:auto">
-                    </ul>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="row mx-auto py-3">
-        <div class="col col-md-10 mx-auto text-center">
-            <iframe class="w-100 vh-100" id="resolutionframe"></iframe>
+        <div class="row mx-auto">
+            <div class="col col-md-6 mx-auto text-center" style="z-index: 10;">
+                <ul class="list-group list-group-flush" id="searchResults"
+                    style="display:none;max-height:350px;overflow:auto">
+                </ul>
+            </div>
+        </div>
+
+        <div class="row mx-auto py-3">
+            <div class="col col-md-10 mx-auto text-center">
+                <iframe class="w-100 vh-100" id="resolutionframe" style="display:none"></iframe>
+            </div>
         </div>
     </div>
 
