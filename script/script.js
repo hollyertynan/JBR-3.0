@@ -3,7 +3,7 @@ var Result = {
 }
 
 var globalSearch = []
-
+var searchBuffer = []
 var wordExclusionFromSearch = ['the', 'to', 'and', 'or', 'where', 'what', 'a', 'an']
 
 function splitAndRefineSearchList(searchToSplit) {
@@ -50,9 +50,8 @@ function load() {
                 for (i = 0; i < this.answer.length; i++) {
                     this.answer[i].tags.forEach((tag) => {
                         //find tag in json object
-                        if(!globalSearch.includes(tag.toLowerCase())) {
-                           return;
-                        } else if (globalSearch.includes(tag.toLowerCase()) && tempTitle != tag.toLowerCase()) {
+                        if (globalSearch.includes(tag.toLowerCase()) && !searchBuffer.includes(this.answer[i].title)) {
+                            searchBuffer.push(this.answer[i].title)
                             console.log(tag)
                             tempTitle = this.answer[i].title
                             tempText = this.answer[i].source
