@@ -1,6 +1,11 @@
 [
     {
-        "title": "IT",
+        "title": "Synchronizing with XPI App",
+        "text": "ITtest",
+        "tags": ["payment", "terminal", "register"]
+    },
+    {
+        "title": "Stuck On System Information",
         "text": "ITtest",
         "tags": ["payment", "terminal", "register"]
     }
