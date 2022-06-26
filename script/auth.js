@@ -14,7 +14,8 @@ function handleCredentialResponse(response) {
     $("#signIn").attr("hidden",true);
     $("#g_id_onload").attr("hidden",true);
 
-    $("#fillData").attr("hidden",false);
+    $("#name").attr("hidden",false);
+    $("#image").attr("hidden",false);
     $("#name").html("Welcome, " + responsePayLoad.name);
     $("#image").attr("src", responsePayLoad.picture);
     /*
