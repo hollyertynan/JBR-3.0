@@ -9,7 +9,6 @@ var wordExclusionFromSearch = ['the', 'to', 'and', 'or', 'where', 'what', 'a', '
 function splitAndRefineSearchList(searchToSplit) {
     var searchList = []
     searchList = searchToSplit.split(" ")
-    let fuck
     for (i in searchList) {
         for (c in wordExclusionFromSearch) {
             if (searchList[i] == wordExclusionFromSearch[c])  {
@@ -33,7 +32,13 @@ function load() {
     // search term
     var resources = ["accounting.json", "IT.json", "product.json", "marketing.json"]
     var search = document.getElementById("searchBar").value;
-    splitAndRefineSearchList(search);
+    if(searchBuffer.length == 0) {
+        splitAndRefineSearchList(search);
+    } else {
+        searchBuffer = []
+        splitAndRefineSearchList(search);
+    }
+    
     $("#searchResults").toggle(100)
 
     // processes for each file from resources[]
@@ -53,7 +58,6 @@ function load() {
                         //find tag in json object
                         if (globalSearch.includes(tag.toLowerCase()) && !searchBuffer.includes(this.answer[i].title)) {
                             searchBuffer.push(this.answer[i].title)
-                            console.log(tag)
                             tempTitle = this.answer[i].title
                             tempText = this.answer[i].source
                             populateSearch();
@@ -80,6 +84,10 @@ function fillIframe(iframeValue) {
     $("#resolutionframe").show(100)
 }
 
+function searchResultsToggling() {
+    $("#searchResults").fadeIn(150)
+}
+
 function populateSearch() {
     Result.title = tempTitle
     Result.source = tempText
@@ -88,20 +96,19 @@ function populateSearch() {
     }
     document.getElementById("searchResults").innerHTML += "<button class=\"list-group-item py-3\" value=\"" + Result.source + "\" onclick=\"fillIframe(this.value)\">" + Result.title + "</button>"
     Result = {}
-    $("#searchResults").fadeIn(250)
-    $("button").on({
+    $("list-group-item").on({
         mouseenter: function () {
             $(this).css("background-color", "#f5f5f5");
         },
-
         mouseleave: function () {
             $(this).css("background-color", "#FFFFFF");
         }
-
     })
     $("#logoAubuchon").hide(200)
     $("#searchWrapper").animate({top: "2%"}, 200)
+    $("#searchResults").fadeIn(250)
     $(".list-group-item").click(function() {
         $("#searchResults").hide(300)
     })
+
 }
