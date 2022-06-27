@@ -11,7 +11,7 @@ function splitAndRefineSearchList(searchToSplit) {
     searchList = searchToSplit.split(" ")
     for (i in searchList) {
         for (c in wordExclusionFromSearch) {
-            if (searchList[i] == wordExclusionFromSearch[c])  {
+            if (searchList[i] == wordExclusionFromSearch[c]) {
                 searchList.splice(wordExclusionFromSearch[c], 1)
             } else {
                 continue;
@@ -24,21 +24,52 @@ function splitAndRefineSearchList(searchToSplit) {
 }
 
 
+// used to globally store name and iframe source from JSON tag
 var tempText
 var tempTitle
+
+
+function autocorrect(tag) {
+    let parseSearch
+    
+    for (let i in globalSearch) {
+        let correctionCount = 0
+        parseSearch = globalSearch[i]
+
+        for (c = 0; c < parseSearch.length; c++) {
+
+            // if the character is the same at the same position, add a point to the correction
+            if (parseSearch.charAt(c) == tag.charAt(c)) {
+                correctionCount += 1.25
+            //if the character is the same before or after the current position, add a point
+            } else if (parseSearch.charAt(c) == tag.charAt(c - 1)) {
+                correctionCount += 1
+            } else if (parseSearch.charAt(c) == tag.charAt(c + 1)) {
+                correctionCount += 1
+            }
+
+        }
+        // check if too many corrrections have to be made to consider the words similar
+        if (correctionCount >= Math.round(tag.length / 1.25)) {
+            console.log(parseSearch)
+            globalSearch[i] = tag.toLowerCase()
+        }
+    }
+}
+
 // this is me going ultra god mode
 function load() {
     document.getElementById("searchResults").innerHTML = ""
     // search term
     var resources = ["accounting.json", "IT.json", "product.json", "marketing.json"]
     var search = document.getElementById("searchBar").value;
-    if(searchBuffer.length == 0) {
+    if (searchBuffer.length == 0) {
         splitAndRefineSearchList(search);
     } else {
         searchBuffer = []
         splitAndRefineSearchList(search);
     }
-    
+
     $("#searchResults").toggle(100)
 
     // processes for each file from resources[]
@@ -55,6 +86,7 @@ function load() {
                 //  length of json file loop
                 for (i = 0; i < this.answer.length; i++) {
                     this.answer[i].tags.forEach((tag) => {
+                        autocorrect(tag);
                         //find tag in json object
                         if (globalSearch.includes(tag.toLowerCase()) && !searchBuffer.includes(this.answer[i].title)) {
                             searchBuffer.push(this.answer[i].title)
@@ -64,19 +96,11 @@ function load() {
                         } else {
                             return;
                         }
-                        /* if (tag.toLowerCase() != globalSearch[i].toLowerCase()) {
-                            return;
-                        } else if (tag.toLowerCase() == globalSearch[i].toLowerCase() && tempTitle != tag.toLowerCase()) {
-                            
-                        } else {
-                            return;
-                        } */
                     })
 
                 }
             })
     }
-    console.log(Result)
 }
 
 function fillIframe(iframeValue) {
@@ -105,10 +129,11 @@ function populateSearch() {
         }
     })
     $(".img-fluid").hide(200)
-    $("#searchWrapper").animate({top: "2%"}, 200)
+    $("#searchWrapper").animate({ top: "2%" }, 200)
     $("#searchResults").fadeIn(250)
-    $(".list-group-item").click(function() {
+    $(".list-group-item").click(function () {
         $("#searchResults").hide(300)
     })
 
 }
+
