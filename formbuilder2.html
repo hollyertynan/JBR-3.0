@@ -27,11 +27,6 @@
                         <div id="clock"></div>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <div class="nav-link active navbar-brand">
-                        <button type="button" id="formbuilder" class="btn btn-outline-light">Formbuilder</button>
-                    </div>
-                </li>
             </ul>
             <form class="d-flex">
                 <script src="https://accounts.google.com/gsi/client" async defer></script>
@@ -52,31 +47,33 @@
     <div class="container-fluid py-5">
         <div class="row mx-auto">
             <div class="col col-md-6 mx-auto text-center">
-                <img src="assets/logo.png" class="img-fluid py-3" id="logo">
+                <h1 class="pt-4" style="color:white;font-size:4em;">JBR Formbuilder 2.0</h1>
 
-                <div class="input-group pt-3 mb-1">
-                    <input type="text" class="form-control" placeholder="Search" aria-label="Search"
-                        aria-describedby="inputText" id="searchBar" onfocus="searchResultsToggling()">
-                    <button class="btn btn-outline-light" type="button" id="inputText" onclick="load()">Search</button>
-
-
+                <div class="input-group pt-5 mb-1">
+                    
+                    <input type="text" class="form-control" placeholder="Title of Resolution" aria-label="title"
+                        id="titleBar" onchange="getTitle(this.value)">
+                    <input type="text" class="form-control" placeholder="Link" aria-label="link"
+                        id="linkBar" onchange="getLink(this.value)">
                 </div>
             </div>
         </div>
-
         <div class="row mx-auto">
-            <div class="col col-md-6 mx-auto text-center" style="z-index: 10;">
-                <ul class="list-group list-group-flush" id="searchResults"
-                    style="display:none;max-height:350px;overflow:auto">
-                </ul>
+            <div class="input-group pt-3 mb-1">
+                <div class="col col-md-6 mx-auto text-center">
+                    <input type="text" class="form-control" placeholder="Search Tags. (We auto-generate these, this is only if you want to refine the search more). Separate tags with spaces." aria-label="addTags" id="addTags" onchange="getTags(this.value)">
+                </div>
             </div>
         </div>
-
-        <div class="row mx-auto py-3">
-            <div class="col col-md-10 mx-auto text-center">
-                <iframe class="w-100 vh-100" id="resolutionframe" style="display:none"></iframe>
+        <div class="row mx-auto">
+            <div class="input-group pt-3 mb-1">
+                <div class="col col-md-6 mx-auto text-center">
+                    <button class="btn btn-outline-light" type="button" id="submitButton" onclick="autoGenTags()">Submit</button>
+                    <button class="btn btn-outline-light" type="button" id="submitButton" onclick="alertTags()">test</button>
+                </div>
             </div>
         </div>
+        
     </div>
 
     <footer class="footer mt-auto py-3 bg-dark fixed-bottom" id="footer">
@@ -104,6 +101,7 @@
         }
     </script>
     <script src="script/script.js"></script>
+    <script src="script/formbuilder.js"></script>
     <script src="script/jwt-decode.js"></script>
 
     </script>-->

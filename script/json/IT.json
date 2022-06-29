@@ -1,12 +1,15 @@
 [
     {
         "title": "Synchronizing with XPI App",
-        "text": "ITtest",
-        "tags": ["payment", "terminal", "register"]
+        "tags": ["payment", "terminal", "register", "xpi", "app", "synchronizing"]
     },
     {
         "title": "Stuck On System Information",
-        "text": "ITtest",
-        "tags": ["payment", "terminal", "register"]
+        "tags": ["payment", "terminal", "register", "stuck", "system", "information"]
+    }, 
+    {
+        "title": "Register Frozen/Unresponsive",
+        "tags": ["register", "stuck", "frozen", "unresponsive"]
     }
+
 ]
