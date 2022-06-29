@@ -1,8 +1,18 @@
 [
     {
-        "title": "accounting",
-        "text": "accountingtest",
-        "tags": ["invoice", "accounting", "overage", "shortage", "PO"],
+        "title": "Missing/Voided Transactions",
+        "tags": ["Missing", "Voided", "Transactions", "Accounting"],
+        "source": "https://docs.google.com/spreadsheets/d/14moGoD-kDUnloRP39_uo1VD_Kbdpnx-B9Ov6gUErNBU/edit#gid=0"
+    },
+    {
+        "title": "BlueTarp (Capital One Trade Credit) Applications",
+        "tags": ["BlueTarp", "Capital One", "Credit", "Accounting"],
+        "source": "https://docs.google.com/spreadsheets/d/14moGoD-kDUnloRP39_uo1VD_Kbdpnx-B9Ov6gUErNBU/edit#gid=0"
+    },
+    {
+        "title": "Defective Items",
+        "tags": ["Defective", "RTV", "Accounting", "Damaged"],
         "source": "https://docs.google.com/spreadsheets/d/14moGoD-kDUnloRP39_uo1VD_Kbdpnx-B9Ov6gUErNBU/edit#gid=0"
     }
+
 ]

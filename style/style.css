@@ -12,3 +12,7 @@ a {
     z-index: 999;
     position: absolute;
 }
+
+#formbuilder {
+    display: none;
+}
