@@ -1,23 +1,17 @@
 [
     {
-        "title": "PO/EDI Issues",
-        "tags": ["PO", "Sku", "UPC", "EDI"],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=true&amp;chrome=true&amp;single=true&amp;range=A98:B98"
+        "title": "PO & EDI Issues",
+        "tags": ["po","edi","PO","Sku","UPC","EDI"],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTX24xVOEWwucJGjbvsV4kNsSJ7TlUgTOShNrvZAC9C2ectQ7BzsrYhGjWpENfZ89jXssg9sTS0XL1m/pubhtml?single=true&amp;gid=790165298&amp;widget=true&amp;range=B25:D25"
     },
     {
-        "title": "Paint Over Max",
-        "tags": ["PO", "Sku", "UPC", "Paint"],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=true&amp;chrome=true&amp;single=true&amp;range=A98:B98"
+        "title": "Changing Min or Max for Less than Five Skus",
+        "tags": ["min","max","sku","product","PO","Sku","UPC","Paint"],
+        "source": "https://docs.google.com/document/d/1mFusBLuX-9x6au519f7vxTo-QVzDbCIfJl4v-RJS_dY/edit#bookmark=id.sl8axyivd97z"
     },
     {
-        "title": "Special Order Issues",
-        "tags": ["PO", "Sku", "UPC", "Special", "Order"],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=true&amp;chrome=true&amp;single=true&amp;range=A98:B98"
-    },
-    {
-        "title": "Store Specific Clearance Pricing",
-        "tags": ["PO", "Sku", "UPC", "Store", "Specific", "Clearance"],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=true&amp;chrome=true&amp;single=true&amp;range=A98:B98"
+        "title": "Cost Issues",
+        "tags": ["cost","issues","price","pricing","retail","Sku","UPC"],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTX24xVOEWwucJGjbvsV4kNsSJ7TlUgTOShNrvZAC9C2ectQ7BzsrYhGjWpENfZ89jXssg9sTS0XL1m/pubhtml?single=true&amp;gid=907924166&amp;widget=true&amp;range=B2:D2"
     }
-    
 ]
