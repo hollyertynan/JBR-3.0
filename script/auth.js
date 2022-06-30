@@ -33,7 +33,8 @@ function handleCredentialResponse(response) {
     $("#image").attr("hidden",false);
     $("#name").html("Welcome, " + responsePayLoad.name);
     $("#image").attr("src", responsePayLoad.picture);
-    /*
+
+    /* leaving for reference
     console.log("ID: " + responsePayLoad.sub);
     console.log('Full Name: ' + responsePayLoad.name);
     console.log('Given Name: ' + responsePayLoad.given_name);
