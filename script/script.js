@@ -1,3 +1,19 @@
+/*
+File: script.js
+
+Authors: Tynan Hollyer, Damian Oakes
+
+tynan_hollyer@student.uml.edu
+
+Description: JBR3 JS file with extraneous
+JS functions that don't require their
+own file. 
+
+Credit:
+Proper Documentation copied from
+HW 1, Part 2, Author: Wenjin Zhou
+*/
+
 var Result = {
 
 }

@@ -1,3 +1,18 @@
+/*
+File: auth.js
+
+Authors: Tynan Hollyer, Damian Oakes
+
+tynan_hollyer@student.uml.edu
+
+Description: JBR3 JS file to check authentication 
+and allow access to the formbuilder button. 
+
+Credit:
+Proper Documentation copied from
+HW 1, Part 2, Author: Wenjin Zhou
+*/
+
 function parseJwt(token) {
     var base64Url = token.split('.')[1];
     var base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
@@ -33,6 +48,6 @@ function handleCredentialResponse(response) {
 
 function enableFormBuilder(nameCheck) {
     if (nameCheck == "Tynan Hollyer" || "Suzanne Fleury" || "Damian Oakes" || "Connor Caissie") {
-      $("#formbuilder").css("display", "block")
+      $("#formbuilder").attr("hidden",false);
     }
 }
