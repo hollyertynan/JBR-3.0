@@ -92,9 +92,9 @@ HW 1, Part 2, Author: Wenjin Zhou
             </div>
         </div>
 
-        <div class="row mx-auto py-3">
+        <div class="row mx-auto">
             <div class="col col-md-10 mx-auto text-center">
-                <button class="btn btn-success w-100" id="submissionButton" hidden>Submit</button>
+                <button class="btn btn-success w-100" id="submissionButton" hidden onclick>Submit</button>
             </div>
         </div>
     </div>
@@ -104,6 +104,23 @@ HW 1, Part 2, Author: Wenjin Zhou
             <span class="text-muted">© 2022 W.E. Aubuchon Company, Inc</span>
         </div>
     </footer>
+
+    <div class="container">
+        <form id="submitMyForm" class="gform" method="POST" data-email="damian.oakes@aubuchon.com" action="https://script.google.com/macros/s/AKfycbxof1Xv9qG7KFc5t0kHbo5WFCP_D8wUiviJupU04WQYpIu1fdrKRcwG2IUUJxSqK3eS/exec">
+            <input name="Submitted" hidden/>
+            <input name="Person" hidden/>
+            <input name="Ticket# / Caller" hidden/>
+            <input name="Store" hidden/>
+            <input name="T/P/M" hidden/>
+            <input name="Department" hidden/>
+            <input name="First Task" hidden/>
+            <input name="Second Task" hidden/>
+            <input name="Third Task" hidden/>
+            <input name="Fourth Task" hidden/>
+            <input name="Fifth Task" hidden/>
+            <input name="Comments" hidden/>
+        </form>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -126,6 +143,8 @@ HW 1, Part 2, Author: Wenjin Zhou
     <script src="script/script.js"></script>
     <script src="script/auth.js"></script>
     <script src="script/clock.js"></script>
+    <script src="script/form-submission-handler.js"></script>
+    <script src="script/form-submission.js"></script>
 </body>
 
 </html>
