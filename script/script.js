@@ -123,7 +123,8 @@ function load() {
 
 function fillIframe(iframeValue) {
     document.getElementById("resolutionframe").src = iframeValue;
-    $("#resolutionframe").show(100)
+    $("#resolutionframe").attr("hidden",false)
+    //$("#instructionTable").attr("hidden",false);
     $("#submissionButton").attr("hidden",false);
     $("#commentSpace").attr("hidden",false);
 }
@@ -140,7 +141,6 @@ function populateSearch() {
     Result.dept = tempDept
 
     dept_name = Result.dept
-    console.log(Result.dept)
     if (Result.title == undefined) {
         return;
     }
