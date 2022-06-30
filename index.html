@@ -70,7 +70,7 @@ HW 1, Part 2, Author: Wenjin Zhou
 
                 <div class="input-group pt-3 mb-1">
                     <input type="text" class="form-control" placeholder="Search" aria-label="Search"
-                        aria-describedby="inputText" id="searchBar" onfocus="searchResultsToggling()">
+                        aria-describedby="inputText" id="searchBar" onfocus="searchResultsToggling()" onkeypress="load()">
                     <button class="btn btn-outline-light" type="button" id="inputText" onclick="load()">Search</button>
 
 
@@ -95,11 +95,15 @@ HW 1, Part 2, Author: Wenjin Zhou
         <div class="row mx-auto">
 
             <div class="col col-md-10 mx-auto text-center pb-3" id="commentSpace" hidden>
-                <textarea id="comments" type="text" name="Comments" placeholder="Comments" style="width: 100%; text-align: left" class="text-dark bg-light form-select-lg\"></textarea>
+                <textarea id="comments" type="text" name="Comments" placeholder="Comments"
+                    style="width: 100%; text-align: left" class="text-dark bg-light form-select-lg\"></textarea>
             </div>
 
             <div class="col col-md-10 mx-auto text-center pb-3">
-                <button class="btn btn-success w-100" id="submissionButton" hidden onclick="SubForm()"><i id="submitcheck" class="bi bi-check-circle" style="font-size: 2.5rem;"></i><h4 id="submittext">Submit</h4></button>
+                <button class="btn btn-success w-100" id="submissionButton" hidden onclick="SubForm()"><i
+                        id="submitcheck" class="bi bi-check-circle" style="font-size: 2.5rem;"></i>
+                    <h4 id="submittext">Submit</h4>
+                </button>
             </div>
 
         </div>
@@ -112,13 +116,14 @@ HW 1, Part 2, Author: Wenjin Zhou
     </footer>
 
     <div class="container">
-        <form id="submitMyForm" class="gform" method="POST" data-email="damian.oakes@aubuchon.com" action="https://script.google.com/macros/s/AKfycbyWoBqrGjDVT2rSvEEg0BpPlvTZ_1PGUGbVTe-8B03cv4B2Ka1KFFzA89--G8daGSwDtw/exec">
-            <input name="Start Time" hidden/>
-            <input name="Submitted" hidden/>
-            <input name="Person" hidden/>
-            <input name="Department" hidden/>
-            <input name="Task Name" hidden/>
-            <input name="Comments" hidden/>
+        <form id="submitMyForm" class="gform" method="POST" data-email="damian.oakes@aubuchon.com"
+            action="https://script.google.com/macros/s/AKfycbyWoBqrGjDVT2rSvEEg0BpPlvTZ_1PGUGbVTe-8B03cv4B2Ka1KFFzA89--G8daGSwDtw/exec">
+            <input name="Start Time" hidden />
+            <input name="Submitted" hidden />
+            <input name="Person" hidden />
+            <input name="Department" hidden />
+            <input name="Task Name" hidden />
+            <input name="Comments" hidden />
         </form>
     </div>
 
