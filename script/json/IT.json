@@ -1,17 +1,20 @@
 [
     {
         "title":"Stuck on Synchronizing with XPI App",
-        "tags":["payment","terminal","register","xpi","app","synchronizing"],
+        "tags":["payment","terminal","register","xpi","app","synchronizing", "card", "reader"],
+        "dept":"IT", 
         "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A202:B202"
     },
     {
         "title":"No Aubuchon Logo on Receipt Printer",
         "tags":["receipt","printer","aubuchon","logo","register"],
+        "dept":"IT",
         "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A200:B200"
     }, 
     {
         "title":"Register Frozen",
         "tags":["register","stuck","frozen","unresponsive"],
+        "dept":"IT",
         "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A40:B40"
     }
 ]

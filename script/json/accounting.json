@@ -2,16 +2,19 @@
     {
         "title": "Missing/Voided Transactions",
         "tags": ["Missing", "Voided", "Transactions", "Accounting"],
+        "dept":"Acounting",
         "source": "https://docs.google.com/spreadsheets/d/14moGoD-kDUnloRP39_uo1VD_Kbdpnx-B9Ov6gUErNBU/edit#gid=0"
     },
     {
         "title": "BlueTarp (Capital One Trade Credit) Applications",
         "tags": ["BlueTarp", "Capital One", "Credit", "Accounting"],
+        "dept":"Acounting",
         "source": "https://docs.google.com/spreadsheets/d/14moGoD-kDUnloRP39_uo1VD_Kbdpnx-B9Ov6gUErNBU/edit#gid=0"
     },
     {
         "title": "Defective Items",
         "tags": ["Defective", "RTV", "Accounting", "Damaged"],
+        "dept":"Acounting",
         "source": "https://docs.google.com/spreadsheets/d/14moGoD-kDUnloRP39_uo1VD_Kbdpnx-B9Ov6gUErNBU/edit#gid=0"
     }
 

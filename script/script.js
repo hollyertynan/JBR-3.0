@@ -43,6 +43,7 @@ function splitAndRefineSearchList(searchToSplit) {
 // used to globally store name and iframe source from JSON tag
 var tempText
 var tempTitle
+var tempDept
 
 
 function autocorrect(tag) {
@@ -108,6 +109,7 @@ function load() {
                             searchBuffer.push(this.answer[i].title)
                             tempTitle = this.answer[i].title
                             tempText = this.answer[i].source
+                            tempDept = this.answer[i].dept
                             populateSearch();
                         } else {
                             return;
@@ -129,13 +131,19 @@ function searchResultsToggling() {
     $("#searchResults").fadeIn(150)
 }
 
+var dept_name = ""
+
 function populateSearch() {
     Result.title = tempTitle
     Result.source = tempText
+    Result.dept = tempDept
+
+    dept_name = Result.dept
+    console.log(Result.dept)
     if (Result.title == undefined) {
         return;
     }
-    document.getElementById("searchResults").innerHTML += "<button class=\"list-group-item py-3\" value=\"" + Result.source + "\" onclick=\"fillIframe(this.value)\">" + Result.title + "</button>"
+    document.getElementById("searchResults").innerHTML += "<button class=\"list-group-item py-3\" value=\"" + Result.source + "\" onclick=\"fillIframe(this.value);getTitle(this.innerText);\">" + Result.title + "</button>"
     Result = {}
     $("list-group-item").on({
         mouseenter: function () {
@@ -152,4 +160,9 @@ function populateSearch() {
         $("#searchResults").hide(300)
     })
 
+}
+
+var task_name = ""
+function getTitle(title) {
+    task_name = title;
 }

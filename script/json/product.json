@@ -2,16 +2,19 @@
     {
         "title": "PO & EDI Issues",
         "tags": ["po","edi","PO","Sku","UPC","EDI"],
+        "dept":"Product",
         "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTX24xVOEWwucJGjbvsV4kNsSJ7TlUgTOShNrvZAC9C2ectQ7BzsrYhGjWpENfZ89jXssg9sTS0XL1m/pubhtml?single=true&amp;gid=790165298&amp;widget=true&amp;range=B25:D25"
     },
     {
         "title": "Changing Min or Max for Less than Five Skus",
         "tags": ["min","max","sku","product","PO","Sku","UPC","Paint"],
+        "dept":"Product",
         "source": "https://docs.google.com/document/d/1mFusBLuX-9x6au519f7vxTo-QVzDbCIfJl4v-RJS_dY/edit#bookmark=id.sl8axyivd97z"
     },
     {
         "title": "Cost Issues",
         "tags": ["cost","issues","price","pricing","retail","Sku","UPC"],
+        "dept":"Product",
         "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTX24xVOEWwucJGjbvsV4kNsSJ7TlUgTOShNrvZAC9C2ectQ7BzsrYhGjWpENfZ89jXssg9sTS0XL1m/pubhtml?single=true&amp;gid=907924166&amp;widget=true&amp;range=B2:D2"
     }
 ]
