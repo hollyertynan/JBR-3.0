@@ -125,6 +125,7 @@ function fillIframe(iframeValue) {
     document.getElementById("resolutionframe").src = iframeValue;
     $("#resolutionframe").show(100)
     $("#submissionButton").attr("hidden",false);
+    $("#commentSpace").attr("hidden",false);
 }
 
 function searchResultsToggling() {

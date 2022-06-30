@@ -9,7 +9,7 @@ function SubForm() {
     document.forms['submitMyForm'].elements['Person'].value = getName;
     document.forms['submitMyForm'].elements['Department'].value = dept_name;
     document.forms['submitMyForm'].elements['Task Name'].value = task_name;
-    document.forms['submitMyForm'].elements['Comments'].value = "";
+    document.forms['submitMyForm'].elements['Comments'].value = comments.value;
 
     document.getElementById("submittext").innerHTML = "";
     $("#submittext").addClass("spinner-border text-light");
