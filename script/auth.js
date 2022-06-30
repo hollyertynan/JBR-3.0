@@ -43,16 +43,11 @@ function handleCredentialResponse(response) {
     console.log("Email: " + responsePayLoad.email); 
     alert(responsePayLoad.email);
     */
-    console.log("putting in " + responsePayLoad.name)
     enableFormBuilder(responsePayLoad.name)
-    console.log("exited enableFormBuilder :)")
 }
 
 function enableFormBuilder(nameCheck) {
     if (nameCheck == "Tynan Hollyer" || "Suzanne Fleury" || "Damian Oakes" || "Connor Caissie") {
-      console.log('worked!')
       $("#formbuilder").css({display: "block"});
-    } else {
-      console.log("didn't work :(")
     }
 }
