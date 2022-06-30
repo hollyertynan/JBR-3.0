@@ -49,6 +49,9 @@ function handleCredentialResponse(response) {
 
 function enableFormBuilder(nameCheck) {
     if (nameCheck == "Tynan Hollyer" || "Suzanne Fleury" || "Damian Oakes" || "Connor Caissie") {
-      $("#formbuilder").attr("hidden",false);
+      console.log('worked!')
+      $("#formbuilder").css({display: "block"});
+    } else {
+      console.log("didn't work :(")
     }
 }
