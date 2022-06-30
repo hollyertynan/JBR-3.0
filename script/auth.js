@@ -43,8 +43,9 @@ function handleCredentialResponse(response) {
     console.log("Email: " + responsePayLoad.email); 
     alert(responsePayLoad.email);
     */
-
+    console.log("putting in " + responsePayLoad.name)
     enableFormBuilder(responsePayLoad.name)
+    console.log("exited enableFormBuilder :)")
 }
 
 function enableFormBuilder(nameCheck) {
