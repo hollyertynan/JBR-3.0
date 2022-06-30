@@ -13,6 +13,8 @@ Proper Documentation copied from
 HW 1, Part 2, Author: Wenjin Zhou
 */
 
+var saveStartTime = new Date().toLocaleString();
+
 function clock() {
     morning = "AM"
     const date = new Date()

@@ -23,6 +23,9 @@ function parseJwt(token) {
    return JSON.parse(jsonPayload);
 };
 
+// for submission
+var getName = "";
+
 function handleCredentialResponse(response) {
     const responsePayLoad = parseJwt(response.credential);
 
@@ -33,6 +36,8 @@ function handleCredentialResponse(response) {
     $("#image").attr("hidden",false);
     $("#name").html("Welcome, " + responsePayLoad.name);
     $("#image").attr("src", responsePayLoad.picture);
+
+    getName = responsePayLoad.name;
 
     /* leaving for reference
     console.log("ID: " + responsePayLoad.sub);

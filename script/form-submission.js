@@ -1,16 +1,21 @@
+const delay = ms => new Promise(res => setTimeout(res, ms));
+
+
+
 function SubForm() {
-    document.forms['submitMyForm'].elements['Submitted'].value = "Test";
-    document.forms['submitMyForm'].elements['Person'].value = "Test";
-    document.forms['submitMyForm'].elements['T/P/M'].value = "Test";
-    document.forms['submitMyForm'].elements['Ticket# / Caller'] = "Test";
-    document.forms['submitMyForm'].elements['Store'].value = "Test";
+    document.forms['submitMyForm'].elements['Start Time'].value = saveStartTime;
+
+    var saveEndTime = new Date().toLocaleString();
+    document.forms['submitMyForm'].elements['Submitted'].value = saveEndTime;
+
+    document.forms['submitMyForm'].elements['Person'].value = getName;
     document.forms['submitMyForm'].elements['Department'].value = "Test";
     document.forms['submitMyForm'].elements['First Task'].value = "Test";
     document.forms['submitMyForm'].elements['Second Task'].value = "Test";
     document.forms['submitMyForm'].elements['Third Task'].value = "Test";
     document.forms['submitMyForm'].elements['Fourth Task'].value = "Test";
     document.forms['submitMyForm'].elements['Fifth Task'].value = "Test";
-    document.forms['submitMyForm'].elements['Comments'].value = "Test";
+    document.forms['submitMyForm'].elements['Comments'].value = "";
 
     document.getElementById("submittext").innerHTML = "";
     $("#submittext").addClass("spinner-border text-light");
@@ -18,7 +23,7 @@ function SubForm() {
     document.getElementById("submissionButton").disabled = true;
 
     $.ajax({
-        url: "https://script.google.com/macros/s/AKfycbxof1Xv9qG7KFc5t0kHbo5WFCP_D8wUiviJupU04WQYpIu1fdrKRcwG2IUUJxSqK3eS/exec",
+        url: "https://script.google.com/macros/s/AKfycbyWoBqrGjDVT2rSvEEg0BpPlvTZ_1PGUGbVTe-8B03cv4B2Ka1KFFzA89--G8daGSwDtw/exec",
         type: "post",
         data:$("#submitMyForm").serializeArray(),
         

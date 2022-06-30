@@ -93,8 +93,8 @@ HW 1, Part 2, Author: Wenjin Zhou
         </div>
 
         <div class="row mx-auto">
-            <div class="col col-md-10 mx-auto text-center">
-                <button class="btn btn-success w-100" id="submissionButton" hidden onclick>Submit</button>
+            <div class="col col-md-10 mx-auto text-center pb-3">
+                <button class="btn btn-success w-100" id="submissionButton" hidden  onclick="SubForm()"><i id="submitcheck" class="bi bi-check-circle" style="font-size: 2.5rem;"></i><h4 id="submittext">Submit</h4></button>
             </div>
         </div>
     </div>
@@ -106,7 +106,8 @@ HW 1, Part 2, Author: Wenjin Zhou
     </footer>
 
     <div class="container">
-        <form id="submitMyForm" class="gform" method="POST" data-email="damian.oakes@aubuchon.com" action="https://script.google.com/macros/s/AKfycbxof1Xv9qG7KFc5t0kHbo5WFCP_D8wUiviJupU04WQYpIu1fdrKRcwG2IUUJxSqK3eS/exec">
+        <form id="submitMyForm" class="gform" method="POST" data-email="damian.oakes@aubuchon.com" action="https://script.google.com/macros/s/AKfycbyWoBqrGjDVT2rSvEEg0BpPlvTZ_1PGUGbVTe-8B03cv4B2Ka1KFFzA89--G8daGSwDtw/exec">
+            <input name="Start Time" hidden/>
             <input name="Submitted" hidden/>
             <input name="Person" hidden/>
             <input name="Ticket# / Caller" hidden/>
@@ -143,7 +144,6 @@ HW 1, Part 2, Author: Wenjin Zhou
     <script src="script/script.js"></script>
     <script src="script/auth.js"></script>
     <script src="script/clock.js"></script>
-    <script src="script/form-submission-handler.js"></script>
     <script src="script/form-submission.js"></script>
 </body>
 
