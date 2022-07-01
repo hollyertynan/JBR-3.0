@@ -44,7 +44,7 @@ function splitAndRefineSearchList(searchToSplit) {
 var tempText
 var tempTitle
 var tempDept
-
+var tempSub
 
 function autocorrect(tag) {
     let parseSearch
@@ -114,6 +114,8 @@ function load() {
                             tempTitle = this.answer[i].title
                             tempText = this.answer[i].source
                             tempDept = this.answer[i].dept
+                            tempSub = this.answer[i].sub
+
                             populateSearch();
                         } else {
                             return;
@@ -158,12 +160,13 @@ function populateSearch() {
     Result.title = tempTitle
     Result.source = tempText
     Result.dept = tempDept
+    Result.sub = tempSub
 
     dept_name = Result.dept
     if (Result.title == undefined) {
         return;
     }
-    document.getElementById("searchResults").innerHTML += "<button class=\"list-group-item py-3\" value=\"" + Result.source + "\" onclick=\"fillIframe(this.value);getTitle(this.innerText, '"+ Result.dept +"');\">" + Result.title + "</button>"
+    document.getElementById("searchResults").innerHTML += "<button class=\"list-group-item py-3\" value=\"" + Result.source + "\" onclick=\"fillIframe(this.value);getTitle(this.innerText, '"+ Result.dept +"', '" + Result.sub + "');\">" + Result.title + "</button>"
     Result = {}
     $("list-group-item").on({
         mouseenter: function () {
@@ -182,20 +185,20 @@ function populateSearch() {
 }
 
 var task_name = ""
-function getTitle(title, dept) {
+function getTitle(title, dept, sub) {
     task_name = title;
 
     // create link since we're getting the title now
     const a = document.querySelector("#createTicketButton");
     
     if (dept == 'IT') {
-        a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=IT%20Help%20Desk\&subcategory=Other\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
+        a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=IT%20Help%20Desk\&subcategory=" + sub + "\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
     } else if (dept == 'Product') {
-        a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=Product%20Team\&subcategory=Other\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
+        a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=Product%20Team\&subcategory=" + sub + "\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
     } else if (dept == 'Accounting') {
-        a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=Accounting\&subcategory=Other\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
+        a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=Accounting\&subcategory=" + sub + "\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
     } else if (dept == 'Marketing') {
-        a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=Marketing\&subcategory=Other\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
+        a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=Marketing\&subcategory=" + sub + "\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
     }
     
 
