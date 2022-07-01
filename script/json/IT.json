@@ -22,5 +22,11 @@
         "tags":["receipt","printer","frozen","106", "flashing", "remove", "document", "from", "slip", "printer"],
         "dept":"IT",
         "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B5:D5"
+    },
+    {
+        "title":"Hand Scanner Not Working",
+        "tags":["hand", "scanner", "scanning", "scan", "r2d2"],
+        "dept":"IT",
+        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B6:D6"
     }
 ]
