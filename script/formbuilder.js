@@ -1,3 +1,18 @@
+/*
+File: auth.js
+
+Authors: Tynan Hollyer, Damian Oakes
+
+tynan_hollyer@student.uml.edu
+
+Description: JBR3 JS file to build the
+form used by Level 2.
+
+Credit:
+Proper Documentation copied from
+HW 1, Part 2, Author: Wenjin Zhou
+*/
+
 let formResult = {}
 
 let title = ""

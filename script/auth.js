@@ -1,3 +1,18 @@
+/*
+File: auth.js
+
+Authors: Tynan Hollyer, Damian Oakes
+
+tynan_hollyer@student.uml.edu
+
+Description: JBR3 JS file to check authentication 
+and allow access to the formbuilder button. 
+
+Credit:
+Proper Documentation copied from
+HW 1, Part 2, Author: Wenjin Zhou
+*/
+
 function parseJwt(token) {
     var base64Url = token.split('.')[1];
     var base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
@@ -7,6 +22,9 @@ function parseJwt(token) {
  
    return JSON.parse(jsonPayload);
 };
+
+// for submission
+var getName = "";
 
 function handleCredentialResponse(response) {
     const responsePayLoad = parseJwt(response.credential);
@@ -18,7 +36,10 @@ function handleCredentialResponse(response) {
     $("#image").attr("hidden",false);
     $("#name").html("Welcome, " + responsePayLoad.name);
     $("#image").attr("src", responsePayLoad.picture);
-    /*
+
+    getName = responsePayLoad.name;
+
+    /* leaving for reference
     console.log("ID: " + responsePayLoad.sub);
     console.log('Full Name: ' + responsePayLoad.name);
     console.log('Given Name: ' + responsePayLoad.given_name);
@@ -27,12 +48,11 @@ function handleCredentialResponse(response) {
     console.log("Email: " + responsePayLoad.email); 
     alert(responsePayLoad.email);
     */
-
     enableFormBuilder(responsePayLoad.name)
 }
 
 function enableFormBuilder(nameCheck) {
     if (nameCheck == "Tynan Hollyer" || "Suzanne Fleury" || "Damian Oakes" || "Connor Caissie") {
-      $("#formbuilder").css("display", "block")
+      $("#formbuilder").css({display: "block"});
     }
 }
