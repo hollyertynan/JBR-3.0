@@ -32,12 +32,18 @@ function handleCredentialResponse(response) {
     $("#signIn").attr("hidden",true);
     $("#g_id_onload").attr("hidden",true);
 
+    getName = responsePayLoad.name;
+    if (getName == "Tynan Hollyer" || "Suzanne Fleury" || "Damian Oakes" || "Connor Caissie") {
+      
+    } else {
+      getName.substr(getName.length() - 2)
+    }
+  
     $("#name").attr("hidden",false);
     $("#image").attr("hidden",false);
-    $("#name").html("Welcome, " + responsePayLoad.name);
+    $("#name").html("Welcome, " + responsePayLoad.name.substr());
     $("#image").attr("src", responsePayLoad.picture);
-
-    getName = responsePayLoad.name;
+    
 
     /* leaving for reference
     console.log("ID: " + responsePayLoad.sub);
