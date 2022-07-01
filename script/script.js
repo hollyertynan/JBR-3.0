@@ -125,7 +125,7 @@ function fillIframe(iframeValue) {
     document.getElementById("resolutionframe").src = iframeValue;
     $("#resolutionframe").attr("hidden",false)
     //$("#instructionTable").attr("hidden",false);
-    $("#submissionButton").attr("hidden",false);
+    $("#showButtons").attr("hidden",false);
     $("#commentSpace").attr("hidden",false);
 }
 
