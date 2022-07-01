@@ -168,6 +168,16 @@ function getTitle(title) {
     task_name = title;
 
     const a = document.querySelector("#createTicketButton");
-    a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=IT%20Help%20Desk\&subcategory=Other\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
+
+    if (dept_name == 'IT') {
+        a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=IT%20Help%20Desk\&subcategory=Other\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
+    } else if (dept_name == 'Product') {
+        a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=Product%20Team\&subcategory=Other\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
+    } else if (dept_name == 'Accounting') {
+        a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=Accounting\&subcategory=Other\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
+    } else if (dept_name == 'Marketing') {
+        a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=Marketing\&subcategory=Other\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
+    }
+    
 
 }
