@@ -144,7 +144,7 @@ function populateSearch() {
     if (Result.title == undefined) {
         return;
     }
-    document.getElementById("searchResults").innerHTML += "<button class=\"list-group-item py-3\" value=\"" + Result.source + "\" onclick=\"fillIframe(this.value);getTitle(this.innerText);\">" + Result.title + "</button>"
+    document.getElementById("searchResults").innerHTML += "<button class=\"list-group-item py-3\" value=\"" + Result.source + "\" onclick=\"fillIframe(this.value);getTitle(this.innerText, '"+ Result.dept +"');\">" + Result.title + "</button>"
     Result = {}
     $("list-group-item").on({
         mouseenter: function () {
@@ -164,18 +164,19 @@ function populateSearch() {
 }
 
 var task_name = ""
-function getTitle(title) {
+function getTitle(title, dept) {
     task_name = title;
 
+    // create link since we're getting the title now
     const a = document.querySelector("#createTicketButton");
-
-    if (dept_name == 'IT') {
+    
+    if (dept == 'IT') {
         a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=IT%20Help%20Desk\&subcategory=Other\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
-    } else if (dept_name == 'Product') {
+    } else if (dept == 'Product') {
         a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=Product%20Team\&subcategory=Other\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
-    } else if (dept_name == 'Accounting') {
+    } else if (dept == 'Accounting') {
         a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=Accounting\&subcategory=Other\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
-    } else if (dept_name == 'Marketing') {
+    } else if (dept == 'Marketing') {
         a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=Marketing\&subcategory=Other\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
     }
     
