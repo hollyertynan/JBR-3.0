@@ -17,28 +17,33 @@ let formResult = {}
 
 let title = ""
 let link = ""
-
+let finalTags = []
 
 let nameGenArray = []
-var wordExcludes = ['the', 'to', 'and', 'or', 'where', 'what', 'a', 'an', 'it', 'how', 'with', 'when', 'there', 'is', 'are']
+var wordExcludes = ['the', 'to', 'and', 'or', 'where', 'what', 'a', 'an', 'it', 'how', 'with', 'when', 'there', 'is', 'are', 'on', "of"]
 
 function getTitle(thisTitle) {
     title = thisTitle;
     let theseTitles = thisTitle.split(" ");
     
-    for (let i in theseTitles) {
         for (let c in wordExcludes) {
-            if (theseTitles[i] == wordExcludes[c]) {
-                theseTitles.splice(wordExcludes[c], 1);    
-            } else {
+            if (!theseTitles.includes(wordExcludes[c])) {
                 continue;
+            } else {
+                theseTitles.splice(theseTitles.indexOf(wordExcludes[c]), 1)
             };
-        };
     };
 
+    
     nameGenArray = theseTitles.map(element => {
-        return element.toLowerCase()
+        if (element == "") {
+            return;
+        } else {
+            return element.toLowerCase()
+        }
     });
+
+    console.log(nameGenArray)
 }
 
 function getLink(thisLink) {
@@ -47,7 +52,7 @@ function getLink(thisLink) {
 
 
 
-let finalTags = []
+
 
 function getTags(thisTags) {
     let theseTags
@@ -60,14 +65,20 @@ function getTags(thisTags) {
 
 
 
+function pushNameGentoTags() {
+    nameGenArray.forEach((nameTag) => {
+        finalTags.push(nameTag)
+    })
 
+    generateJson();
+}
 
 
 function autoGenTags() {
     var resources = ["accounting.json", "IT.json", "product.json", "marketing.json"]
 
-    for (let i = 0; i < resources.length; i++) {
-        fetch("script/json/" + resources[i])
+    for (let h = 0; h < resources.length; h++) {
+        fetch("script/json/" + resources[h])
             .then(response => {
                 if (!response.ok) {
                     throw new Error("HTTP error " + response.status);
@@ -82,17 +93,20 @@ function autoGenTags() {
                     for (let j in nameGenArray) {               
                         for (let c in titleSearch) {
                             if (finalTags.join().toLowerCase() == this.answer[i].tags.join().toLowerCase()) {
-                                return;
+                                continue;
                             } else if (nameGenArray[j].toLowerCase() == titleSearch[c].toLowerCase()) {
-                                finalTags.push(this.answer[i].tags)
-                                generateJson();
+                                for (let y in this.answer[i].tags) {
+                                    finalTags.push(this.answer[i].tags[y])
+                                }
                             } else {
                                 continue;
                             }
                         }
                     }
                 }
+                
             })
+        
     }
     
 }
