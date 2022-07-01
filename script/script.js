@@ -166,4 +166,8 @@ function populateSearch() {
 var task_name = ""
 function getTitle(title) {
     task_name = title;
+
+    const a = document.querySelector("#createTicketButton");
+    a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=IT%20Help%20Desk\&subcategory=Other\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
+
 }
