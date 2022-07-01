@@ -57,7 +57,7 @@ function autocorrect(tag) {
 
             // if the character is the same at the same position, add a point to the correction
             if (parseSearch.charAt(c) == tag.charAt(c)) {
-                correctionCount += 1.25
+                correctionCount += 1.05
             //if the character is the same before or after the current position, add a point
             } else if (parseSearch.charAt(c) == tag.charAt(c - 1)) {
                 correctionCount += 1
@@ -73,6 +73,10 @@ function autocorrect(tag) {
         }
     }
 }
+
+
+
+
 
 // this is me going ultra god mode
 function load() {
@@ -135,6 +139,21 @@ function searchResultsToggling() {
 
 var dept_name = ""
 
+    var input = document.getElementById("searchBar");
+
+// Execute a function when the user presses a key on the keyboard
+input.addEventListener("keydown", function(event) {
+  // If the user presses the "Enter" key on the keyboard
+  if (event.key === "Enter") {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    load()
+  }
+});
+
+
+
 function populateSearch() {
     Result.title = tempTitle
     Result.source = tempText
@@ -153,14 +172,13 @@ function populateSearch() {
         mouseleave: function () {
             $(this).css("background-color", "#FFFFFF");
         }
-    })
+    }) 
     $(".img-fluid").hide(200)
     $("#searchWrapper").animate({ top: "2%" }, 200)
     $("#searchResults").fadeIn(250)
     $(".list-group-item").click(function () {
         $("#searchResults").hide(300)
     })
-
 }
 
 var task_name = ""
