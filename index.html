@@ -88,7 +88,7 @@ HW 1, Part 2, Author: Wenjin Zhou
                 </ul>
             </div>
         </div>
-     
+
         <div class="row mx-auto py-3">
             <div class="col col-md-10 mx-auto text-center">
                 <!-- table for importing from sheets id="instructionTable"
@@ -105,8 +105,9 @@ HW 1, Part 2, Author: Wenjin Zhou
                             <td id="pictures"></td>
                         </tr>
                     </tbody>
-                </table>-->
-                <iframe class="w-100 vh-100" id="resolutionframe" style="max-height:350px" hidden></iframe>-
+                </table>
+                -->
+                <iframe class="w-100 vh-100" id="resolutionframe" style="max-height:400px" hidden></iframe>-
             </div>
         </div>
 
@@ -117,11 +118,20 @@ HW 1, Part 2, Author: Wenjin Zhou
                     style="width: 100%; text-align: left" class="text-dark bg-light form-select-lg\"></textarea>
             </div>
 
-            <div class="col col-md-10 mx-auto text-center pb-3">
-                <button class="btn btn-success w-100" id="submissionButton" hidden onclick="SubForm()"><i
-                        id="submitcheck" class="bi bi-check-circle" style="font-size: 2.5rem;"></i>
-                    <h4 id="submittext">Submit</h4>
-                </button>
+            <div class="col col-md-10 mx-auto text-center pb-3" id="showButtons" hidden>
+                <div class="row">
+                    <div class="col-6">
+                        <a href="temp" target="_blank"
+                            class="btn btn-danger w-100 h-100 my-auto" id="createTicketButton"><i class="bi bi-x-circle" style="font-size: 2.5rem;"></i><h4>No luck? Submit a ticket!</h4></a>
+                    </div>
+
+                    <div class="col-6">
+                        <button class="btn btn-success w-100" id="submissionButton" onclick="SubForm()"><i
+                                id="submitcheck" class="bi bi-check-circle" style="font-size: 2.5rem;"></i>
+                            <h4 id="submittext">All set!</h4>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -147,9 +157,9 @@ HW 1, Part 2, Author: Wenjin Zhou
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<!--
+    <!--
     <script>
         $.ajax("https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pub?output=csv&range=b2").done(function (result) {
             $("#instructions").html(result)
@@ -158,7 +168,8 @@ HW 1, Part 2, Author: Wenjin Zhou
         $.ajax("https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pub?output=csv&range=c2").done(function (result) {
             $("#pictures").html(result)
         });
-    </script>-->
+    </script>
+    -->
 
     <script>
         
