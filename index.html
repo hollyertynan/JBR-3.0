@@ -34,10 +34,10 @@ HW 1, Part 2, Author: Wenjin Zhou
 <body class="bg-dark" onload="clock()">
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark" id="navbar">
         <div class="container-fluid">
-            <i class="bi bi-wrench-adjustable navbar-brand"></i>
+            <i class="bi bi-wrench-adjustable navbar-brand d-none d-sm-block"></i>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item my-auto">
-                    <div class="nav-link active navbar-brand">JBR 3.0</div>
+                <li class="nav-item my-auto d-none d-sm-block">
+                    <div class="nav-link active navbar-brand ">JBR 3.0</div>
                 </li>
                 <li class="nav-item my-auto">
                     <div class="nav-link active navbar-brand">
@@ -118,22 +118,24 @@ HW 1, Part 2, Author: Wenjin Zhou
                 <textarea id="comments" type="text" name="Comments" placeholder="Comments"
                     style="width: 100%; text-align: left" class="text-dark bg-light form-select-lg\"></textarea>
             </div>
+        </div>
 
-            <div class="col col-md-10 mx-auto text-center pb-3" id="showButtons" hidden>
-                <div class="row">
-                    <div class="col-6">
-                        <a href="temp" target="_blank"
-                            class="btn btn-danger w-100 h-100 my-auto" id="createTicketButton"><i class="bi bi-x-circle" style="font-size: 2.5rem;"></i><h4>No luck? Submit a ticket!</h4></a>
-                    </div>
-
-                    <div class="col-6">
-                        <button class="btn btn-success w-100" id="submissionButton" onclick="SubForm()"><i
-                                id="submitcheck" class="bi bi-check-circle" style="font-size: 2.5rem;"></i>
-                            <h4 id="submittext">All set!</h4>
-                        </button>
-                    </div>
-                </div>
+        <div class="row mx-auto" id="showButtons" hidden>
+            <div class="col-1"></div>
+            <div class="col-5 mx-auto">
+                <a href="temp" target="_blank" class="btn btn-danger w-100 h-100 my-auto" id="createTicketButton"><i
+                        class="bi bi-x-circle" style="font-size: 2.5rem;"></i>
+                    <h4>No luck? Submit a ticket!</h4>
+                </a>
             </div>
+
+            <div class="col-5 mx-auto">
+                <button class="btn btn-success w-100 h-100" id="submissionButton" onclick="SubForm()"><i id="submitcheck"
+                        class="bi bi-check-circle" style="font-size: 2.5rem;"></i>
+                    <h4 id="submittext">All set!</h4>
+                </button>
+            </div>
+            <div class="col-1"></div>
         </div>
     </div>
 

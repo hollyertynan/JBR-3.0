@@ -2,31 +2,36 @@
     {
         "title":"Stuck on Synchronizing with XPI App",
         "tags":["payment","terminal","register","xpi","app","synchronizing", "card", "reader"],
-        "dept":"IT", 
+        "dept":"IT",
+        "sub":"PC/POS Equipment",
         "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B2:D2"
     },
     {
         "title":"No Aubuchon Logo on Receipt Printer",
         "tags":["receipt","printer","aubuchon","logo","register"],
         "dept":"IT",
+        "sub":"PC/POS Equipment",
         "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B3:C3"
     }, 
     {
         "title":"Register Frozen",
         "tags":["register","stuck","frozen","unresponsive"],
         "dept":"IT",
+        "sub":"POS Software",
         "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B4:D4"
     },
     {
         "title":"Receipt Printer Stopped Printing: Code 106 or Flashing 'Remove Document from Slip Printer'",
         "tags":["receipt","printer","frozen","106", "flashing", "remove", "document", "from", "slip", "printer"],
         "dept":"IT",
+        "sub":"PC/POS Equipment",
         "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B5:D5"
     },
     {
         "title":"Hand Scanner Not Working",
         "tags":["hand", "scanner", "scanning", "scan", "r2d2"],
         "dept":"IT",
+        "sub":"PC/POS Equipment",
         "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B6:D6"
     }
 ]
