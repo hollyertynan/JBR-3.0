@@ -4,6 +4,7 @@
         "tags":["payment","terminal","register","xpi","app","synchronizing", "card", "reader"],
         "dept":"IT",
         "sub":"PC/POS Equipment",
+        "permissions":"store",
         "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B2:D2"
     },
     {

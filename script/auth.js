@@ -54,6 +54,7 @@ function handleCredentialResponse(response) {
     console.log("Email: " + responsePayLoad.email); 
     alert(responsePayLoad.email);
     */
+
     enableFormBuilder(responsePayLoad.name)
 }
 
@@ -61,4 +62,9 @@ function enableFormBuilder(nameCheck) {
     if (nameCheck == "Tynan Hollyer" || "Suzanne Fleury" || "Damian Oakes" || "Connor Caissie") {
       $("#formbuilder").css({display: "block"});
     }
+
+    $("#searchBar").attr("placeholder", "Search");
+    $("#inputText").prop("value", "Search");
+
+    $("#fieldsetForForm").attr("disabled",false);
 }
