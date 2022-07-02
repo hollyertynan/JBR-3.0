@@ -25,16 +25,16 @@ var wordExcludes = ['the', 'to', 'and', 'or', 'where', 'what', 'a', 'an', 'it', 
 function getTitle(thisTitle) {
     title = thisTitle;
     let theseTitles = thisTitle.split(" ");
-    
-        for (let c in wordExcludes) {
-            if (!theseTitles.includes(wordExcludes[c])) {
-                continue;
-            } else {
-                theseTitles.splice(theseTitles.indexOf(wordExcludes[c]), 1)
-            };
+
+    for (let c in wordExcludes) {
+        if (!theseTitles.includes(wordExcludes[c])) {
+            continue;
+        } else {
+            theseTitles.splice(theseTitles.indexOf(wordExcludes[c]), 1)
+        };
     };
 
-    
+
     nameGenArray = theseTitles.map(element => {
         if (element == "") {
             return;
@@ -46,8 +46,16 @@ function getTitle(thisTitle) {
     console.log(nameGenArray)
 }
 
+
+const framePiece = "&amp;widget=false&amp;chrome=true&amp;single=true&amp;";
+
 function getLink(thisLink) {
     link = thisLink;
+
+    link = thisLink.split("&");
+    link = "\"<iframe src='" + link[0] + framePiece + link[1] + "'></iframe>\"";
+    link = link.split("edit#");
+    link = link[0] + "htmlembed?" + link[1];
 }
 
 
@@ -57,7 +65,7 @@ function getLink(thisLink) {
 function getTags(thisTags) {
     let theseTags
     theseTags = thisTags.split(" ");
-    for(let i in theseTags) {
+    for (let i in theseTags) {
         theseTags[i] = theseTags[i].toLowerCase()
     }
     finalTags = theseTags
@@ -90,7 +98,7 @@ function autoGenTags() {
                 this.answer = json
                 for (i = 0; i < this.answer.length; i++) {
                     titleSearch = this.answer[i].title.split(" ")
-                    for (let j in nameGenArray) {               
+                    for (let j in nameGenArray) {
                         for (let c in titleSearch) {
                             if (finalTags.join().toLowerCase() == this.answer[i].tags.join().toLowerCase()) {
                                 continue;
@@ -104,15 +112,15 @@ function autoGenTags() {
                         }
                     }
                 }
-                
+
             })
-        
+
     }
-    
+
 }
 
 function generateJson() {
-    
+
     const jayson = {
         title: title,
         tags: finalTags,
@@ -121,7 +129,7 @@ function generateJson() {
 
     var finalJSON = JSON.stringify(jayson)
     saveFile(finalJSON)
-    
+
 }
 
 
@@ -134,7 +142,7 @@ let saveFile = (save) => {
 
     // Convert the text to BLOB.
     const textToBLOB = new Blob([data], { type: 'text/plain' });
-    	   // The file to save the data.
+    // The file to save the data.
 
     let newLink = document.createElement("a");
     newLink.download = sFileName;
