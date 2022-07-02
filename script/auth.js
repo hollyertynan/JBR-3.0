@@ -67,4 +67,7 @@ function enableFormBuilder(nameCheck) {
     $("#inputText").prop("value", "Search");
 
     $("#fieldsetForForm").attr("disabled",false);
+
+    $("#inputText").addClass("btn-outline-danger")
+    $("#inputText").html("Submit")
 }
