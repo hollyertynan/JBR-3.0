@@ -68,6 +68,6 @@ function enableFormBuilder(nameCheck) {
 
     $("#fieldsetForForm").attr("disabled",false);
 
-    $("#inputText").addClass("btn-outline-danger")
+    $("#inputText").addClass("btn-outline-light")
     $("#inputText").html("Submit")
 }
