@@ -59,7 +59,7 @@ function handleCredentialResponse(response) {
 }
 
 function enableFormBuilder(nameCheck) {
-    if (nameCheck == "Tynan Hollyer" || "Suzanne Fleury" || "Damian Oakes" || "Connor Caissie") {
+    if (nameCheck == "Tynan Hollyer" || nameCheck == "Suzanne Fleury" || nameCheck == "Damian Oakes" || nameCheck == "Connor Caissie") {
       $("#formbuilder").css({display: "block"});
     }
 
