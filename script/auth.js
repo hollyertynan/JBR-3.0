@@ -42,7 +42,7 @@ function handleCredentialResponse(response) {
     ]
 
     getName = responsePayLoad.name;
-    if (whitelistedNames.includes[str(getName)]) {
+    if (whitelistedNames.includes[String(getName)]) {
       $("#name").html("Welcome, " + responsePayLoad.name);
     } else {
       $("#name").html("Welcome, " + responsePayLoad.name.substr(getName.length - 3));
@@ -73,7 +73,7 @@ function enableFormBuilder(nameCheck) {
       "Damian Oakes",
       "Connor Caissie"
     ]
-    if (whitelist.includes[str(nameCheck)]) {
+    if (whitelist.includes[String(nameCheck)]) {
       $("#formbuilder").css({display: "block"});
     }
 
