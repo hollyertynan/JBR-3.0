@@ -66,7 +66,14 @@ function handleCredentialResponse(response) {
 }
 
 function enableFormBuilder(nameCheck) {
-    if (nameCheck == "Tynan Hollyer" || nameCheck == "Suzanne Fleury" || nameCheck == "Damian Oakes" || nameCheck == "Connor Caissie") {
+
+    whitelist = [
+      "Tynan Hollyer",
+      "Suzanne Fleury",
+      "Damian Oakes",
+      "Connor Caissie"
+    ]
+    if (whitelist.includes[str(nameCheck)]) {
       $("#formbuilder").css({display: "block"});
     }
 
