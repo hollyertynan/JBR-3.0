@@ -46,6 +46,7 @@ function handleCredentialResponse(response) {
       $("#name").html("Welcome, " + responsePayLoad.name);
     } else {
       $("#name").html("Welcome, " + responsePayLoad.name.substr(getName.length - 3));
+      getName = responsePayLoad.name.substr(getName.length - 3);
     }
   
     $("#name").attr("hidden",false);
