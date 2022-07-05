@@ -42,10 +42,10 @@ function handleCredentialResponse(response) {
     ]
 
     getName = responsePayLoad.name;
-    if (whitelistedNames.includes[getName]) {
+    if (whitelistedNames.includes[str(getName)]) {
       $("#name").html("Welcome, " + responsePayLoad.name);
     } else {
-      $("#name").html("Welcome, " + responsePayLoad.name.substr(getName.length - 2));
+      $("#name").html("Welcome, " + responsePayLoad.name.substr(getName.length - 3));
     }
   
     $("#name").attr("hidden",false);
