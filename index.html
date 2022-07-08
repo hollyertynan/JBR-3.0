@@ -84,61 +84,68 @@ HW 1, Part 2, Author: Wenjin Zhou
         </div>
     </div>
 
-    <div class="row mx-auto">
-        <div class="col col-md-6 mx-auto text-center" style="z-index: 10;">
-            <ul class="list-group list-group-flush" id="searchResults"
-                style="display:none;max-height:350px;overflow:auto">
-            </ul>
+    <div class="container-fluid">
+        <div class="row mx-auto">
+            <div class="col col-md-6 mx-auto text-center" style="z-index: 10;">
+                <ul class="list-group" id="searchResults"
+                    style="display:none; max-height:350px; overflow:auto">
+                </ul>
+            </div>
         </div>
     </div>
 
-    <div class="row mx-auto py-3">
-        <div class="col col-md-10 mx-auto text-center">
-            <!-- table for importing from sheets id="instructionTable"
-                <table class="table-dark">
-                    <thead>
-                        <tr>
-                            <th scope="col">Instructions</th>
-                            <th scope="col">Pictures / Videos</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td id="instructions"></td>
-                            <td id="pictures"></td>
-                        </tr>
-                    </tbody>
-                </table>
-                -->
-            <iframe class="w-100 vh-100" id="resolutionframe" style="max-height:400px" hidden></iframe>-
+    <div class="container-fluid">
+        <div class="row mx-auto py-3">
+            <div class="col col-md-10 mx-auto text-center">
+                <!-- table for importing from sheets id="instructionTable"
+                    <table class="table-dark">
+                        <thead>
+                            <tr>
+                                <th scope="col">Instructions</th>
+                                <th scope="col">Pictures / Videos</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td id="instructions"></td>
+                                <td id="pictures"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    -->
+                <iframe class="w-100 vh-100" id="resolutionframe" style="max-height:400px" hidden></iframe>-
+            </div>
         </div>
     </div>
 
-    <div class="row mx-auto">
+    <div class="container-fluid">
+        <div class="row mx-auto">
 
-        <div class="col col-md-10 mx-auto text-center pb-3" id="commentSpace" hidden>
-            <textarea id="comments" type="text" name="Comments" placeholder="Comments"
-                style="width: 100%; text-align: left" class="text-dark bg-light form-select-lg\"></textarea>
+            <div class="col col-md-10 mx-auto text-center pb-3" id="commentSpace" hidden>
+                <textarea id="comments" type="text" name="Comments" placeholder="Comments"
+                    style="width: 100%; text-align: left" class="text-dark bg-light form-select-lg\"></textarea>
+            </div>
         </div>
     </div>
-
-    <div class="row mx-auto pb-5" id="showButtons" hidden>
-        <div class="col-1"></div>
-        <div class="col-5 mx-auto">
-            <a href="temp" target="_blank" class="btn btn-danger w-100 h-100 my-auto" id="createTicketButton"><i
-                    class="bi bi-x-circle" style="font-size: 2.5rem;"></i>
-                <h4>No luck? Submit a ticket!</h4>
-            </a>
+    
+    <div class="container-fluid">
+        <div class="row mx-auto pb-5" id="showButtons" hidden>
+            <div class="col-1"></div>
+            <div class="col-5 mx-auto">
+                <a href="temp" target="_blank" class="btn btn-danger w-100 h-100 my-auto" id="createTicketButton"><i
+                        class="bi bi-x-circle" style="font-size: 2.5rem;"></i>
+                    <h4>No luck? Submit a ticket!</h4>
+                </a>
+            </div>
+    
+            <div class="col-5 mx-auto">
+                <button class="btn btn-success w-100 h-100" id="submissionButton" onclick="SubForm()"><i id="submitcheck"
+                        class="bi bi-check-circle" style="font-size: 2.5rem;"></i>
+                    <h4 id="submittext">All set!</h4>
+                </button>
+            </div>
+            <div class="col-1"></div>
         </div>
-
-        <div class="col-5 mx-auto">
-            <button class="btn btn-success w-100 h-100" id="submissionButton" onclick="SubForm()"><i id="submitcheck"
-                    class="bi bi-check-circle" style="font-size: 2.5rem;"></i>
-                <h4 id="submittext">All set!</h4>
-            </button>
-        </div>
-        <div class="col-1"></div>
-    </div>
     </div>
 
     <footer class="footer mt-auto py-3 bg-dark fixed-bottom" id="footer">
