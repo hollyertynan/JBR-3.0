@@ -3,19 +3,28 @@
         "title": "Missing/Voided Transactions",
         "tags": ["Missing", "Voided", "Transactions", "Accounting"],
         "dept":"Accounting",
+        "sub":"temp",
         "source": "https://docs.google.com/spreadsheets/d/14moGoD-kDUnloRP39_uo1VD_Kbdpnx-B9Ov6gUErNBU/edit#gid=0"
     },
     {
         "title": "BlueTarp (Capital One Trade Credit) Applications",
         "tags": ["BlueTarp", "Capital One", "Credit", "Accounting"],
         "dept":"Accounting",
+        "sub":"temp",
         "source": "https://docs.google.com/spreadsheets/d/14moGoD-kDUnloRP39_uo1VD_Kbdpnx-B9Ov6gUErNBU/edit#gid=0"
     },
     {
         "title": "Defective Items",
         "tags": ["Defective", "RTV", "Accounting", "Damaged"],
         "dept":"Accounting",
+        "sub":"temp",
         "source": "https://docs.google.com/spreadsheets/d/14moGoD-kDUnloRP39_uo1VD_Kbdpnx-B9Ov6gUErNBU/edit#gid=0"
+    },
+    {
+        "title": "An error has occurred {0}, please contact your system administrator when trying to receive a PO",
+        "tags": ["accounting", "system", "administrator", "receive", "po"],
+        "dept":"Accounting",
+        "sub":"PO/Invoice EDI suppliers",
+        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=958982344&widget=false&chrome=false&headers=false&range=B2:C2"
     }
-
 ]
