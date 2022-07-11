@@ -62,5 +62,19 @@
         "dept":"IT",
         "sub":"PC/POS Equipment",
         "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B10:D10"
+    },
+    {
+        "title":"Cash Drawer Is Not Opening",
+        "tags":["cash", "drawer", "not", "opening"],
+        "dept":"IT",
+        "sub":"PC/POS Equipment",
+        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B11:D11"
+    },
+    {
+        "title":"Signature Loop on Card Reader",
+        "tags":["card", "reader", "signature", "loop"],
+        "dept":"IT",
+        "sub":"PC/POS Equipment",
+        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B12"
     }
 ]
