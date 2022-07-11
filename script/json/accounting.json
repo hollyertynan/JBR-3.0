@@ -4,21 +4,21 @@
         "tags": ["Missing", "Voided", "Transactions", "Accounting"],
         "dept":"Accounting",
         "sub":"temp",
-        "source": "https://docs.google.com/spreadsheets/d/14moGoD-kDUnloRP39_uo1VD_Kbdpnx-B9Ov6gUErNBU/edit#gid=0"
+        "source": ""
     },
     {
         "title": "BlueTarp (Capital One Trade Credit) Applications",
         "tags": ["BlueTarp", "Capital One", "Credit", "Accounting"],
         "dept":"Accounting",
         "sub":"temp",
-        "source": "https://docs.google.com/spreadsheets/d/14moGoD-kDUnloRP39_uo1VD_Kbdpnx-B9Ov6gUErNBU/edit#gid=0"
+        "source": ""
     },
     {
         "title": "Defective Items",
         "tags": ["Defective", "RTV", "Accounting", "Damaged"],
         "dept":"Accounting",
         "sub":"temp",
-        "source": "https://docs.google.com/spreadsheets/d/14moGoD-kDUnloRP39_uo1VD_Kbdpnx-B9Ov6gUErNBU/edit#gid=0"
+        "source": ""
     },
     {
         "title": "An error has occurred {0}, please contact your system administrator when trying to receive a PO",

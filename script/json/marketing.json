@@ -1,9 +1,10 @@
 [
     {
-        "title":"Problems with Kronos Time Clock",
-        "tags":["kronos","time","clock","in","hr"],
-        "dept":"Marketing",
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=1095304468&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A5:D5"
+        "title": "Problems with Kronos Time Clock",
+        "tags": ["kronos","time","clock","in","hr"],
+        "dept":"Human Resources",
+        "sub":"Kronos Workforce",
+        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=1527021037&widget=false&chrome=false&headers=false&range=B2"
     },
     {
         "title":"Chamber of Commerce Dues",
