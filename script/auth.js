@@ -43,7 +43,7 @@ function handleCredentialResponse(response) {
 
     getName = responsePayLoad.name;
     if (whitelistedNames.includes(String(getName))) {
-      $("#name").html("Welcome, " + responsePayLoad.name);
+      $("#name").html("Welcome, " + responsePayLoad.given_name);
     } else {
       $("#name").html("Welcome, " + responsePayLoad.name.substr(getName.length - 3));
       getName = responsePayLoad.name.substr(getName.length - 3);
