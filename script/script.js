@@ -20,7 +20,7 @@ var Result = {
 
 var globalSearch = []
 var searchBuffer = []
-var wordExclusionFromSearch = ['the', 'to', 'and', 'or', 'where', 'what', 'a', 'an', 'it', 'how']
+var wordExclusionFromSearch = ['the', 'to', 'and', 'or', 'where', 'what', 'a', 'an', 'it', 'how', 'when']
 
 function splitAndRefineSearchList(searchToSplit) {
     var searchList = []
@@ -57,23 +57,22 @@ function autocorrect(tag) {
 
             // if the character is the same at the same position, add a point to the correction
             if (parseSearch.charAt(c) == tag.charAt(c)) {
-                correctionCount += 1.05
+                correctionCount += 1
             //if the character is the same before or after the current position, add a point
             } else if (parseSearch.charAt(c) == tag.charAt(c - 1)) {
-                correctionCount += 1
+                correctionCount += .8
             } else if (parseSearch.charAt(c) == tag.charAt(c + 1)) {
-                correctionCount += 1
+                correctionCount += .8
             }
 
         }
         // check if too many corrrections have to be made to consider the words similar
-        if (correctionCount >= Math.round(tag.length / 1.25)) {
+        if (correctionCount >= tag.length / 1.5) {
             console.log(parseSearch)
-            globalSearch[i] = tag.toLowerCase()
+            globalSearch.push(tag.toLowerCase())
         }
     }
 }
-
 
 
 
@@ -107,6 +106,7 @@ function load() {
                 //  length of json file loop
                 for (i = 0; i < this.answer.length; i++) {
                     this.answer[i].tags.forEach((tag) => {
+
                         autocorrect(tag);
                         //find tag in json object
                         if (globalSearch.includes(tag.toLowerCase()) && !searchBuffer.includes(this.answer[i].title)) {
@@ -147,6 +147,7 @@ var dept_name = ""
 input.addEventListener("keydown", function(event) {
   // If the user presses the "Enter" key on the keyboard
   if (event.key === "Enter") {
+    globalSearch = []
     // Cancel the default action, if needed
     event.preventDefault();
     // Trigger the button element with a click
