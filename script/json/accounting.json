@@ -3,14 +3,14 @@
         "title": "Missing/Voided Transactions",
         "tags": ["Missing", "Voided", "Transactions", "Accounting"],
         "dept":"Accounting",
-        "sub":"temp",
+        "sub":"",
         "source": ""
     },
     {
         "title": "BlueTarp (Capital One Trade Credit) Applications",
-        "tags": ["BlueTarp", "Capital One", "Credit", "Accounting"],
+        "tags": ["BlueTarp", "Capital", "Credit", "Accounting", "one"],
         "dept":"Accounting",
-        "sub":"temp",
+        "sub":"",
         "source": ""
     },
     {
