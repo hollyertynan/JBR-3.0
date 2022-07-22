@@ -48,7 +48,7 @@ var tempSub
 
 function autocorrect(tag) {
     let parseSearch
-    
+
     for (let i in globalSearch) {
         let correctionCount = 0
         parseSearch = globalSearch[i]
@@ -56,18 +56,22 @@ function autocorrect(tag) {
         for (c = 0; c < parseSearch.length; c++) {
 
             // if the character is the same at the same position, add a point to the correction
-            if (parseSearch.charAt(c) == tag.charAt(c)) {
+            if (parseSearch.charAt(c) && parseSearch.charAt(c + 1) === tag.charAt(c) && tag.charAt(c + 1)) {
+                correctionCount += 1.5
+                //if the character is the same before or after the current position, add a point
+            } else if (parseSearch.charAt(c) == tag.charAt(c)) {
                 correctionCount += 1
-            //if the character is the same before or after the current position, add a point
             } else if (parseSearch.charAt(c) == tag.charAt(c - 1)) {
-                correctionCount += .8
+                correctionCount += .1
             } else if (parseSearch.charAt(c) == tag.charAt(c + 1)) {
-                correctionCount += .8
+                correctionCount += .1
+            } else {
+                correctionCount -= .2
             }
 
         }
         // check if too many corrrections have to be made to consider the words similar
-        if (correctionCount >= tag.length / 1.5) {
+        if (correctionCount >= tag.length / 1.4) {
             console.log(parseSearch)
             globalSearch.push(tag.toLowerCase())
         }
