@@ -38,7 +38,8 @@ function handleCredentialResponse(response) {
       "Damian Oakes",
       "Connor Caissie",
       "Brady Bernard",
-      "Elizabeth Eaton"
+      "Elizabeth Eaton",
+      "Carolyn Bell"
     ]
 
     getName = responsePayLoad.name;

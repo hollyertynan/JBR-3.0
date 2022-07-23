@@ -20,23 +20,30 @@ var Result = {
 
 var globalSearch = []
 var searchBuffer = []
-var wordExclusionFromSearch = ['the', 'to', 'and', 'or', 'where', 'what', 'a', 'an', 'it', 'how', 'when']
+var wordExclusionFromSearch = ['the', 'to', 'and', 'or', 'where', 'what', 'a', 'an', 'it', 'how', 'when', 'not']
 
 function splitAndRefineSearchList(searchToSplit) {
     var searchList = []
     searchList = searchToSplit.split(" ")
+    let testList = ""
     for (i in searchList) {
         for (c in wordExclusionFromSearch) {
             if (searchList[i] == wordExclusionFromSearch[c]) {
-                searchList.splice(wordExclusionFromSearch[c], 1)
+                searchList = String(searchList)
+                searchList = searchList.split(wordExclusionFromSearch[c] + ",")
+                testList = searchList[0] + searchList[1]
+                searchList = testList.split(",")
             } else {
                 continue;
             }
         }
     }
     globalSearch = searchList.map(element => {
+        
         return element.toLowerCase()
+        
     })
+    console.log(globalSearch)
 }
 
 
@@ -54,6 +61,10 @@ function autocorrect(tag) {
         parseSearch = globalSearch[i]
 
         for (c = 0; c < parseSearch.length; c++) {
+
+            if (parseSearch.length / tag.length > 1) {
+                return;
+            }
 
             // if the character is the same at the same position, add a point to the correction
             if (parseSearch.charAt(c) && parseSearch.charAt(c + 1) === tag.charAt(c) && tag.charAt(c + 1)) {
@@ -144,20 +155,21 @@ function load() {
                     priorityCheck = 0
                     
                     this.answer[i].tags.forEach((tag) => {
-                        console.log(priorityCheck)
+                        //console.log(priorityCheck)
 
                         autocorrect(tag);
                         //find tag in json object
                         if (globalSearch.includes(tag.toLowerCase()) && !searchBuffer.includes(this.answer[i].title)) {
+                            priorityCheck = 0
                             searchBuffer.push(this.answer[i].title)
                             tempTitle = this.answer[i].title
                             tempText = this.answer[i].source
                             tempDept = this.answer[i].dept
                             tempSub = this.answer[i].sub
 
-                            calculatePriority(tag);
+                            calculatePriority(tag, this.answer[i].title);
                             populateSearch();
-                            sortList();
+                            
                         } else {
                             return;
                         }
@@ -198,28 +210,37 @@ input.addEventListener("keydown", function(event) {
 
 let priorityCheck = 0
 let sortBuffer = []
-function calculatePriority(tag) {
-    let titleCheck = tempTitle.split(" ")
+function calculatePriority(tag, titlePass) {
+    sortBuffer = []
+    let titleCheck = titlePass.split(" ")
     let finCheck = []
     titleCheck.forEach(title => {
         finCheck.push(title.toLowerCase())
     })
     console.log(finCheck)
     globalSearch.forEach(word => {
-        if(word.toLowerCase() == tag.toLowerCase() && !sortBuffer.includes(word) ) {
-            priorityCheck += 30
-            sortBuffer.push(word)
-        } else if(word.toLowerCase() == tag.toLowerCase() && !sortBuffer.includes(word)) {
+        console.log(word + " " + tag)
+        if (word.toLowerCase() == tag.toLowerCase() && !sortBuffer.includes(word)) {
+            console.log("1")
             priorityCheck += 5
             sortBuffer.push(word)
-        } else if (finCheck.includes(word.toLowerCase())) {
+            sortList();
+        } else if (finCheck.includes(word.toLowerCase()) && !sortBuffer.includes(word)) {
+            console.log("2")
+            priorityCheck += 10
             sortBuffer.push(word)
-            priorityCheck += 3
-            console.log(priorityCheck)
+            sortList();
         } else if (word.toLowerCase() == tag.toLowerCase() && sortBuffer.includes(word)) {
-            priorityCheck += .1
+            console.log("3")
+            priorityCheck -= .1
+            sortList();
+        } else if (finCheck.includes(word.toLowerCase()) && sortBuffer.includes(word)) {
+            console.log("4")
+            priorityCheck -= .1
+            sortList();
         } else {
             priorityCheck -= 1
+            sortList();
         }
     })
 }
