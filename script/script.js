@@ -78,6 +78,38 @@ function autocorrect(tag) {
     }
 }
 
+function sortList() {
+    var list, i, switching, b, shouldSwitch;
+    list = document.getElementById("searchResults");
+    switching = true;
+    /* Make a loop that will continue until
+    no switching has been done: */
+    while (switching) {
+      // Start by saying: no switching is done:
+      switching = false;
+      b = list.getElementsByTagName("BUTTON");
+      // Loop through all list items:
+      for (i = 0; i < (b.length - 1); i++) {
+        // Start by saying there should be no switching:
+        shouldSwitch = false;
+        /* Check if the next item should
+        switch place with the current item: */
+        if (b[i].dataset.priority > b[i + 1].dataset.priority) {
+          /* If next item is alphabetically lower than current item,
+          mark as a switch and break the loop: */
+          shouldSwitch = true;
+          break;
+        }
+      }
+      if (shouldSwitch) {
+        /* If a switch has been marked, make the switch
+        and mark the switch as done: */
+        b[i].parentNode.insertBefore(b[i + 1], b[i]);
+        switching = true;
+      }
+    }
+  }
+
 
 
 
@@ -109,7 +141,10 @@ function load() {
                 this.answer = json
                 //  length of json file loop
                 for (i = 0; i < this.answer.length; i++) {
+                    priorityCheck = 0
+                    
                     this.answer[i].tags.forEach((tag) => {
+                        console.log(priorityCheck)
 
                         autocorrect(tag);
                         //find tag in json object
@@ -120,7 +155,9 @@ function load() {
                             tempDept = this.answer[i].dept
                             tempSub = this.answer[i].sub
 
+                            calculatePriority(tag);
                             populateSearch();
+                            sortList();
                         } else {
                             return;
                         }
@@ -159,9 +196,37 @@ input.addEventListener("keydown", function(event) {
   }
 });
 
+let priorityCheck = 0
+let sortBuffer = []
+function calculatePriority(tag) {
+    let titleCheck = tempTitle.split(" ")
+    let finCheck = []
+    titleCheck.forEach(title => {
+        finCheck.push(title.toLowerCase())
+    })
+    console.log(finCheck)
+    globalSearch.forEach(word => {
+        if(word.toLowerCase() == tag.toLowerCase() && !sortBuffer.includes(word) ) {
+            priorityCheck += 30
+            sortBuffer.push(word)
+        } else if(word.toLowerCase() == tag.toLowerCase() && !sortBuffer.includes(word)) {
+            priorityCheck += 5
+            sortBuffer.push(word)
+        } else if (finCheck.includes(word.toLowerCase())) {
+            sortBuffer.push(word)
+            priorityCheck += 3
+            console.log(priorityCheck)
+        } else if (word.toLowerCase() == tag.toLowerCase() && sortBuffer.includes(word)) {
+            priorityCheck += .1
+        } else {
+            priorityCheck -= 1
+        }
+    })
+}
 
 
 function populateSearch() {
+    
     Result.title = tempTitle
     Result.source = tempText
     Result.dept = tempDept
@@ -171,7 +236,7 @@ function populateSearch() {
     if (Result.title == undefined) {
         return;
     }
-    document.getElementById("searchResults").innerHTML += "<button class=\"list-group-item py-3\" value=\"" + Result.source + "\" onclick=\"fillIframe(this.value);getTitle(this.innerText, '"+ Result.dept +"', '" + Result.sub + "');\">" + Result.title + "</button>"
+    document.getElementById("searchResults").innerHTML += "<button data-priority=\"" + priorityCheck + "\" class=\"list-group-item py-3\" value=\"" + Result.source + "\" onclick=\"fillIframe(this.value);getTitle(this.innerText, '"+ Result.dept +"', '" + Result.sub + "');\">" + Result.title + "</button>"
     Result = {}
     $("list-group-item").on({
         mouseenter: function () {
