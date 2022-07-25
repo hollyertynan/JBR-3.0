@@ -76,5 +76,75 @@
         "dept":"IT",
         "sub":"PC/POS Equipment",
         "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B12"
+    },
+    {
+        "title":"Weekly Comments Grayed Out",
+        "tags":["weekly", "comments", "grayed", "out", "mail"],
+        "dept":"IT",
+        "sub":"PC/POS Equipment",
+        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B13"
+    },
+    {
+        "title":"Register Stuck in Training Mode",
+        "tags":["register", "training", "mode", "stuck"],
+        "dept":"IT",
+        "sub":"PC/POS Equipment",
+        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B14:C14"
+    },
+    {
+        "title":"Cannot Type, Spamming Same Repeating Character",
+        "tags":["type", "spam", "repeating", "keyboard", "stuck"],
+        "dept":"IT",
+        "sub":"PC/POS Equipment",
+        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B15"
+    },
+    {
+        "title":"Bottom Task Bar in the Wrong Spot",
+        "tags":["task", "bar", "wrong", "spot", "bottom"],
+        "dept":"IT",
+        "sub":"PC/POS Equipment",
+        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B16:C16"
+    },
+    {
+        "title":"Declining All Cards",
+        "tags":["decline", "declining", "card", "cards", "tripos", "payment", "terminal", "card", "reader"],
+        "dept":"IT",
+        "sub":"PC/POS Equipment",
+        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B17:D17"
+    },
+    {
+        "title":"Critical Error: No USB Connection (Card Reader)",
+        "tags":["critical", "error", "usb", "connection", "card", "payment", "terminal", "card", "reader"],
+        "dept":"IT",
+        "sub":"PC/POS Equipment",
+        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=D18:C18"
+    },
+    {
+        "title":"New Payment Terminal",
+        "tags":["new", "payment", "terminal", "card", "reader"],
+        "dept":"IT",
+        "sub":"PC/POS Equipment",
+        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B19"
+    },
+    {
+        "title":"Need a new stylus / pen for the Payment Terminal",
+        "tags":["pen", "stylus", "payment", "terminal", "card", "reader"],
+        "dept":"IT",
+        "sub":"PC/POS Equipment",
+        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B20"
+    },
+    {
+        "title":"Red Flags during EOD in 1-1 Screen: Transaction Counter",
+        "tags":["red", "flags", "EOD", "end", "day", "transaction", "counter"],
+        "dept":"IT",
+        "sub":"PC/POS Equipment",
+        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B21:D21"
+    },
+    {
+        "title":"Reports and Huddle Up Not Loading",
+        "tags":["reports", "huddle", "loading", "mail", "day", "report"],
+        "dept":"IT",
+        "sub":"PC/POS Equipment",
+        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B22"
     }
 ]
