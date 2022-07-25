@@ -71,7 +71,7 @@ HW 1, Part 2, Author: Wenjin Zhou
             <div class="col col-md-6 mx-auto text-center">
                 <img src="assets/logo.png" class="img-fluid py-3" id="logo">
 
-                <fieldset id="fieldsetForForm" disabled>
+                <fieldset id="fieldsetForForm" >
                     <div class="input-group pt-1 mb-1">
                         <input type="text" class="form-control" placeholder="Disabled Until Signed In" aria-label="Search"
                             aria-describedby="inputText" id="searchBar" onfocus="searchResultsToggling()">
@@ -143,7 +143,7 @@ HW 1, Part 2, Author: Wenjin Zhou
             </div>
     
             <div class="col-5 mx-auto">
-                <button class="btn btn-success w-100 h-100" id="submissionButton" ng-click="SubForm()"><i id="submitcheck"
+                <button class="btn btn-success w-100 h-100" id="submissionButton" onclick="SubForm()"><i id="submitcheck"
                         class="bi bi-check-circle" style="font-size: 2.5rem;"></i>
                     <h4 id="submittext">All set!</h4>
                 </button>
