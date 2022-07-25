@@ -126,7 +126,11 @@ function sortList() {
 
 // this is me going ultra god mode
 function load() {
+    barBuffer = []
     document.getElementById("searchResults").innerHTML = ""
+
+    
+    
     // search term
     var resources = ["accounting.json", "IT.json", "product.json", "marketing.json"]
     var search = document.getElementById("searchBar").value;
@@ -137,7 +141,7 @@ function load() {
         splitAndRefineSearchList(search);
     }
 
-    $("#searchResults").toggle(100)
+    //$("#searchResults").toggle(100)
 
     // processes for each file from resources[]
     for (let i = 0; i < resources.length; i++) {
@@ -197,10 +201,14 @@ var dept_name = ""
     var input = document.getElementById("searchBar");
 
 // Execute a function when the user presses a key on the keyboard
-input.addEventListener("keydown", function(event) {
+input.addEventListener("keyup", function(event) {
+
+    
   // If the user presses the "Enter" key on the keyboard
-  if (event.key === "Enter") {
-    globalSearch = []
+  if (event.key === "Backspace") {
+    //barBuffer = []
+    document.getElementById("searchResults").innerHTML = ""
+    //globalSearch = []
     // Cancel the default action, if needed
     event.preventDefault();
     // Trigger the button element with a click
@@ -245,7 +253,7 @@ function calculatePriority(tag, titlePass) {
     })
 }
 
-
+//let barBuffer = []
 function populateSearch() {
     
     Result.title = tempTitle
@@ -257,7 +265,10 @@ function populateSearch() {
     if (Result.title == undefined) {
         return;
     }
-    document.getElementById("searchResults").innerHTML += "<button data-priority=\"" + priorityCheck + "\" class=\"list-group-item py-3\" value=\"" + Result.source + "\" onclick=\"fillIframe(this.value);getTitle(this.innerText, '"+ Result.dept +"', '" + Result.sub + "');\">" + Result.title + "</button>"
+    //if (!barBuffer.includes(Result.title)) {
+        document.getElementById("searchResults").innerHTML += "<button data-priority=\"" + priorityCheck + "\" class=\"list-group-item py-3\" value=\"" + Result.source + "\" onclick=\"fillIframe(this.value);getTitle(this.innerText, '"+ Result.dept +"', '" + Result.sub + "');\">" + Result.title + "</button>"
+        //barBuffer.push(Result.title)
+    //}
     Result = {}
     $("list-group-item").on({
         mouseenter: function () {
