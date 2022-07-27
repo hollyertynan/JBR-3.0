@@ -163,7 +163,7 @@ function load() {
 
                         autocorrect(tag);
                         //find tag in json object
-                        if (globalSearch.includes(tag.toLowerCase()) && !searchBuffer.includes(this.answer[i].title)) {
+                        if (globalSearch.includes(tag.toLowerCase()) && !searchBuffer.includes(this.answer[i].title) && authLevel >= this.answer[i].authLevel) {
                             priorityCheck = 0
                             searchBuffer.push(this.answer[i].title)
                             tempTitle = this.answer[i].title
@@ -215,6 +215,14 @@ input.addEventListener("keyup", function(event) {
     load()
   }
 });
+
+
+//enable auth level change TESTING PURPOSES ONLY
+function authLevelTest(level) {
+    authLevel = level
+    alert(authLevel)
+}
+
 
 let priorityCheck = 0
 let sortBuffer = []

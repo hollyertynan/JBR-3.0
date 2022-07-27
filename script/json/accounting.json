@@ -4,6 +4,7 @@
         "tags": ["Missing", "Voided", "Transactions", "Accounting"],
         "dept":"Accounting",
         "sub":"",
+        "authLevel": "2",
         "source": ""
     },
     {
@@ -11,6 +12,7 @@
         "tags": ["BlueTarp", "Capital", "Credit", "Accounting", "one"],
         "dept":"Accounting",
         "sub":"",
+        "authLevel": "2",
         "source": ""
     },
     {
@@ -18,6 +20,7 @@
         "tags": ["Defective", "RTV", "Accounting", "Damaged"],
         "dept":"Accounting",
         "sub":"temp",
+        "authLevel": "2",
         "source": ""
     },
     {
@@ -25,6 +28,7 @@
         "tags": ["accounting", "system", "administrator", "receive", "po"],
         "dept":"Accounting",
         "sub":"PO/Invoice EDI suppliers",
+        "authLevel": "1",
         "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=958982344&widget=false&chrome=false&headers=false&range=B2:C2"
     }
 ]
