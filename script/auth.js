@@ -13,6 +13,8 @@ Proper Documentation copied from
 HW 1, Part 2, Author: Wenjin Zhou
 */
 
+var authLevel = 1
+
 function parseJwt(token) {
     var base64Url = token.split('.')[1];
     var base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
@@ -65,7 +67,32 @@ function handleCredentialResponse(response) {
     */
 
     enableFormBuilder(responsePayLoad.name)
+    createAuthLevel(responsePayLoad.name)
 }
+
+function createAuthLevel(nameCheck) {
+  const RSC_MEMBERS = [
+    "Brady Bernard",
+    "Carolyn Bell",
+    "Liz Eaton"
+  ]
+
+  const POS_MEMBERS = [
+    "Suzanne Fleury",
+    "Connor Caissie",
+    "Tynan Hollyer",
+    "Damian Oakes"
+  ]
+
+  if (RSC_MEMBERS.includes(String(nameCheck))) {
+    authLevel = 2
+  } else if (POS_MEMBERS.includes(String(nameCheck))) {
+    authLevel = 3
+  } else {
+    authLevel = 1
+  }
+} 
+
 
 function enableFormBuilder(nameCheck) {
 

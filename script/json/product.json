@@ -3,18 +3,21 @@
         "title": "PO & EDI Issues",
         "tags": ["po","edi","PO","Sku","UPC","EDI"],
         "dept":"Product",
+        "authLevel": "1",
         "source": ""
     },
     {
         "title": "Changing Min or Max for Less than Five Skus",
         "tags": ["min","max","sku","product","PO","Sku","UPC","Paint"],
         "dept":"Product",
+        "authLevel": "2",
         "source": ""
     },
     {
         "title": "Cost Issues",
         "tags": ["cost","issues","price","pricing","retail","Sku","UPC"],
         "dept":"Product",
+        "authLevel": "2",
         "source": ""
     }
 ]
