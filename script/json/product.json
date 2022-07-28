@@ -4,6 +4,7 @@
         "tags": ["po","edi","PO","Sku","UPC","EDI"],
         "dept":"Product",
         "authLevel": "1",
+        "optionalPrompts": [],
         "source": ""
     },
     {
@@ -11,6 +12,7 @@
         "tags": ["min","max","sku","product","PO","Sku","UPC","Paint"],
         "dept":"Product",
         "authLevel": "2",
+        "optionalPrompts": [],
         "source": ""
     },
     {
@@ -18,6 +20,7 @@
         "tags": ["cost","issues","price","pricing","retail","Sku","UPC"],
         "dept":"Product",
         "authLevel": "2",
+        "optionalPrompts": [],
         "source": ""
     }
 ]

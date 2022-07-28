@@ -85,6 +85,7 @@ function autocorrect(tag) {
         if (correctionCount >= tag.length / 1.4) {
             console.log(parseSearch)
             globalSearch.push(tag.toLowerCase())
+            break;
         }
     }
 }
@@ -126,9 +127,7 @@ function sortList() {
 
 // this is me going ultra god mode
 function load() {
-    barBuffer = []
     document.getElementById("searchResults").innerHTML = ""
-
     
     
     // search term
@@ -158,12 +157,15 @@ function load() {
                 for (i = 0; i < this.answer.length; i++) {
                     priorityCheck = 0
                     
+                    
                     this.answer[i].tags.forEach((tag) => {
                         //console.log(priorityCheck)
 
                         autocorrect(tag);
                         //find tag in json object
                         if (globalSearch.includes(tag.toLowerCase()) && !searchBuffer.includes(this.answer[i].title) && authLevel >= this.answer[i].authLevel) {
+                            
+                            
                             priorityCheck = 0
                             searchBuffer.push(this.answer[i].title)
                             tempTitle = this.answer[i].title
@@ -172,6 +174,9 @@ function load() {
                             tempSub = this.answer[i].sub
 
                             calculatePriority(tag, this.answer[i].title);
+                            if (this.answer[i].optionalPrompts != [] || this.answer[i].optionalPrompts != undefined) {
+                                optionalPromptsCheck(this.answer[i].optionalPrompts)
+                            }
                             populateSearch();
                             
                         } else {
@@ -205,7 +210,7 @@ input.addEventListener("keyup", function(event) {
 
     
   // If the user presses the "Enter" key on the keyboard
-  if (event.key === "Backspace") {
+  //if (event.key === "Backspace") {
     //barBuffer = []
     document.getElementById("searchResults").innerHTML = ""
     //globalSearch = []
@@ -213,7 +218,8 @@ input.addEventListener("keyup", function(event) {
     event.preventDefault();
     // Trigger the button element with a click
     load()
-  }
+    $(".searchResultsButtons").fadeIn(250)
+  //}
 });
 
 
@@ -224,6 +230,8 @@ function authLevelTest(level) {
 }
 
 
+
+//function that calculates at which spot the result should pop in to
 let priorityCheck = 0
 let sortBuffer = []
 function calculatePriority(tag, titlePass) {
@@ -261,7 +269,9 @@ function calculatePriority(tag, titlePass) {
     })
 }
 
-//let barBuffer = []
+
+//populates the searchResults field with the info pass in through load()
+//also properly hides logo and animates the search results to appear to the top of the page
 function populateSearch() {
     
     Result.title = tempTitle
@@ -273,12 +283,10 @@ function populateSearch() {
     if (Result.title == undefined) {
         return;
     }
-    //if (!barBuffer.includes(Result.title)) {
-        document.getElementById("searchResults").innerHTML += "<button data-priority=\"" + priorityCheck + "\" class=\"list-group-item py-3\" value=\"" + Result.source + "\" onclick=\"fillIframe(this.value);getTitle(this.innerText, '"+ Result.dept +"', '" + Result.sub + "');\">" + Result.title + "</button>"
-        //barBuffer.push(Result.title)
-    //}
+    document.getElementById("searchResults").innerHTML += "<button data-optionalprompts=\"" + optionalPrompts + "\"  data-priority=\"" + priorityCheck + "\" class=\"list-group-item py-3 searchResultsButtons\" value=\"" + Result.source + "\" onclick=\"showPrompts(this.dataset.optionalprompts);fillIframe(this.value);getTitle(this.innerText, '"+ Result.dept +"', '" + Result.sub + "');\">" + Result.title + "</button>"
+    
     Result = {}
-    $("list-group-item").on({
+    $(".searchResultsButtons").on({
         mouseenter: function () {
             $(this).css("background-color", "#f5f5f5");
         },
@@ -312,4 +320,87 @@ function getTitle(title, dept, sub) {
     } else if (dept == 'Human Resources') {
         a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=Human%20Resources\&subcategory=" + sub + "\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
     }
+}
+
+
+
+/*
+
+HERE BEGINS OPTIONAL FUNCTIONS FOR THINGS
+SUCH AS REGISTER NUMBER, AND OTHERS FOR FUTURE USE
+
+*/
+
+
+let promptsModaltoJS = document.getElementById("modalInput")
+
+
+
+
+var optionalPrompts = []
+function optionalPromptsCheck(currentSelection) {
+    optionalPrompts = []
+    currentSelection.forEach(selection => {
+        if (!optionalPrompts.includes(selection)) {
+            optionalPrompts.push(selection)
+        }
+    })
+}
+
+let amountToBeCompleted = 0
+let promptCountAmount = 0
+
+
+function countTasks() {
+    promptCountAmount += 1
+    if (amountToBeCompleted == promptCountAmount) {
+        document.getElementById("submitModal").disabled = false
+    }
+}
+
+let registerNumber = ""
+function getRegisterNumber(thisRegister) {
+    registerNumber = "Register " + thisRegister
+}
+
+
+function showPrompts(currentSelection) {
+    let requiredInfo = document.getElementById("listOfRequiredInfo")
+    amountToBeCompleted = 0
+    promptCountAmount = 0
+    currentSelection = Array(currentSelection)
+    requiredInfo.innerHTML = ""
+    if (currentSelection != "") {
+        currentSelection.forEach(selection => {
+            amountToBeCompleted += 1
+            if (selection == "registerShow") {
+                requiredInfo.innerHTML += `
+                <div class="btn-group mb-3">
+                <li class="list-group-item py-3">• Register number.</li>
+                  <button type="button" class="btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown" id="registerDropdown" aria-expanded="false">
+                    Select one
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Select one'" href="#">Select one</a></li>
+                    <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 1';countTasks();getRegisterNumber('1');" href="#">1</a></li>
+                    <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 2';countTasks();getRegisterNumber('2');" href="#">2</a></li>
+                    <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 3';countTasks();getRegisterNumber('3');" href="#">3</a></li>
+                    <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 4';countTasks();getRegisterNumber('4');" href="#">4</a></li>
+                    <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 5';countTasks();getRegisterNumber('5'');" href="#">5</a></li>
+                    <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 6';countTasks();getRegisterNumber('6');" href="#">6</a></li>
+                    <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 7';countTasks();getRegisterNumber('7');" href="#">7</a></li>
+                  </ul>
+                </div>`
+            }
+            $('#promptsModal').modal({backdrop: 'static', keyboard: false})  
+            $("#promptsModal").modal("show")
+        })
+    } else if (currentSelection == " " || currentSelection == "") {
+        $("#promptsModal").modal("hide")
+    }
+    
+    
+    
+
+    
 }
