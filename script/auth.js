@@ -86,8 +86,10 @@ function createAuthLevel(nameCheck) {
 
   if (RSC_MEMBERS.includes(String(nameCheck))) {
     authLevel = 2
+    initializeExtraFields()
   } else if (POS_MEMBERS.includes(String(nameCheck))) {
     authLevel = 3
+    initializeExtraFields()
   } else {
     authLevel = 1
   }
@@ -114,4 +116,15 @@ function enableFormBuilder(nameCheck) {
 
     $("#inputText").addClass("btn-outline-light")
     $("#inputText").html("Submit")
+}
+
+function initializeExtraFields() {
+  if(authLevel == 2 || 3) {
+    document.getElementById("storeNumber").hidden = false
+    document.getElementById("ticketCaller").hidden = false
+  } else {
+    document.getElementById("storeNumber").hidden = true
+    document.getElementById("ticketCaller").hidden = true
+  }
+  
 }
