@@ -386,7 +386,7 @@ function showPrompts(currentSelection) {
                     <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 2';countTasks();getRegisterNumber('2');" href="#">2</a></li>
                     <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 3';countTasks();getRegisterNumber('3');" href="#">3</a></li>
                     <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 4';countTasks();getRegisterNumber('4');" href="#">4</a></li>
-                    <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 5';countTasks();getRegisterNumber('5'');" href="#">5</a></li>
+                    <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 5';countTasks();getRegisterNumber('5');" href="#">5</a></li>
                     <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 6';countTasks();getRegisterNumber('6');" href="#">6</a></li>
                     <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 7';countTasks();getRegisterNumber('7');" href="#">7</a></li>
                   </ul>
