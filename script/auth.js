@@ -115,7 +115,7 @@ function enableFormBuilder(nameCheck) {
     $("#fieldsetForForm").attr("disabled",false);
 
     $("#inputText").addClass("btn-outline-light")
-    $("#inputText").html("Submit")
+    $("#inputText").html("Search")
 }
 
 function initializeExtraFields() {
