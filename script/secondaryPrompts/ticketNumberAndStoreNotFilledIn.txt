@@ -1,0 +1,1 @@
+<p class="text-md-left">Both Ticket Number AND Store Number need to be filled in.</p>
