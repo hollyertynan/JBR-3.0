@@ -46,8 +46,8 @@ HW 1, Part 2, Author: Wenjin Zhou
                 </li>
                 <li class="nav-item my-auto">
                     <div class="input-group" id="authLevelTester">
-                        <input type="input"  id="authInput" class="form-control rounded" placeholder="(3=POS, 2=RSC, 1=STORE)" aria-label="Search" aria-describedby="search-addon" onkeypress="" hidden >
-                        <button type="button" id="applyAuthLevel" class="btn btn-outline-primary" onclick="authLevelTest(document.getElementById('authInput').value);initializeExtraFields()" hidden >Apply</button>
+                        <input type="input"  id="authInput" class="form-control rounded" placeholder="(3=POS, 2=RSC, 1=STORE)" aria-label="Search" aria-describedby="search-addon" onkeypress=""  >
+                        <button type="button" id="applyAuthLevel" class="btn btn-outline-primary" onclick="authLevelTest(document.getElementById('authInput').value);initializeExtraFields()"  >Apply</button>
                         <input type="input"  id="ticketCaller" class="form-control rounded" placeholder="Ticket #/Caller" aria-label="Search" aria-describedby="search-addon" hidden/>
                         <input type="input"  id="storeNumber" class="form-control rounded mx-2" placeholder="Store Number" aria-label="Search" aria-describedby="search-addon" hidden/>
                       </div>
@@ -79,7 +79,7 @@ HW 1, Part 2, Author: Wenjin Zhou
             <div class="col col-md-6 mx-auto text-center">
                 <img src="assets/logo.png" class="img-fluid py-3" id="logo">
 
-                <fieldset id="fieldsetForForm" disabled>
+                <fieldset id="fieldsetForForm" >
                     <div class="input-group pt-1 mb-1">
                         <input type="text" class="form-control" placeholder="Disabled Until Signed In" aria-label="Search"
                             aria-describedby="inputText" id="searchBar" onfocus="searchResultsToggling()" onkeypress="load()">

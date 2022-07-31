@@ -1,0 +1,6 @@
+<div class="form-check mx-2 my-2">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="countTasks();">
+  <label class="form-check-label" for="flexCheckDefault">
+    Verify if the store has tried resetting the phones themselves yet, and that their network is up before trying the next step with them. If the below instructions did not work, escalate the issue to the POS Team. Click the checkbox to acknowledge.
+  </label>
+</div>
