@@ -192,7 +192,6 @@ function load() {
 function fillIframe(iframeValue) {
     document.getElementById("resolutionframe").src = iframeValue;
     $("#resolutionframe").attr("hidden",false)
-    //$("#instructionTable").attr("hidden",false);
     $("#showButtons").attr("hidden",false);
     $("#commentSpace").attr("hidden",false);
 }
@@ -207,19 +206,10 @@ var dept_name = ""
 
 // Execute a function when the user presses a key on the keyboard
 input.addEventListener("keyup", function(event) {
-
-    
-  // If the user presses the "Enter" key on the keyboard
-  //if (event.key === "Backspace") {
-    //barBuffer = []
     document.getElementById("searchResults").innerHTML = ""
-    //globalSearch = []
-    // Cancel the default action, if needed
     event.preventDefault();
-    // Trigger the button element with a click
-    load()
+    load();
     $(".searchResultsButtons").fadeIn(250)
-  //}
 });
 
 
@@ -332,9 +322,6 @@ SUCH AS REGISTER NUMBER, AND OTHERS FOR FUTURE USE
 */
 
 
-let promptsModaltoJS = document.getElementById("modalInput")
-
-
 
 
 var optionalPrompts = []
@@ -347,54 +334,51 @@ function optionalPromptsCheck(currentSelection) {
     })
 }
 
-let amountToBeCompleted = 0
-let promptCountAmount = 0
 
-
-function countTasks() {
-    promptCountAmount += 1
-    if (amountToBeCompleted == promptCountAmount) {
-        document.getElementById("submitModal").disabled = false
-    }
-}
 
 let registerNumber = ""
 function getRegisterNumber(thisRegister) {
     registerNumber = "Register " + thisRegister
 }
 
+let amountToBeCompleted = 0
+let promptCountAmount = 0
+
+function countTasks() {
+    promptCountAmount += 1
+    if (amountToBeCompleted == promptCountAmount) {
+        document.getElementById("submitModal").disabled = false
+    }
+
+    return 
+}
+
+
+function getFilePrompts(file) {
+    $.get(file, function(data) {
+        document.getElementById("listOfRequiredInfo").innerHTML += data;
+    })
+}
+
+
+let globalFile = ""
 
 function showPrompts(currentSelection) {
     let requiredInfo = document.getElementById("listOfRequiredInfo")
     amountToBeCompleted = 0
     promptCountAmount = 0
-    currentSelection = Array(currentSelection)
+    //currentSelection = Array(currentSelection)
     requiredInfo.innerHTML = ""
     if (currentSelection != "") {
-        currentSelection.forEach(selection => {
+        currentSelection = currentSelection.split(",")
+        for(let i = 0 ; i < currentSelection.length ; i++) {
             amountToBeCompleted += 1
-            if (selection == "registerShow") {
-                requiredInfo.innerHTML += `
-                <div class="btn-group mb-3">
-                <li class="list-group-item py-3">• Register number.</li>
-                  <button type="button" class="btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown" id="registerDropdown" aria-expanded="false">
-                    Select one
-                  </button>
-                  <ul class="dropdown-menu dropdown-menu-right">
-                    <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Select one'" href="#">Select one</a></li>
-                    <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 1';countTasks();getRegisterNumber('1');" href="#">1</a></li>
-                    <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 2';countTasks();getRegisterNumber('2');" href="#">2</a></li>
-                    <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 3';countTasks();getRegisterNumber('3');" href="#">3</a></li>
-                    <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 4';countTasks();getRegisterNumber('4');" href="#">4</a></li>
-                    <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 5';countTasks();getRegisterNumber('5');" href="#">5</a></li>
-                    <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 6';countTasks();getRegisterNumber('6');" href="#">6</a></li>
-                    <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 7';countTasks();getRegisterNumber('7');" href="#">7</a></li>
-                  </ul>
-                </div>`
-            }
+            let currentFilePath = "script/secondaryPrompts/" + String(currentSelection[i]) + ".txt"
+            getFilePrompts(currentFilePath)
             $('#promptsModal').modal({backdrop: 'static', keyboard: false})  
             $("#promptsModal").modal("show")
-        })
+        }
+        
     } else if (currentSelection == " " || currentSelection == "") {
         $("#promptsModal").modal("hide")
     }
