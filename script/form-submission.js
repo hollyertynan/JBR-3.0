@@ -15,6 +15,10 @@ function SubForm() {
         showPrompts("ticketNumberAndStoreNotFilledIn")
         document.getElementById("submitModal").disabled = false
         return
+    } else if (authLevel >= 2 && ticketNumber == "" && storeNumber == "") {
+        showPrompts("ticketNumberAndStoreNotFilledIn")
+        document.getElementById("submitModal").disabled = false
+        return
     }
 
 
