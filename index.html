@@ -46,10 +46,10 @@ HW 1, Part 2, Author: Wenjin Zhou
                 </li>
                 <li class="nav-item my-auto">
                     <div class="input-group" id="authLevelTester">
-                        <input type="input"  id="authInput" class="form-control rounded" placeholder="(3=POS, 2=RSC, 1=STORE)" aria-label="Search" aria-describedby="search-addon" onkeypress="" hidden>
-                        <button type="button" id="applyAuthLevel" class="btn btn-outline-primary" onclick="authLevelTest(document.getElementById('authInput').value);initializeExtraFields()" hidden>Apply</button>
-                        <input type="input"  id="ticketCaller" class="form-control rounded" placeholder="Ticket #/Caller" aria-label="Search" aria-describedby="search-addon" onkeypress="" hidden/>
-                        <input type="input"  id="storeNumber" class="form-control rounded mx-2" placeholder="Store Number" aria-label="Search" aria-describedby="search-addon" onkeypress="" hidden/>
+                        <input type="input"  id="authInput" class="form-control rounded" placeholder="(3=POS, 2=RSC, 1=STORE)" aria-label="Search" aria-describedby="search-addon" onkeypress="" >
+                        <button type="button" id="applyAuthLevel" class="btn btn-outline-primary" onclick="authLevelTest(document.getElementById('authInput').value);initializeExtraFields()" >Apply</button>
+                        <input type="input"  id="ticketCaller" class="form-control rounded" placeholder="Ticket #/Caller" aria-label="Search" aria-describedby="search-addon" hidden/>
+                        <input type="input"  id="storeNumber" class="form-control rounded mx-2" placeholder="Store Number" aria-label="Search" aria-describedby="search-addon" hidden/>
                       </div>
                 </li>
                 <li class="nav-item my-auto d-none d-sm-block">
@@ -178,6 +178,10 @@ HW 1, Part 2, Author: Wenjin Zhou
             <input name="Department" hidden />
             <input name="Task Name" hidden />
             <input name="Comments" hidden />
+            <input name="Ticket/Caller" hidden />
+            <input name="Store Number" hidden />
+            <input name="LocationFrom" hidden />
+            <input name="Register Number" hidden />
         </form>
     </div>
 

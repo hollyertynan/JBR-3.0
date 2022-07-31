@@ -98,6 +98,8 @@ function createAuthLevel(nameCheck) {
 
 function enableFormBuilder(nameCheck) {
 
+  nameCheck = "Damian Oakes"
+
     whitelist = [
       "Tynan Hollyer",
       "Suzanne Fleury",
@@ -107,6 +109,7 @@ function enableFormBuilder(nameCheck) {
 
     if (whitelist.includes(String(nameCheck))) {
       $("#formbuilder").css({display: "block"});
+      
     }
 
     $("#searchBar").attr("placeholder", "Search");
