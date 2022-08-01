@@ -59,7 +59,7 @@
         "dept":"IT",
         "sub":"Back Office (Mi9)",
         "authLevel": "2",
-        "optionalPrompts": ["pleaseEscalate"],
+        "optionalPrompts": ["registerRedFlags"],
         "source":""
     }
 ]
