@@ -99,13 +99,13 @@
         "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B12"
     }, 
     {
-        "title":"Accounting Period Red Flag",
+        "title":"RED FLAGS - Accounting Period",
         "tags":["accounting", "period", "red", "flag", "back", "office", "mi9", "EOD"],
         "dept":"IT",
         "sub":"PC/POS Equipment",
         "authLevel": "3",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B12"
+        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/pubhtml?gid=0&amp;chrome=true&amp;single=true&amp;widget=false&amp;range=E286:F286"
     },
     {
         "title":"Weekly Comments Grayed Out",
@@ -178,15 +178,6 @@
         "authLevel": "2",
         "optionalPrompts": [],
         "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B20"
-    },
-    {
-        "title":"Red Flags during EOD in 1-1 Screen: Transaction Counter",
-        "tags":["red", "flags", "EOD", "end", "day", "transaction", "counter"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
-        "authLevel": "2",
-        "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B21:D21"
     },
     {
         "title":"Reports and Huddle Up Not Loading",
@@ -381,7 +372,7 @@
         "title":"Blinking Red Light on AP",
         "tags":["blinking", "red", "ap", "light"],
         "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "sub":"WiFi",
         "authLevel": "2",
         "optionalPrompts": [],
         "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A96:B96"
@@ -390,7 +381,7 @@
         "title":"Connecting Stihl TED to Wi-Fi",
         "tags":["stihl", "TED"],
         "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "sub":"WiFi",
         "authLevel": "2",
         "optionalPrompts": [],
         "source":"https://docs.google.com/document/d/1-UJ2_4iV9_5vmK8mf6GlAGUYmTKGUAC5ud4NHmM5HO4/edit"
@@ -399,9 +390,180 @@
         "title":"Phones Aren't Making or Receiving Calls",
         "tags":["phones", "calls", "receiving"],
         "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "sub":"VoIP/Phone Issues",
         "authLevel": "2",
         "optionalPrompts": ["VOIPcallsreceiving"],
         "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chome=true&amp;single=true&amp;range=A67:B68"
+    }, 
+    {
+        "title":"Transactions Not Going Through to the Back Office",
+        "tags":["transactions", "back office", "processing"],
+        "dept":"IT",
+        "sub":"Back Office (Mi9)",
+        "authLevel": "2",
+        "optionalPrompts": ["pleaseEscalate"],
+        "source": ""
+    }, 
+    {
+        "title":"No Network Connection",
+        "tags":["network", "down", "connection"],
+        "dept":"IT",
+        "sub":"Back Office (Mi9)",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A64:C65"
+    }, 
+    {
+        "title":"Cash Up Issues",
+        "tags":["cash", "up", "issues", "EOD"],
+        "dept":"IT",
+        "sub":"Back Office (Mi9)",
+        "authLevel": "2",
+        "optionalPrompts": ["pleaseEscalate"],
+        "source": ""
+    }, 
+    {
+        "title":"'Loan Amount Exceeds Cash in Safe' Message When Issuing Drawers",
+        "tags":["register", "loan", "4-1", "open", "safe", "cash", "drawers", "issuing"],
+        "dept":"IT",
+        "sub":"Back Office (Mi9)",
+        "authLevel": "2",
+        "optionalPrompts": ["followStepsAndNotify"],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A84:B84"
+    }, 
+    {
+        "title":"Keyboard/Mouse Works on Email Computer, but Not On Mi9 Computer",
+        "tags":["keyboard", "mouse", "email", "mi9", "back", "office"],
+        "dept":"IT",
+        "sub":"Back Office (Mi9)",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A98:B98"
+    }, 
+    {
+        "title":"Issues with Poll File",
+        "tags":["poll", "file"],
+        "dept":"IT",
+        "sub":"Back Office (Mi9)",
+        "authLevel": "2",
+        "optionalPrompts": ["pleaseEscalate"],
+        "source": ""
+    }, 
+    {
+        "title":"'Last Transaction Counter - None' Displays When Trying to Close a Drawer",
+        "tags":["transaction", "count", "drawer", "close", "EOD"],
+        "dept":"IT",
+        "sub":"Back Office (Mi9)",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A106:B106"
+    }, 
+    {
+        "title":"Registers Are Opened Without Being Issued in the Back Office",
+        "tags":["registers", "opened", "issuing", "back", "office"],
+        "dept":"IT",
+        "sub":"Back Office (Mi9)",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A142:B142"
+    }, 
+    {
+        "title":"Back Office Needs to be Rebooted",
+        "tags":["back", "office", "reboot"],
+        "dept":"IT",
+        "sub":"Back Office (Mi9)",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;single=true&amp;range=A140:B140"
+    }, 
+    {
+        "title":"Cash Up Instructions Add/Change Requests",
+        "tags":["cash", "up", "instructions", "requests"],
+        "dept":"IT",
+        "sub":"Back Office (Mi9)",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B48:D48"
+    }, 
+    {
+        "title":"Power Outage at Store and Now Their Cabinet Will Not Boot Back Up",
+        "tags":["power", "outage", "cabinet", "back", "office"],
+        "dept":"IT",
+        "sub":"Back Office (Mi9)",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B48:D48"
+    }, 
+    {
+        "title":"Sequencing Change Issues",
+        "tags":["sequencing", "change", "issues"],
+        "dept":"IT",
+        "sub":"Chromebook",
+        "authLevel": "2",
+        "optionalPrompts": ["pleaseEscalate"],
+        "source": ""
+    }, 
+    {
+        "title":"'Runtime Error' Message When Trying to Access Certain Pages",
+        "tags":["runtime", "error", "sport"],
+        "dept":"IT",
+        "sub":"SPORT",
+        "authLevel": "2",
+        "optionalPrompts": ["pleaseEscalate"],
+        "source": ""
+    }, 
+    {
+        "title":"Chromebook Can't Connect to the Wi-Fi",
+        "tags":["WiFi", "issues", "chromebook"],
+        "dept":"IT",
+        "sub":"Chromebook",
+        "authLevel": "2",
+        "optionalPrompts": ["useBackup"],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;chrome=true&amp;widget=false&amp;single=true&range=B3:D3"
+    }, 
+    {
+        "title":"Chromebook Can't Print",
+        "tags":["print", "chromebook"],
+        "dept":"IT",
+        "sub":"Chromebook",
+        "authLevel": "2",
+        "optionalPrompts": ["useBackup"],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;chrome=true&amp;widget=false&amp;single=true&range=B3:D3"
+    }, 
+    {
+        "title":"Store's Inventory on Their Elvis Devices Show Store 170",
+        "tags":["elvis", "store", "170", "inventory", "devices"],
+        "dept":"IT",
+        "sub":"ELVIS Devices",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A154:B154"
+    }, 
+    {
+        "title":"Issues with Mi9 Merchant/Cycle Counts/Zero Audits",
+        "tags":["elvis", "cycle", "counts", "zero", "audits"],
+        "dept":"IT",
+        "sub":"ELVIS Devices",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B50:D50"
+    }, 
+    {
+        "title":"Issues with Capture/Khoros App",
+        "tags":["elvis", "facebook", "capture", "khoros"],
+        "dept":"IT",
+        "sub":"ELVIS Devices",
+        "authLevel": "2",
+        "optionalPrompts": ["khoros"],
+        "source": ""
+    }, 
+    {
+        "title":"TCB App Showing Wrong Info From New Employee",
+        "tags":["elvis", "TCB", "wrong info", "new employee", "new manager"],
+        "dept":"IT",
+        "sub":"ELVIS Devices",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A196:B196"
     }
 ]

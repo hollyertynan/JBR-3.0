@@ -131,7 +131,7 @@ function load() {
     
     
     // search term
-    var resources = ["accounting.json", "IT.json", "product.json", "marketing.json"]
+    var resources = ["accounting.json", "IT.json", "product.json", "marketing.json", "red_flags.json"]
     var search = document.getElementById("searchBar").value;
     if (searchBuffer.length == 0) {
         splitAndRefineSearchList(search);
