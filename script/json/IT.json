@@ -565,5 +565,167 @@
         "authLevel": "2",
         "optionalPrompts": [],
         "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A196:B196"
+    }, 
+    {
+        "title":"Online Order: Blinky Does Not Blink and No Print Out",
+        "tags":["kiosk", "blinky", "online", "order"],
+        "dept":"IT",
+        "sub":"Kiosk",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A16:B16"
+    }, 
+    {
+        "title":"Store Having Issues Canceling an Online Order",
+        "tags":["cancel", "online", "order"],
+        "dept":"IT",
+        "sub":"Kiosk",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A180:B180"
+    }, 
+    {
+        "title":"Uncanceling a Line on an Online Order",
+        "tags":["cancel", "online", "order"],
+        "dept":"IT",
+        "sub":"Kiosk",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A170:B170"
+    }, 
+    {
+        "title":"Spectrometer Not Calibrating",
+        "tags":["spectrometer", "spectrophotometer", "calibrating", "paint"],
+        "dept":"IT",
+        "sub":"Paint Machine",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A170:B170"
+    }, 
+    {
+        "title":"Tinter not Responding to Commands in ColoRx; No Error Messages",
+        "tags":["tinter", "ColoRx", "responding", "dispense", "paint"],
+        "dept":"IT",
+        "sub":"Paint Machine",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A104:B104"
+    }, 
+    {
+        "title":"Paint Machine Gives Error Message 'Eprinterx: Printer Selected Not Valid'",
+        "tags":["eprtinerx", "valid", "paint", "machine"],
+        "dept":"IT",
+        "sub":"Paint Machine",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A170:B170"
+    }, 
+    {
+        "title":"Live Sales Not Loading",
+        "tags":["live", "sales", "loading"],
+        "dept":"IT",
+        "sub":"IT Maintenance",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A8:B8"
+    }, 
+    {
+        "title":"Canadian Conversion Rate Change",
+        "tags":["canadian", "currency", "exchange rate"],
+        "dept":"IT",
+        "sub":"IT Maintenance",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/document/d/1ufv0T_8oO5gP0NJDdmSrUx9pE_bvV8wjEQ69pyIaxS8/edit"
+    }, 
+    {
+        "title":"Updating Store Hours",
+        "tags":["update", "store", "hours", "change"],
+        "dept":"IT",
+        "sub":"IT Maintenance",
+        "authLevel": "2",
+        "optionalPrompts": ["storeHours"],
+        "source": "https://docs.google.com/document/d/1Z-W6tQayH4jNlQNqtFKw31KUpTgSMVMoNSoDvPC2vVI/edit#"
+    }, 
+    {
+        "title":"Running EOD For a Store",
+        "tags":["EOD", "store", "missed"],
+        "dept":"IT",
+        "sub":"IT Maintenance",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/document/d/1uBxBlALyEP8_D8rgB7-mPfGbiM4Ao2m1GydvxqyfaR8/edit#bookmark=id.4lu14criokzi"
+    }, 
+    {
+        "title":"Paint Over Max Order",
+        "tags":["paint", "over", "max"],
+        "dept":"IT",
+        "sub":"IT Maintenance",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/document/d/1JqAxLJFS2J_Poag57C5VJPuif1xbDRCXmm5VH6aBeuo/edit"
+    }, 
+    {
+        "title":"Email Server Doesn't Boot Up and has an Amber Light",
+        "tags":["email", "server", "amber", "light", "computer"],
+        "dept":"IT",
+        "sub":"Email Server",
+        "authLevel": "2",
+        "optionalPrompts": ["pleaseEscalate"],
+        "source": ""
+    }, 
+    {
+        "title":"Reports & Huddle Up Not Loading/Out of Date",
+        "tags":["reports", "huddle up", "out of date"],
+        "dept":"IT",
+        "sub":"Email Server",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A36:B36"
+    }, 
+    {
+        "title":"Phish Hook Button in Email Not Working",
+        "tags":["phish", "hook", "email", "server"],
+        "dept":"IT",
+        "sub":"Email Server",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A144:B144"
+    }, 
+    {
+        "title":"'Ajax Error 0' in Mi9 Merchant",
+        "tags":["ajax error", "merchant", "mi9"],
+        "dept":"IT",
+        "sub":"Email Server",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A186:B186"
+    }, 
+    {
+        "title":"'An Error Has Occurred' When Trying to Receive In a PO",
+        "tags":["error", "system", "administrator", "mi9", "merchant", "portal", "PO"],
+        "dept":"IT",
+        "sub":"Email Server",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A194:B194"
+    }, 
+    {
+        "title":"Payment Terminal Shows Message 'Unable to Communicate with triPOS",
+        "tags":["payment", "terminal", "register", "triPOS", "communicate"],
+        "dept":"IT",
+        "sub":"Payment Terminal",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A14:B14"
+    }, 
+    {
+        "title":"Stuck On System Information",
+        "tags":["payment", "terminal", "stuck", "system", "information"],
+        "dept":"IT",
+        "sub":"Payment Terminal",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A14:B14"
     }
 ]

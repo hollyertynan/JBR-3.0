@@ -1,0 +1,6 @@
+<div class="form-check mx-2 my-2">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="countTasks();">
+  <label class="form-check-label" for="flexCheckDefault">
+    Before escalating to level 2, check to make sure that the touchPOS software is running on all of the machines. Click the check box to acknowledge.
+  </label>
+</div>

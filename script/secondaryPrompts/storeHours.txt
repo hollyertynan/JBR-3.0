@@ -1,0 +1,6 @@
+<div class="form-check mx-2 my-2">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="countTasks();">
+  <label class="form-check-label" for="flexCheckDefault">
+    Do not update store hours unless you've been instructed to by the POS Team. Click the check box to acknowledge.
+  </label>
+</div>
