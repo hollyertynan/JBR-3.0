@@ -1,0 +1,65 @@
+[
+    {
+        "title":"RED FLAGS - File Updater & Second db time recs/cutoff",
+        "tags":["red", "flag", "back", "office", "file updater", "second db"],
+        "dept":"IT",
+        "sub":"Back Office (Mi9)",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A48:B48"
+    },
+    {
+        "title":"RED FLAGS - Transaction Counter",
+        "tags":["red", "flag", "back", "office", "transaction", "counter"],
+        "dept":"IT",
+        "sub":"Back Office (Mi9)",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B21:D21"
+    },
+    {
+        "title":"RED FLAGS - Accounting Period, Transaction Counter, File Updater, and Second db time recs/cutoff",
+        "tags":["red", "flag", "back", "office", "transaction", "counter"],
+        "dept":"IT",
+        "sub":"Back Office (Mi9)",
+        "authLevel": "2",
+        "optionalPrompts": ["pleaseEscalate"],
+        "source":""
+    },
+    {
+        "title":"RED FLAGS - Last Reg History Status and Transaction Counter with No Primary Info",
+        "tags":["red", "flag", "back", "office", "transaction", "counter", "reg history", "no primary"],
+        "dept":"IT",
+        "sub":"Back Office (Mi9)",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A58:B58"
+    },
+    {
+        "title":"RED FLAGS - Last Reg History Status and Transaction Counter with No Secondary Info",
+        "tags":["red", "flag", "back", "office", "transaction", "counter", "reg history", "no secondary"],
+        "dept":"IT",
+        "sub":"Back Office (Mi9)",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A82:B82"
+    },
+    {
+        "title":"RED FLAGS - Registers Closed/Open, Primary is Correct",
+        "tags":["red", "flag", "back", "office", "register", "closed", "primary"],
+        "dept":"IT",
+        "sub":"Back Office (Mi9)",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A82:B82"
+    },
+    {
+        "title":"RED FLAGS - Registers Closed/Open, Secondary is Correct",
+        "tags":["red", "flag", "back", "office", "register", "closed", "secondary"],
+        "dept":"IT",
+        "sub":"Back Office (Mi9)",
+        "authLevel": "2",
+        "optionalPrompts": ["pleaseEscalate"],
+        "source":""
+    }
+]
