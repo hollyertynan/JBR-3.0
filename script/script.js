@@ -43,7 +43,6 @@ function splitAndRefineSearchList(searchToSplit) {
         return element.toLowerCase()
         
     })
-    console.log(globalSearch)
 }
 
 
@@ -82,8 +81,7 @@ function autocorrect(tag) {
 
         }
         // check if too many corrrections have to be made to consider the words similar
-        if (correctionCount >= tag.length / 1.4) {
-            console.log(parseSearch)
+        if (correctionCount >= tag.length / 1.4 && !globalSearch.includes(tag)) {
             globalSearch.push(tag.toLowerCase())
             break;
         }
@@ -159,26 +157,27 @@ function load() {
                     
                     
                     this.answer[i].tags.forEach((tag) => {
-                        //console.log(priorityCheck)
+                        
 
                         autocorrect(tag);
                         //find tag in json object
                         if (globalSearch.includes(tag.toLowerCase()) && !searchBuffer.includes(this.answer[i].title) && authLevel >= this.answer[i].authLevel) {
-                            
-                            
-                            priorityCheck = 0
-                            searchBuffer.push(this.answer[i].title)
-                            tempTitle = this.answer[i].title
-                            tempText = this.answer[i].source
-                            tempDept = this.answer[i].dept
-                            tempSub = this.answer[i].sub
-
                             calculatePriority(tag, this.answer[i].title);
-                            if (this.answer[i].optionalPrompts != [] || this.answer[i].optionalPrompts != undefined) {
-                                optionalPromptsCheck(this.answer[i].optionalPrompts)
+                            searchBuffer.push(this.answer[i].title)
+                            if (priorityCheck > 2) {
+                                
+                                tempTitle = this.answer[i].title
+                                tempText = this.answer[i].source
+                                tempDept = this.answer[i].dept
+                                tempSub = this.answer[i].sub
+    
+                                
+                                if (this.answer[i].optionalPrompts != [] || this.answer[i].optionalPrompts != undefined) {
+                                    optionalPromptsCheck(this.answer[i].optionalPrompts)
+                                    populateSearch();
+                                }
+                                
                             }
-                            populateSearch();
-                            
                         } else {
                             return;
                         }
@@ -225,37 +224,29 @@ function authLevelTest(level) {
 let priorityCheck = 0
 let sortBuffer = []
 function calculatePriority(tag, titlePass) {
+    priorityCheck = 0
     sortBuffer = []
     let titleCheck = titlePass.split(" ")
     let finCheck = []
     titleCheck.forEach(title => {
         finCheck.push(title.toLowerCase())
     })
-    console.log(finCheck)
+    
     globalSearch.forEach(word => {
-        console.log(word + " " + tag)
         if (word.toLowerCase() == tag.toLowerCase() && !sortBuffer.includes(word)) {
-            console.log("1")
             priorityCheck += 5
             sortBuffer.push(word)
-            sortList();
         } else if (finCheck.includes(word.toLowerCase()) && !sortBuffer.includes(word)) {
-            console.log("2")
-            priorityCheck += 10
+            priorityCheck += 20
             sortBuffer.push(word)
-            sortList();
         } else if (word.toLowerCase() == tag.toLowerCase() && sortBuffer.includes(word)) {
-            console.log("3")
             priorityCheck -= .1
-            sortList();
         } else if (finCheck.includes(word.toLowerCase()) && sortBuffer.includes(word)) {
-            console.log("4")
             priorityCheck -= .1
-            sortList();
         } else {
-            priorityCheck -= 1
-            sortList();
+            priorityCheck -= .5
         }
+        sortList();
     })
 }
 
