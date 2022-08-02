@@ -46,8 +46,6 @@ HW 1, Part 2, Author: Wenjin Zhou
                 </li>
                 <li class="nav-item my-auto">
                     <div class="input-group" id="authLevelTester">
-                        <input type="input"  id="authInput" class="form-control rounded" placeholder="(3=POS, 2=RSC, 1=STORE)" aria-label="Search" aria-describedby="search-addon" onkeypress=""  >
-                        <button type="button" id="applyAuthLevel" class="btn btn-outline-primary" onclick="authLevelTest(document.getElementById('authInput').value);initializeExtraFields()"  >Apply</button>
                         <input type="input"  id="ticketCaller" class="form-control rounded" placeholder="Ticket #/Caller" aria-label="Search" aria-describedby="search-addon" hidden/>
                         <input type="input"  id="storeNumber" class="form-control rounded mx-2" placeholder="Store Number" aria-label="Search" aria-describedby="search-addon" hidden/>
                       </div>
@@ -101,30 +99,6 @@ HW 1, Part 2, Author: Wenjin Zhou
             </div>
         </div>
     </div>
-
-    <!-- table for importing from sheets id="instructionTable" 
-    <div class="container-fluid">
-        <div class="row mx-auto py-3">
-            <div class="col col-md-10 mx-auto text-center">
-                    <table class="table-dark">
-                        <thead>
-                            <tr>
-                                <th scope="col">Instructions</th>
-                                <th scope="col">Pictures / Videos</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td id="instructions"></td>
-                                <td id="pictures"></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                
-            </div>
-        </div>
-    </div>
-    -->
 
     <div class="container-fluid">
         <div class="row mx-auto">
@@ -213,17 +187,6 @@ HW 1, Part 2, Author: Wenjin Zhou
         crossorigin="anonymous"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!--
-    <script>
-        $.ajax("https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pub?output=csv&range=b2").done(function (result) {
-            $("#instructions").html(result)
-        });
-
-        $.ajax("https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pub?output=csv&range=c2").done(function (result) {
-            $("#pictures").html(result)
-        });
-    </script>
-    -->
 
     <script>
         let matched = window.matchMedia('(prefers-color-scheme: dark)').matches;

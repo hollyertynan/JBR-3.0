@@ -1,10 +1,10 @@
                 <div class="btn-group mb-3">
-                <li class="list-group-item py-3">• Register number.</li>
+                <li class="list-group-item py-3">Register Number</li>
                   <button type="button" class="btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown" id="registerDropdown" aria-expanded="false">
                     Select one
                   </button>
                   <ul class="dropdown-menu dropdown-menu-right">
-                    <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Select one'" href="#">Select one</a></li>
+                    <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Select one'" href="#">Select One</a></li>
                     <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 1';countTasks();getRegisterNumber('1');" href="#">1</a></li>
                     <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 2';countTasks();getRegisterNumber('2');" href="#">2</a></li>
                     <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Register 3';countTasks();getRegisterNumber('3');" href="#">3</a></li>

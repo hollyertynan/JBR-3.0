@@ -382,9 +382,4 @@ function showPrompts(currentSelection) {
     } else if (currentSelection == " " || currentSelection == "") {
         $("#promptsModal").modal("hide")
     }
-    
-    
-    
-
-    
 }
