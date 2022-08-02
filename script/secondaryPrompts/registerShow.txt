@@ -1,7 +1,7 @@
                 <div class="btn-group mb-3">
                 <li class="list-group-item py-3">Register Number</li>
                   <button type="button" class="btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown" id="registerDropdown" aria-expanded="false">
-                    Select one
+                    Select One
                   </button>
                   <ul class="dropdown-menu dropdown-menu-right">
                     <li><a class="dropdown-item" onclick="document.getElementById('registerDropdown').innerHTML='Select one'" href="#">Select One</a></li>
