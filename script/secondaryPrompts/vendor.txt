@@ -1,0 +1,6 @@
+<div class="form-check mx-2 my-2">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="countTasks();">
+  <label class="form-check-label" for="flexCheckDefault">
+    Please use the dropdown below to locate the Product Team Person responsible for the vendor and send the ticket to them. Click the check box to acknowledge.
+  </label>
+</div>

@@ -1,0 +1,6 @@
+<div class="form-check mx-2 my-2">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="countTasks();">
+  <label class="form-check-label" for="flexCheckDefault">
+    Someone at the store can either fax a copy of their bank slips to 1stChecks, they can e-mail them to sales@1stchecks.com, or they can call the number listed on the deposit slips themselves. Click the check box to acknowledge.
+  </label>
+</div>

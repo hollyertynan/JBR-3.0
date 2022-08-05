@@ -1,0 +1,6 @@
+<div class="form-check mx-2 my-2">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="countTasks();">
+  <label class="form-check-label" for="flexCheckDefault">
+    Please make sure the store knows which customer account needs to be deleted before proceeding. If the customer is a Home Team Hero, carry the discount between the accounts. If the customer is a Home Team Pro, do not merge until you're certain the customer wants to lose the Pro discount. Click the check box once this has been completed.
+  </label>
+</div>

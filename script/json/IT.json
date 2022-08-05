@@ -673,16 +673,7 @@
         "authLevel": "2",
         "optionalPrompts": ["pleaseEscalate"],
         "source": ""
-    }, 
-    {
-        "title":"Reports & Huddle Up Not Loading/Out of Date",
-        "tags":["reports", "huddle up", "out of date"],
-        "dept":"IT",
-        "sub":"Email Server",
-        "authLevel": "2",
-        "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A36:B36"
-    }, 
+    },
     {
         "title":"Phish Hook Button in Email Not Working",
         "tags":["phish", "hook", "email", "server"],
@@ -727,5 +718,158 @@
         "authLevel": "2",
         "optionalPrompts": [],
         "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A14:B14"
+    }, 
+    {
+        "title":"'Maintenance Required' or 'Enter Password to Login'",
+        "tags":["maintenance", "required", "payment", "terminal"],
+        "dept":"IT",
+        "sub":"Payment Terminal",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&ampchrome=true&amp;single=true&amp;range=A24:D24"
+    }, 
+    {
+        "title":"Critical Error: No USB Connection, Please Check Cable",
+        "tags":["maintenance", "required", "payment", "terminal"],
+        "dept":"IT",
+        "sub":"Payment Terminal",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&ampchrome=true&amp;single=true&amp;range=A24:D24"
+    }, 
+    {
+        "title":"'Cannot Access QuickChip Functionality' Message on Register",
+        "tags":["quickchip", "access", "register", "functionality"],
+        "dept":"IT",
+        "sub":"Register Software",
+        "authLevel": "2",
+        "optionalPrompts": ["pleaseEscalate"],
+        "source": ""
+    }, 
+    {
+        "title":"New Register Setup Has Arrived At Store",
+        "tags":["new", "register", "setup"],
+        "dept":"IT",
+        "sub":"Register Hardware",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/document/d/1lEcWJOkRSD_EUj8xnZFPEHnG-5mNNsALEMZFPGasbI0/edit#heading=h.xelo7xrhz9st"
+    },
+    {
+        "title":"Printer Not Printing",
+        "tags":["office", "kiosk", "printer", "print"],
+        "dept":"IT",
+        "sub":"Printers",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B14:D14"
+    },
+    {
+        "title":"Printer Continuously Jams",
+        "tags":["office", "kiosk", "printer", "print", "jamming", "jam"],
+        "dept":"IT",
+        "sub":"Printers",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B14:D14"
+    },
+    {
+        "title":"Printer Not Scanning",
+        "tags":["office", "printer", "kiosk", "print", "scanning", "scan"],
+        "dept":"IT",
+        "sub":"Printers",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B14:D14"
+    },
+    {
+        "title":"Fuser Error on Printer",
+        "tags":["office", "printer", "kiosk", "print", "fuser", "error"],
+        "dept":"IT",
+        "sub":"Printers",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B14:D14"
+    },
+    {
+        "title":"Printer Index Out of Range",
+        "tags":["office", "printer", "kiosk", "print", "index", "range", "out"],
+        "dept":"IT",
+        "sub":"Printers",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A164:B164"
+    },
+    {
+        "title":"Store Needs Toner/Price Tickets/Ink Ribbon",
+        "tags":["office", "printer", "kiosk", "price", "tickets", "ink", "ribbon"],
+        "dept":"IT",
+        "sub":"Printers",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=1192200083&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A2:D13"
+    },
+    {
+        "title":"No Power/No Light Around Feed Button on Price Ticket Printer",
+        "tags":["price", "ticket", "printer", "light", "feed", "power"],
+        "dept":"IT",
+        "sub":"Price Ticket Printer",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A172:B172"
+    },
+    {
+        "title":"Price Ticket Printer Flashing Amber",
+        "tags":["price", "ticket", "printer", "light", "flashing", "amber", "feed"],
+        "dept":"IT",
+        "sub":"Price Ticket Printer",
+        "authLevel": "2",
+        "optionalPrompts": ["pleaseEscalate"],
+        "source": ""
+    },
+    {
+        "title":"Price Ticket Printer Flashing Red",
+        "tags":["price", "ticket", "printer", "light", "flashing", "red", "feed"],
+        "dept":"IT",
+        "sub":"Price Ticket Printer",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1AuatUmWeoeIgqalzBeyIuADf3nEBZZb3HD1fkB1luqE/htmlembed?gid=0&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A24:B24"
+    },
+    {
+        "title":"Price Ticket Printer Double Flashing Green",
+        "tags":["price", "ticket", "printer", "light", "flashing", "green", "feed"],
+        "dept":"IT",
+        "sub":"Price Ticket Printer",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1AuatUmWeoeIgqalzBeyIuADf3nEBZZb3HD1fkB1luqE/htmlembed?gid=0&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A25:B25"
+    },
+    {
+        "title":"Price Ticket Printer Solid Amber",
+        "tags":["price", "ticket", "printer", "light", "solid", "amber", "feed"],
+        "dept":"IT",
+        "sub":"Price Ticket Printer",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1AuatUmWeoeIgqalzBeyIuADf3nEBZZb3HD1fkB1luqE/htmlembed?gid=0&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A26:B26"
+    },
+    {
+        "title":"Price Ticket Printer Alternating Red and Green",
+        "tags":["price", "ticket", "printer", "light", "alternating", "red", "green", "feed"],
+        "dept":"IT",
+        "sub":"Price Ticket Printer",
+        "authLevel": "2",
+        "optionalPrompts": ["pleaseEscalate"],
+        "source": ""
+    },
+    {
+        "title":"No Power to Paint Label Printer",
+        "tags":["power", "paint", "label", "printer", "labelwriter", "dymo"],
+        "dept":"IT",
+        "sub":"Paint Label Printer",
+        "authLevel": "2",
+        "optionalPrompts": ["noPowerPaintLabel"],
+        "source": ""
     }
 ]

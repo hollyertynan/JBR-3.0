@@ -1,0 +1,6 @@
+<div class="form-check mx-2 my-2">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="countTasks();">
+  <label class="form-check-label" for="flexCheckDefault">
+    The customer should be able to change authorized signers on their account themselves, if they're the ones who maintain it. If not, then please send to the person listed below. Click the check box to acknowledge.
+  </label>
+</div>
