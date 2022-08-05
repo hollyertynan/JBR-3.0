@@ -1,0 +1,6 @@
+<div class="form-check mx-2 my-2">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="countTasks();">
+  <label class="form-check-label" for="flexCheckDefault">
+    Check the power supply cord plugged into the back of the printer. Ensure it is plugged in properly on both sides. If there is other devices plugged into the same outlet and it is working, escalate to the POS Team. If no power is going to any device from that outlet, have an employee at the store switch the printer to another outlet. Click the check box once this has been completed.
+  </label>
+</div>

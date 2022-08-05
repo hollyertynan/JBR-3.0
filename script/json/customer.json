@@ -1,0 +1,101 @@
+[
+    {
+        "title": "New Military Discount Form",
+        "tags": ["home", "team", "hero", "applications", "discount", "military"],
+        "dept":"Customer Accounts",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/document/d/1uBxBlALyEP8_D8rgB7-mPfGbiM4Ao2m1GydvxqyfaR8/edit#bookmark=id.2v2hsqvh4a2u"
+    },
+    {
+        "title": "New Pro Discount Form",
+        "tags": ["home", "team", "pro", "applications", "discount", "contractor"],
+        "dept":"Customer Accounts",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/document/d/1uBxBlALyEP8_D8rgB7-mPfGbiM4Ao2m1GydvxqyfaR8/edit#bookmark=id.f0uyn7nakwr8"
+    },
+    {
+        "title": "Merge Customer Accounts",
+        "tags": ["merge", "customer", "accounts", "points"],
+        "dept":"Customer Accounts",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": ["mergeAccounts"],
+        "source":"https://docs.google.com/document/d/1uBxBlALyEP8_D8rgB7-mPfGbiM4Ao2m1GydvxqyfaR8/edit#bookmark=id.f0uyn7nakwr8"
+    },
+    {
+        "title": "Special Pricing / Price Quote",
+        "tags": ["customer", "quote", "pricing", "price"],
+        "dept":"Customer Accounts",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/pubhtml?single=true&amp;gid=56243274&amp;widget=true&amp;range=B10:D10"
+    },
+    {
+        "title": "New Tax Exempt Form",
+        "tags": ["tax", "exempt", "form", "application"],
+        "dept":"Customer Accounts",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/pubhtml?single=true&amp;gid=56243274&amp;widget=true&amp;range=B6:D6"
+    },
+    {
+        "title": "Add Points Request",
+        "tags": ["add", "points", "request", "loyalty"],
+        "dept":"Customer Accounts",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": ["addPoints"],
+        "source":"https://docs.google.com/document/d/1uBxBlALyEP8_D8rgB7-mPfGbiM4Ao2m1GydvxqyfaR8/edit#bookmark=id.naxj84os1b6b"
+    },
+    {
+        "title": "Request to Delete Customer Account",
+        "tags": ["delete", "customer", "account", "request"],
+        "dept":"Customer Accounts",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": ["deleteCustomer"],
+        "source":"https://docs.google.com/document/d/1uBxBlALyEP8_D8rgB7-mPfGbiM4Ao2m1GydvxqyfaR8/edit#bookmark=id.naxj84os1b6b"
+    },
+    {
+        "title": "Customer / Store Unable to Register Customer for Online Account",
+        "tags": ["sign", "up", "online", "account", "customer", "unable"],
+        "dept":"Customer Accounts",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=0&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=E263:F263"
+    },
+    {
+        "title": "Ordering More Member Sign-Up Sheets",
+        "tags": ["order", "member", "sign", "up", "sheets", "applications"],
+        "dept":"Customer Accounts",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A136:C136"
+    },
+    {
+        "title": "Customer Lost Year-End Rewards",
+        "tags": ["customer", "year", "end", "rewards", "pro", "account", "card"],
+        "dept":"Customer Accounts",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A16:D16"
+    },
+    {
+        "title": "Customer Not Receiving Correct Tier Pricing",
+        "tags": ["customer", "tier", "pricing", "incorrect", "wrong", "15%", "pro", "account"],
+        "dept":"Customer Accounts",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": ["tierPricing"],
+        "source":""
+    }
+]

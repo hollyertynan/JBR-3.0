@@ -1,0 +1,6 @@
+<div class="form-check mx-2 my-2">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="countTasks();">
+  <label class="form-check-label" for="flexCheckDefault">
+    Please document the points add in <a href="https://docs.google.com/spreadsheets/d/1W8soXxGHCZeujW2d8V3NTDEhiD3QzQieCAej_Z9HbBI/edit#gid=1988892003" target="_blank">this</a> spreadsheet and then follow the instructions below. Click the check box to acknowledge.
+  </label>
+</div>

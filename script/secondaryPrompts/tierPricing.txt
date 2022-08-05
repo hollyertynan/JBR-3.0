@@ -1,0 +1,6 @@
+<div class="form-check mx-2 my-2">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="countTasks();">
+  <label class="form-check-label" for="flexCheckDefault">
+    Have Misty verify tier pricing is set up correctly, and ask her to send the ticket back to you afterwards. Attempt to test to see if the account is doing it in the lab (Do a transaction, use customer number with issues, use Sku 500800. Do not complete sale). Check the store's back office to make sure the Customer type is 'V' for Paint Tier. If all seems correct, escalate to the POS Team. Click the check box to acknowledge.
+  </label>
+</div>

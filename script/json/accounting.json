@@ -21,7 +21,7 @@
         "title": "Defective Items",
         "tags": ["Defective", "RTV", "Accounting", "Damaged"],
         "dept":"Accounting",
-        "sub":"temp",
+        "sub":"",
         "authLevel": "2",
         "optionalPrompts": [],
         "source": ""
@@ -34,5 +34,122 @@
         "authLevel": "1",
         "optionalPrompts": [],
         "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=958982344&widget=false&chrome=false&headers=false&range=B2:C2"
+    },
+    {
+        "title": "Setting Up a New Home Heating Customer Account",
+        "tags": ["setting up", "new", "home", "heating", "customer", "account"],
+        "dept":"Accounting",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=958982344&widget=false&chrome=false&headers=false&range=B2:C2"
+    },
+    {
+        "title": "Store Has a Customer That Was Double Charged",
+        "tags": ["store", "double", "charge", "customer", "payment"],
+        "dept":"Accounting",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A18:D18"
+    },
+    {
+        "title": "General Inhouse Account Issues",
+        "tags": ["general", "inhouse", "house", "account", "issue"],
+        "dept":"Accounting",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A21:D21"
+    },
+    {
+        "title": "Can't Charge Inhouse Account",
+        "tags": ["charge", "inhouse", "account", "issue"],
+        "dept":"Accounting",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A146:B146"
+    },
+    {
+        "title": "Sales Audit / Daybook Issues",
+        "tags": ["sales", "audit", "daybook", "issues", "accounting"],
+        "dept":"Accounting",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/pubhtml?single=true&amp;gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A23:D23"
+    },
+    {
+        "title": "Requests to Add/Remove Authorized Signers on BlueTarp Accounts",
+        "tags": ["bluetarp", "authorized", "signers", "requests"],
+        "dept":"Accounting",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": ["authSigners"],
+        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A6:D6"
+    },
+    {
+        "title": "Store Needs to Cancel a Transfer",
+        "tags": ["store", "cancel", "transfer", "mi9"],
+        "dept":"Accounting",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A184:B184"
+    },
+    {
+        "title": "Store Ordering Bank Deposit Slips",
+        "tags": ["bank", "deposit", "slips", "store"],
+        "dept":"Accounting",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": ["depositSlips"],
+        "source":""
+    },
+    {
+        "title": "BlueTarp Applications",
+        "tags": ["bluetarp", "credit", "application"],
+        "dept":"Accounting",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A6:D6"
+    },
+    {
+        "title": "Store is Asking for Invoice to be Paid",
+        "tags": ["invoice", "paid", "pay"],
+        "dept":"Accounting",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A29:D29"
+    },
+    {
+        "title": "Store is Asking for Gift Cards",
+        "tags": ["gift", "cards", "order"],
+        "dept":"Accounting",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A15:D15"
+    },
+    {
+        "title": "Fishing Licenses",
+        "tags": ["fishing", "license"],
+        "dept":"Accounting",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A31:C31"
+    },
+    {
+        "title": "Real Estate",
+        "tags": ["real", "estate"],
+        "dept":"Accounting",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A32:D32"
     }
 ]
