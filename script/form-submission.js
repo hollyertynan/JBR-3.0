@@ -1,13 +1,13 @@
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
 function SubForm() {
-    let ticketNumber = document.getElementById("ticketCaller").value.length
-    let storeNumber = document.getElementById("storeNumber").value.length
+    let ticketNumber = document.getElementById("ticketCaller").value
+    let storeNumber = document.getElementById("storeNumber").value
     console.log(ticketNumber)
     console.log(storeNumber)
     
     if (authLevel >= 2) {
-        if (ticketNumber == 0 || storeNumber != 3) {
+        if (document.getElementById("ticketCaller").value.length == 0 || document.getElementById("storeNumber").value.length != 3) {
             showPrompts("ticketNumberAndStoreNotFilledIn");
             document.getElementById("submitModal").disabled = false;
             return;
