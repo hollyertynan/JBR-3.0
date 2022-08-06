@@ -3,19 +3,21 @@ const delay = ms => new Promise(res => setTimeout(res, ms));
 function SubForm() {
     let ticketNumber = document.getElementById("ticketCaller").value
     let storeNumber = document.getElementById("storeNumber").value
+    console.log(ticketNumber)
+    console.log(storeNumber)
 
-    if (authLevel >= 2 && ticketNumber != "" && storeNumber != "") {
+    if (authLevel >= 2 && ticketNumber != "" && storeNumber != "undefined") {
         document.forms['submitMyForm'].elements['Ticket/Caller'].value = ticketNumber;
         document.forms['submitMyForm'].elements['Store Number'].value = storeNumber;
-    }  else if (authLevel >= 2 && ticketNumber == "" && storeNumber != "") {
+    }  else if (authLevel >= 2 && storeNumber == "undefined") {
         showPrompts("ticketNumberAndStoreNotFilledIn")
         document.getElementById("submitModal").disabled = false
         return
-    } else if (authLevel >= 2 && ticketNumber != "" && storeNumber == "") {
+    } else if (authLevel >= 2 && ticketNumber == "") {
         showPrompts("ticketNumberAndStoreNotFilledIn")
         document.getElementById("submitModal").disabled = false
         return
-    } else if (authLevel >= 2 && ticketNumber == "" && storeNumber == "") {
+    } else {
         showPrompts("ticketNumberAndStoreNotFilledIn")
         document.getElementById("submitModal").disabled = false
         return
