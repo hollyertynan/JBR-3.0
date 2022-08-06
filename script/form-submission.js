@@ -6,10 +6,10 @@ function SubForm() {
     console.log(ticketNumber)
     console.log(storeNumber)
 
-    if (authLevel >= 2 && ticketNumber != "" && storeNumber != "undefined") {
+    if (authLevel >= 2 && ticketNumber != "" && storeNumber != undefined) {
         document.forms['submitMyForm'].elements['Ticket/Caller'].value = ticketNumber;
         document.forms['submitMyForm'].elements['Store Number'].value = storeNumber;
-    }  else if (authLevel >= 2 && storeNumber == "undefined") {
+    }  else if (authLevel >= 2 && storeNumber == undefined) {
         showPrompts("ticketNumberAndStoreNotFilledIn")
         document.getElementById("submitModal").disabled = false
         return
@@ -22,7 +22,6 @@ function SubForm() {
         document.getElementById("submitModal").disabled = false
         return
     }
-
 
     document.forms['submitMyForm'].elements['Start Time'].value = saveStartTime;
 
