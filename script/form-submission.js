@@ -6,12 +6,10 @@ function SubForm() {
     console.log(ticketNumber)
     console.log(storeNumber)
     
-    if (authLevel >= 2) {
-        if (document.getElementById("ticketCaller").value.length == 0 || document.getElementById("storeNumber").value.length != 3) {
-            showPrompts("ticketNumberAndStoreNotFilledIn");
-            document.getElementById("submitModal").disabled = false;
-            return;
-        } 
+    if (authLevel >= 2 && (document.getElementById("ticketCaller").value.length == 0 || document.getElementById("storeNumber").value.length != 3)) {
+        showPrompts("ticketNumberAndStoreNotFilledIn");
+        document.getElementById("submitModal").disabled = false;
+        return;
     } else {
         document.forms['submitMyForm'].elements['Ticket/Caller'].value = ticketNumber;
         document.forms['submitMyForm'].elements['Store Number'].value = storeNumber;
