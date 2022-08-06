@@ -449,4 +449,4 @@ for(var index in allStoreNames) {
 
 inputTable += "</datalist>";
 
-document.getElementById("storeNumber").innerHTML += inputTable;
+document.getElementById("storeNumberContainer").innerHTML += inputTable;

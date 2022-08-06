@@ -123,10 +123,10 @@ function enableFormBuilder(nameCheck) {
 
 function initializeExtraFields() {
   if(authLevel == 2 || 3) {
-    document.getElementById("storeNumber").hidden = false
+    document.getElementById("storeNumberContainer").hidden = false
     document.getElementById("ticketCaller").hidden = false
   } else {
-    document.getElementById("storeNumber").hidden = true
+    document.getElementById("storeNumberContainer").hidden = true
     document.getElementById("ticketCaller").hidden = true
   }
   
