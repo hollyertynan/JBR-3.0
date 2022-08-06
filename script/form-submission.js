@@ -2,29 +2,22 @@ const delay = ms => new Promise(res => setTimeout(res, ms));
 
 function SubForm() {
     let ticketNumber = document.getElementById("ticketCaller").value
-    let storeNumber = document.getElementById("storeNumber").value
+    let storeNumber = document.getElementById("storeNumber").value.length
     console.log(ticketNumber)
     console.log(storeNumber)
 
-    if (authLevel >= 2 && ticketNumber != "" && storeNumber != undefined) {
+    if (authLevel >= 2) {
+        if (ticketNumber == "" || storeNumber > 3) {
+            showPrompts("ticketNumberAndStoreNotFilledIn");
+            document.getElementById("submitModal").disabled = false;
+            return;
+        } 
+    } else {
         document.forms['submitMyForm'].elements['Ticket/Caller'].value = ticketNumber;
         document.forms['submitMyForm'].elements['Store Number'].value = storeNumber;
-    }  else if (authLevel >= 2 && storeNumber == undefined) {
-        showPrompts("ticketNumberAndStoreNotFilledIn")
-        document.getElementById("submitModal").disabled = false
-        return
-    } else if (authLevel >= 2 && ticketNumber == "") {
-        showPrompts("ticketNumberAndStoreNotFilledIn")
-        document.getElementById("submitModal").disabled = false
-        return
-    } else {
-        showPrompts("ticketNumberAndStoreNotFilledIn")
-        document.getElementById("submitModal").disabled = false
-        return
     }
 
     document.forms['submitMyForm'].elements['Start Time'].value = saveStartTime;
-
     var saveEndTime = new Date().toLocaleString();
     document.forms['submitMyForm'].elements['Submitted'].value = saveEndTime;
 
