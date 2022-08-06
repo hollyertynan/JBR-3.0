@@ -10,7 +10,7 @@
     },
     {
         "title": "BlueTarp (Capital One Trade Credit) Applications",
-        "tags": ["BlueTarp", "Capital", "Credit", "Accounting", "one"],
+        "tags": ["BlueTarp", "Capital", "Credit", "Accounting", "one", "blue", "tarp"],
         "dept":"Accounting",
         "sub":"",
         "authLevel": "2",
@@ -82,7 +82,7 @@
     },
     {
         "title": "Requests to Add/Remove Authorized Signers on BlueTarp Accounts",
-        "tags": ["bluetarp", "authorized", "signers", "requests"],
+        "tags": ["bluetarp", "authorized", "signers", "requests", "blue", "tarp", "capital", "one"],
         "dept":"Accounting",
         "sub":"",
         "authLevel": "2",
@@ -109,7 +109,7 @@
     },
     {
         "title": "BlueTarp Applications",
-        "tags": ["bluetarp", "credit", "application"],
+        "tags": ["bluetarp", "credit", "application", "blue", "tarp", "capital", "one"],
         "dept":"Accounting",
         "sub":"",
         "authLevel": "2",
