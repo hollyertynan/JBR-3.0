@@ -51,6 +51,7 @@ var tempText
 var tempTitle
 var tempDept
 var tempSub
+var favoredSearchResult = false
 
 function autocorrect(tag) {
     let parseSearch
@@ -72,16 +73,16 @@ function autocorrect(tag) {
             } else if (parseSearch.charAt(c) == tag.charAt(c)) {
                 correctionCount += 1
             } else if (parseSearch.charAt(c) == tag.charAt(c - 1)) {
-                correctionCount += .1
+                correctionCount += .05
             } else if (parseSearch.charAt(c) == tag.charAt(c + 1)) {
-                correctionCount += .1
+                correctionCount += .05
             } else {
-                correctionCount -= .2
+                correctionCount -= 0.5
             }
 
         }
         // check if too many corrrections have to be made to consider the words similar
-        if (correctionCount >= tag.length / 1.4 && !globalSearch.includes(tag)) {
+        if (correctionCount >= tag.length / 1.35 && !globalSearch.includes(tag)) {
             globalSearch.push(tag.toLowerCase())
             break;
         }
@@ -104,7 +105,8 @@ function sortList() {
         shouldSwitch = false;
         /* Check if the next item should
         switch place with the current item: */
-        if (b[i].dataset.priority > b[i + 1].dataset.priority) {
+        console.log(b[i].dataset.priority + " " + b[i + 1].dataset.priority)
+        if (b[i].dataset.priority < b[i + 1].dataset.priority) {
           /* If next item is alphabetically lower than current item,
           mark as a switch and break the loop: */
           shouldSwitch = true;
@@ -112,19 +114,20 @@ function sortList() {
         }
       }
       if (shouldSwitch) {
+            b[i].parentNode.insertBefore(b[i + 1], b[i]);
+
         /* If a switch has been marked, make the switch
         and mark the switch as done: */
-        b[i].parentNode.insertBefore(b[i + 1], b[i]);
         switching = true;
       }
     }
-  }
-
+}
 
 
 
 // this is me going ultra god mode
 function load() {
+    globalSearch = []
     document.getElementById("searchResults").innerHTML = ""
     
     
@@ -159,24 +162,25 @@ function load() {
                     this.answer[i].tags.forEach((tag) => {
                         
 
-                        autocorrect(tag);
+                        autocorrect(tag)
                         //find tag in json object
                         if (globalSearch.includes(tag.toLowerCase()) && !searchBuffer.includes(this.answer[i].title) && authLevel >= this.answer[i].authLevel) {
                             calculatePriority(tag, this.answer[i].title);
                             searchBuffer.push(this.answer[i].title)
+
                             if (priorityCheck > 2) {
                                 
                                 tempTitle = this.answer[i].title
                                 tempText = this.answer[i].source
                                 tempDept = this.answer[i].dept
                                 tempSub = this.answer[i].sub
-    
+                                
                                 
                                 if (this.answer[i].optionalPrompts != [] || this.answer[i].optionalPrompts != undefined) {
                                     optionalPromptsCheck(this.answer[i].optionalPrompts)
                                     populateSearch();
                                 }
-                                
+                                sortList();
                             }
                         } else {
                             return;
@@ -215,7 +219,6 @@ input.addEventListener("keyup", function(event) {
 //enable auth level change TESTING PURPOSES ONLY
 function authLevelTest(level) {
     authLevel = level
-    alert(authLevel)
 }
 
 
@@ -224,6 +227,7 @@ function authLevelTest(level) {
 let priorityCheck = 0
 let sortBuffer = []
 function calculatePriority(tag, titlePass) {
+    let titleRatio = titlePass.length / globalSearch.length
     priorityCheck = 0
     sortBuffer = []
     let titleCheck = titlePass.split(" ")
@@ -246,7 +250,8 @@ function calculatePriority(tag, titlePass) {
         } else {
             priorityCheck -= .5
         }
-        sortList();
+        
+        
     })
 }
 
@@ -259,7 +264,6 @@ function populateSearch() {
     Result.source = tempText
     Result.dept = tempDept
     Result.sub = tempSub
-
     dept_name = Result.dept
     if (Result.title == undefined) {
         return;

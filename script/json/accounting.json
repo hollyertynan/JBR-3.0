@@ -4,7 +4,7 @@
         "tags": ["Missing", "Voided", "Transactions", "Accounting"],
         "dept":"Accounting",
         "sub":"",
-        "authLevel": "2",
+        "authLevel": "1",
         "optionalPrompts": [],
         "source": ""
     },
@@ -13,7 +13,7 @@
         "tags": ["BlueTarp", "Capital", "Credit", "Accounting", "one", "blue", "tarp"],
         "dept":"Accounting",
         "sub":"",
-        "authLevel": "2",
+        "authLevel": "1",
         "optionalPrompts": [],
         "source": ""
     },
@@ -22,7 +22,7 @@
         "tags": ["Defective", "RTV", "Accounting", "Damaged"],
         "dept":"Accounting",
         "sub":"",
-        "authLevel": "2",
+        "authLevel": "1",
         "optionalPrompts": [],
         "source": ""
     },
@@ -40,7 +40,7 @@
         "tags": ["setting up", "new", "home", "heating", "customer", "account"],
         "dept":"Accounting",
         "sub":"",
-        "authLevel": "2",
+        "authLevel": "1",
         "optionalPrompts": [],
         "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=958982344&widget=false&chrome=false&headers=false&range=B2:C2"
     },
@@ -49,7 +49,7 @@
         "tags": ["store", "double", "charge", "customer", "payment"],
         "dept":"Accounting",
         "sub":"",
-        "authLevel": "2",
+        "authLevel": "1",
         "optionalPrompts": [],
         "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A18:D18"
     },
@@ -58,7 +58,7 @@
         "tags": ["general", "inhouse", "house", "account", "issue"],
         "dept":"Accounting",
         "sub":"",
-        "authLevel": "2",
+        "authLevel": "1",
         "optionalPrompts": [],
         "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A21:D21"
     },
@@ -67,7 +67,7 @@
         "tags": ["charge", "inhouse", "account", "issue"],
         "dept":"Accounting",
         "sub":"",
-        "authLevel": "2",
+        "authLevel": "1",
         "optionalPrompts": [],
         "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A146:B146"
     },
@@ -76,7 +76,7 @@
         "tags": ["sales", "audit", "daybook", "issues", "accounting"],
         "dept":"Accounting",
         "sub":"",
-        "authLevel": "2",
+        "authLevel": "1",
         "optionalPrompts": [],
         "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/pubhtml?single=true&amp;gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A23:D23"
     },
@@ -85,7 +85,7 @@
         "tags": ["bluetarp", "authorized", "signers", "requests", "blue", "tarp", "capital", "one"],
         "dept":"Accounting",
         "sub":"",
-        "authLevel": "2",
+        "authLevel": "1",
         "optionalPrompts": ["authSigners"],
         "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A6:D6"
     },
@@ -94,7 +94,7 @@
         "tags": ["store", "cancel", "transfer", "mi9"],
         "dept":"Accounting",
         "sub":"",
-        "authLevel": "2",
+        "authLevel": "1",
         "optionalPrompts": [],
         "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A184:B184"
     },
@@ -103,7 +103,7 @@
         "tags": ["bank", "deposit", "slips", "store"],
         "dept":"Accounting",
         "sub":"",
-        "authLevel": "2",
+        "authLevel": "1",
         "optionalPrompts": ["depositSlips"],
         "source":""
     },
@@ -112,7 +112,7 @@
         "tags": ["bluetarp", "credit", "application", "blue", "tarp", "capital", "one"],
         "dept":"Accounting",
         "sub":"",
-        "authLevel": "2",
+        "authLevel": "1",
         "optionalPrompts": [],
         "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A6:D6"
     },
@@ -121,7 +121,7 @@
         "tags": ["invoice", "paid", "pay"],
         "dept":"Accounting",
         "sub":"",
-        "authLevel": "2",
+        "authLevel": "1",
         "optionalPrompts": [],
         "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A29:D29"
     },
@@ -130,7 +130,7 @@
         "tags": ["gift", "cards", "order"],
         "dept":"Accounting",
         "sub":"",
-        "authLevel": "2",
+        "authLevel": "1",
         "optionalPrompts": [],
         "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A15:D15"
     },
@@ -139,7 +139,7 @@
         "tags": ["fishing", "license"],
         "dept":"Accounting",
         "sub":"",
-        "authLevel": "2",
+        "authLevel": "1",
         "optionalPrompts": [],
         "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A31:C31"
     },
@@ -148,7 +148,7 @@
         "tags": ["real", "estate"],
         "dept":"Accounting",
         "sub":"",
-        "authLevel": "2",
+        "authLevel": "1",
         "optionalPrompts": [],
         "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A32:D32"
     }
