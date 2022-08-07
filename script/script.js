@@ -71,11 +71,11 @@ function autocorrect(tag) {
                 correctionCount += 1.5
                 //if the character is the same before or after the current position, add a point
             } else if (parseSearch.charAt(c) == tag.charAt(c)) {
-                correctionCount += 1
+                correctionCount += 1.2
             } else if (parseSearch.charAt(c) == tag.charAt(c - 1)) {
-                correctionCount += .05
+                correctionCount += .1
             } else if (parseSearch.charAt(c) == tag.charAt(c + 1)) {
-                correctionCount += .05
+                correctionCount += .1
             } else {
                 correctionCount -= 0.5
             }
@@ -200,6 +200,7 @@ function fillIframe(iframeValue) {
 }
 
 function searchResultsToggling() {
+    registerNumber = ""
     $("#searchResults").fadeIn(150)
 }
 
