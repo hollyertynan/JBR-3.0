@@ -39,7 +39,9 @@ function SubForm() {
         data:$("#submitMyForm").serializeArray(),
         
         
+        
         success: async function() {
+            console.log(JSON.stringify($("#submitMyForm").serializeArray()))
             console.log("hello")
             await delay(100);
             location.reload();
