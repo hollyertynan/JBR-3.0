@@ -123,12 +123,19 @@ function sortList() {
     }
 }
 
+function fillIframe(iframeValue) {
+    document.getElementById("resolutionframe").src = iframeValue;
+    $("#resolutionframe").attr("hidden",false)
+    $("#showButtons").attr("hidden",false);
+    $("#commentSpace").attr("hidden",false);
+}
 
 
 // this is me going ultra god mode
 function load() {
     globalSearch = []
     document.getElementById("searchResults").innerHTML = ""
+    document.getElementById("searchResults").innerHTML += `<button class="list-group-item py-1 searchResultsButtons" data-priority="-100" onclick="showPrompts(\'issueNotListed\');getTitle(this.innerText, 'Other', 'Other');fillIframe('');" style="font-style:italic;">My Issue is not Listed</button>`
     
     
     // search term
@@ -192,12 +199,6 @@ function load() {
     }
 }
 
-function fillIframe(iframeValue) {
-    document.getElementById("resolutionframe").src = iframeValue;
-    $("#resolutionframe").attr("hidden",false)
-    $("#showButtons").attr("hidden",false);
-    $("#commentSpace").attr("hidden",false);
-}
 
 function searchResultsToggling() {
     registerNumber = ""
@@ -210,7 +211,6 @@ var dept_name = ""
 
 // Execute a function when the user presses a key on the keyboard
 input.addEventListener("keyup", function(event) {
-    document.getElementById("searchResults").innerHTML = ""
     event.preventDefault();
     load();
     $(".searchResultsButtons").fadeIn(250)
