@@ -74,7 +74,7 @@ function createAuthLevel(nameCheck) {
   const RSC_MEMBERS = [
     "Brady Bernard",
     "Carolyn Bell",
-    "Liz Eaton"
+    "Elizabeth Eaton"
   ]
 
   const POS_MEMBERS = [
