@@ -12,7 +12,7 @@
         "tags": ["min","max","sku","product","PO","Sku","UPC","Paint"],
         "dept":"Product",
         "authLevel": "2",
-        "optionalPrompts": [],
+        "optionalPrompts": ["replenRules"],
         "source": "https://docs.google.com/document/d/1mFusBLuX-9x6au519f7vxTo-QVzDbCIfJl4v-RJS_dY/edit#bookmark=id.sl8axyivd97z"
     },
     {
@@ -28,7 +28,7 @@
         "tags": ["min","max","sku","product","PO","Sku","UPC","Paint"],
         "dept":"Product",
         "authLevel": "2",
-        "optionalPrompts": [],
+        "optionalPrompts": ["replenRules"],
         "source": "https://drive.google.com/u/0/open?id=1JtgVi2ALWczpixndeokMI7jT_YV20EKIYXDgI9Y-gWg"
     },
     {
@@ -68,7 +68,7 @@
         "tags": ["store", "specific", "clearance", "pricing", "SSC", "min", "max", "retail"],
         "dept":"Product",
         "authLevel": "2",
-        "optionalPrompts": [],
+        "optionalPrompts": ["replenRules"],
         "source": "https://docs.google.com/document/d/1mFusBLuX-9x6au519f7vxTo-QVzDbCIfJl4v-RJS_dY/edit#bookmark=id.pufx8h954y10"
     },
     {
@@ -76,7 +76,7 @@
         "tags": ["store", "specific", "temporary", "pricing", "min", "max", "retail"],
         "dept":"Product",
         "authLevel": "2",
-        "optionalPrompts": [],
+        "optionalPrompts": ["replenRules"],
         "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTX24xVOEWwucJGjbvsV4kNsSJ7TlUgTOShNrvZAC9C2ectQ7BzsrYhGjWpENfZ89jXssg9sTS0XL1m/pubhtml?single=true&amp;gid=907924166&amp;widget=true&amp;range=B10:D10"
     },
     {
