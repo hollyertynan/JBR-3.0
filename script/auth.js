@@ -68,6 +68,7 @@ function handleCredentialResponse(response) {
 
     enableFormBuilder(responsePayLoad.name)
     createAuthLevel(responsePayLoad.name)
+    console.log(responsePayLoad.name)
 }
 
 function createAuthLevel(nameCheck) {
