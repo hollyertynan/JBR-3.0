@@ -871,5 +871,23 @@
         "authLevel": "1",
         "optionalPrompts": ["noPowerPaintLabel"],
         "source": ""
+    },
+    {
+        "title":"'Failed to triPOS.NET, Side-by-Side Configuration is Incorrect",
+        "tags":["side by side", "side", "payment", "terminal", "tripos", "service"],
+        "dept":"IT",
+        "sub":"Payment Terminal",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A190:B190"
+    },
+    {
+        "title":"Bin Ticket Printer Skipping Tickets and/or Printing Incorrectly",
+        "tags":["price", "ticket", "printer", "bin", "skip", "calibrate"],
+        "dept":"IT",
+        "sub":"Payment Terminal",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A176:B176"
     }
 ]

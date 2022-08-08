@@ -34,19 +34,19 @@ function SubForm() {
     document.getElementById("submissionButton").disabled = true;
 
     $.ajax({
-        url: "https://script.google.com/macros/s/AKfycbwW4J9Znq9yLZc9rU8OD8V4EzJ6ueRajiHWH5iLGynqY7awlG9VRF08brM5r_jzbRU/exec",
+        url: "https://script.google.com/macros/s/AKfycbzAxd1f8lMFz9BZ8TCxtTDY6MZXOgE7_kGaOVLb1lXWzAD6q2BgbMVsVRp3r-3XIdz-Wg/exec",
         type: "post",
         data:$("#submitMyForm").serializeArray(),
         
         
         success: async function() {
-            await delay(1000);
+            console.log("hello")
+            await delay(100);
             location.reload();
-            //console.log(JSON.stringify($("#submitMyForm").serializeArray()));
             
         },
         error: async function() {
-            await delay(1000);
+            await delay(100);
             location.reload();
         }
     });
