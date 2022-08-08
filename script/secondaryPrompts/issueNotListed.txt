@@ -1,0 +1,6 @@
+<div class="form-check mx-2 my-2">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="countTasks();">
+  <label class="form-check-label" for="flexCheckDefault">
+    Please make sure you've exhausted all other options. If so, then before escalating to Level 2, provide as much information as possible in the comments section below. Include the device/subject (Ex. Accounting ; Payment Terminal). For ELVIS Devices, please provide the ELVIS device number. For PO issues, please provide the PO number. For printers, provide which printer is having issues. For registers, please provide register numbers. After inputting the information, please press "All Set!". Click the check box to acknowledge.
+  </label>
+</div>
