@@ -1,0 +1,6 @@
+<div class="form-check mx-2 my-2">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="countTasks();">
+  <label class="form-check-label" for="flexCheckDefault">
+    Requests for Theatro Earpieces go to Mike Gregory. All other issues with Theatro at store level should be sent to the Theatro Tech Support first. If their devices are working, all they need to do is hold the talk button and say 'Message Tech Support'. If none of their devices are working they can either call Theatro at 1-844-843-2876, or they can email them at support@theatro.com.
+  </label>
+</div>
