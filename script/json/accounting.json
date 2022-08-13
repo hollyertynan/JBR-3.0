@@ -118,7 +118,7 @@
     },
     {
         "title": "Store is Asking for Invoice to be Paid",
-        "tags": ["invoice", "paid", "pay"],
+        "tags": ["invoice", "paid", "pay", "bill", "billing", "invoices"],
         "dept":"Accounting",
         "sub":"",
         "authLevel": "2",
