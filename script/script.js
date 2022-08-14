@@ -105,7 +105,6 @@ function sortList() {
         shouldSwitch = false;
         /* Check if the next item should
         switch place with the current item: */
-        console.log(b[i].dataset.priority + " " + b[i + 1].dataset.priority)
         if (b[i].dataset.priority < b[i + 1].dataset.priority) {
           /* If next item is alphabetically lower than current item,
           mark as a switch and break the loop: */
@@ -223,7 +222,6 @@ function authLevelTest(level) {
 }
 
 
-
 //function that calculates at which spot the result should pop in to
 let priorityCheck = 0
 let sortBuffer = []
@@ -308,6 +306,34 @@ function getTitle(title, dept, sub) {
 }
 
 
+/*
+
+GRAB AND USE TEAM NUMBERS
+
+*/
+
+
+
+let teamNumber
+
+function getTeam(storeNum) {
+    for(i = 0; i < allStoreNames.length ; i++) {
+        if (allStoreNames[i].Store == storeNum) {
+            teamNumber = allStoreNames[i].Team
+        }
+    }
+
+    if (teamNumber == "1") {
+        document.getElementById("storeNumberFillIn").innerHTML = "<h3>Team Number: 1</h3>"
+    } else if (teamNumber == "2") {
+        document.getElementById("storeNumberFillIn").innerHTML = "<h3>Team Number: 2</h3>"
+    } else if (teamNumber == "3") {
+        document.getElementById("storeNumberFillIn").innerHTML = "<h3>Team Number: 3</h3>"
+    } else {
+        document.getElementById("storeNumberFillIn").innerHTML = "<h3>No Team Found</h3>"
+    }
+    
+}
 
 /*
 
@@ -356,7 +382,6 @@ function getFilePrompts(file) {
 }
 
 
-let globalFile = ""
 
 function showPrompts(currentSelection) {
     let requiredInfo = document.getElementById("listOfRequiredInfo")
