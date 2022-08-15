@@ -1,0 +1,6 @@
+<div class="form-check mx-2 my-2">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="countTasks();">
+  <label class="form-check-label" for="flexCheckDefault">
+    Stores should be using the Covid-19 Protective Equipment link on the front page of the Resource Center homepage for this. That link will take them to a Google Form they can fill out for more masks. Please instruct them to use that link in the future. The link can be found on the RSC Homepage, then by going to Covid-19 on the sidebar, and clicking Equipment Order Form. Click the check box to acknowledge.
+  </label>
+</div>

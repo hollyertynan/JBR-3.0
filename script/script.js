@@ -138,7 +138,7 @@ function load() {
     
     
     // search term
-    var resources = ["accounting.json", "IT.json", "product.json", "marketing.json", "red_flags.json", "customer.json"]
+    var resources = ["accounting.json", "IT.json", "product.json", "marketing.json", "red_flags.json", "customer.json", "operations.json"]
     var search = document.getElementById("searchBar").value;
     if (searchBuffer.length == 0) {
         splitAndRefineSearchList(search);
@@ -204,11 +204,13 @@ function searchResultsToggling() {
     $("#searchResults").fadeIn(150)
 }
 
-var dept_name = ""
 
-    var input = document.getElementById("searchBar");
+
+
 
 // Execute a function when the user presses a key on the keyboard
+var input = document.getElementById("searchBar");
+
 input.addEventListener("keyup", function(event) {
     event.preventDefault();
     load();
@@ -256,6 +258,8 @@ function calculatePriority(tag, titlePass) {
 
 //populates the searchResults field with the info pass in through load()
 //also properly hides logo and animates the search results to appear to the top of the page
+var dept_name = ""
+
 function populateSearch() {
     
     Result.title = tempTitle
