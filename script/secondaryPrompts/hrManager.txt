@@ -1,0 +1,6 @@
+<div class="form-check mx-2 my-2">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="countTasks();">
+  <label class="form-check-label" for="flexCheckDefault">
+    This should be sent to the store's Team HR Manager. The store's Team is given to you at the top of the screen when a store is selected. Click the check box to acknowledge.
+  </label>
+</div>
