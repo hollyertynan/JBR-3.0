@@ -218,12 +218,6 @@ input.addEventListener("keyup", function(event) {
 });
 
 
-//enable auth level change TESTING PURPOSES ONLY
-function authLevelTest(level) {
-    authLevel = level
-}
-
-
 //function that calculates at which spot the result should pop in to
 let priorityCheck = 0
 let sortBuffer = []
