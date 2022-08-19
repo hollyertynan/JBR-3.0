@@ -117,15 +117,6 @@
         "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B13"
     },
     {
-        "title":"Theatro",
-        "tags":["theatro", "earpieces", "thea"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
-        "authLevel": "1",
-        "optionalPrompts": ["theatro"],
-        "source":""
-    },
-    {
         "title":"Register Stuck in Training Mode",
         "tags":["register", "training", "mode", "stuck"],
         "dept":"IT",
