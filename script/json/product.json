@@ -137,11 +137,11 @@
     },
     {
         "title": "Propane Barcodes",
-        "tags": ["propane", "barcodes", "upc"],
+        "tags": ["propane", "barcode", "upc"],
         "dept":"Product",
         "authLevel": "1",
-        "optionalPrompts": ["propane"],
-        "source": ""
+        "optionalPrompts": [],
+        "source": "https://tcb.wea/CreateAsign/CreateAsign.aspx"
     },
     {
         "title": "Orgill Products Missing Components",

@@ -898,5 +898,23 @@
         "authLevel": "1",
         "optionalPrompts": [],
         "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A176:B176"
+    },
+    {
+        "title":"Store Wants to Order More Theatro Earpieces",
+        "tags":["theatro", "ear", "piece", "order", "new", "devices"],
+        "dept":"IT",
+        "sub":"Theatro",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A33:D33"
+    },
+    {
+        "title":"Issues with Theatro Devices",
+        "tags":["theatro", "ear", "piece", "devices", "tech", "support", "issues"],
+        "dept":"IT",
+        "sub":"Theatro",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1AuatUmWeoeIgqalzBeyIuADf3nEBZZb3HD1fkB1luqE/htmlembed?gid=0&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A28:B28"
     }
 ]

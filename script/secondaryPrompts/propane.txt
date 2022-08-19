@@ -1,6 +1,6 @@
 <div class="form-check mx-2 my-2">
   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="countTasks();">
   <label class="form-check-label" for="flexCheckDefault">
-    Click the link <a href="http://tcb.wea/CreateAsign/CreateAsign.aspx" target="_blank">here</a> for the CreateASign link to send to the store. Click the check box to acknowledge.
+    Click the link <a href="https://tcb.wea/CreateAsign/CreateAsign.aspx" target="_blank">here</a> for the CreateASign link to send to the store. Click the check box to acknowledge.
   </label>
 </div>
