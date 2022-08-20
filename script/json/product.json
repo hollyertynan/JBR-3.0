@@ -141,7 +141,7 @@
         "dept":"Product",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source": "http://tcb.wea/CreateAsign/CreateAsign.aspx"
+        "source": "https://tcb.wea/CreateAsign/CreateAsign.aspx"
     },
     {
         "title": "Orgill Products Missing Components",
@@ -158,6 +158,38 @@
         "authLevel": "2",
         "optionalPrompts": [],
         "source": "https://docs.google.com/spreadsheets/d/1AuatUmWeoeIgqalzBeyIuADf3nEBZZb3HD1fkB1luqE/htmlembed?gid=0&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A27:B27"
+    },
+    {
+        "title": "Benjamin Moore National Accounts Order",
+        "tags": ["benjamin", "moore", "ben", "national", "accounts", "order", "paint"],
+        "dept":"Product",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/document/d/14BPeHu4cadKj3wKrdLXpNsPhba-r39UL-MhWLGYbMwk/edit#bookmark=id.n11v0612bv75"
+    },
+    {
+        "title": "Sending E-Mail to Store for Benjamin Moore National Accounts Order",
+        "tags": ["benjamin", "moore", "ben", "national", "accounts", "order", "paint", "email"],
+        "dept":"Product",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/document/d/1zDKyGV8MNtJrN7q_e-5evyLEmWLJbb-DG5uLIPC9t64/edit"
+    },
+    {
+        "title": "Need a Vendor Website Password Reset",
+        "tags": ["vendor", "website", "password", "reset", "orgill", "emery", "ejd", "benjamin", "moore", "ben"],
+        "dept":"Product",
+        "authLevel": "2",
+        "optionalPrompts": ["vendorPassword"],
+        "source": ""
+    },
+    {
+        "title": "Retail Pricing Issues",
+        "tags": ["retail", "price", "incorrect", "issue", "wrong"],
+        "dept":"Product",
+        "authLevel": "2",
+        "optionalPrompts": ["retailPricingIssues"],
+        "source": ""
     }
 ]
 

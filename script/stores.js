@@ -441,7 +441,7 @@ var allStoreNames = [
 
 var inputTable = "";
 
-inputTable += "<input type=\"input\" maxlength=\"3\" inputmode=\"numeric\" name=\"storeNumber\" id=\"storeNumber\" list=\"stores\" class=\"form-control rounded mx-2\" style=\"width: 100%\" placeholder=\"Store Number\"><datalist name=\"stores\" id=\"stores\">";
+inputTable += "<input type=\"input\" maxlength=\"3\" inputmode=\"numeric\" name=\"storeNumber\" id=\"storeNumber\" list=\"stores\" class=\"form-control rounded mx-2\" style=\"width: 100%\" placeholder=\"Store Number\" onchange=\"getTeam(this.value)\"><datalist name=\"stores\" id=\"stores\">";
 
 for(var index in allStoreNames) {
     inputTable += "<option value=\"" + allStoreNames[index].Store + "\">" + allStoreNames[index].Name + "</option>";

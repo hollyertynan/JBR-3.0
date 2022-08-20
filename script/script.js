@@ -105,7 +105,6 @@ function sortList() {
         shouldSwitch = false;
         /* Check if the next item should
         switch place with the current item: */
-        console.log(b[i].dataset.priority + " " + b[i + 1].dataset.priority)
         if (b[i].dataset.priority < b[i + 1].dataset.priority) {
           /* If next item is alphabetically lower than current item,
           mark as a switch and break the loop: */
@@ -139,7 +138,7 @@ function load() {
     
     
     // search term
-    var resources = ["accounting.json", "IT.json", "product.json", "marketing.json", "red_flags.json", "customer.json"]
+    var resources = ["accounting.json", "IT.json", "product.json", "marketing.json", "red_flags.json", "customer.json", "operations.json"]
     var search = document.getElementById("searchBar").value;
     if (searchBuffer.length == 0) {
         splitAndRefineSearchList(search);
@@ -205,23 +204,18 @@ function searchResultsToggling() {
     $("#searchResults").fadeIn(150)
 }
 
-var dept_name = ""
 
-    var input = document.getElementById("searchBar");
+
+
 
 // Execute a function when the user presses a key on the keyboard
+var input = document.getElementById("searchBar");
+
 input.addEventListener("keyup", function(event) {
     event.preventDefault();
     load();
     $(".searchResultsButtons").fadeIn(250)
 });
-
-
-//enable auth level change TESTING PURPOSES ONLY
-function authLevelTest(level) {
-    authLevel = level
-}
-
 
 
 //function that calculates at which spot the result should pop in to
@@ -258,6 +252,8 @@ function calculatePriority(tag, titlePass) {
 
 //populates the searchResults field with the info pass in through load()
 //also properly hides logo and animates the search results to appear to the top of the page
+var dept_name = ""
+
 function populateSearch() {
     
     Result.title = tempTitle
@@ -308,6 +304,34 @@ function getTitle(title, dept, sub) {
 }
 
 
+/*
+
+GRAB AND USE TEAM NUMBERS
+
+*/
+
+
+
+let teamNumber
+
+function getTeam(storeNum) {
+    for(i = 0; i < allStoreNames.length ; i++) {
+        if (allStoreNames[i].Store == storeNum) {
+            teamNumber = allStoreNames[i].Team
+        }
+    }
+
+    if (teamNumber == "1") {
+        document.getElementById("storeNumberFillIn").innerHTML = "<h3>Team Number: 1</h3>"
+    } else if (teamNumber == "2") {
+        document.getElementById("storeNumberFillIn").innerHTML = "<h3>Team Number: 2</h3>"
+    } else if (teamNumber == "3") {
+        document.getElementById("storeNumberFillIn").innerHTML = "<h3>Team Number: 3</h3>"
+    } else {
+        document.getElementById("storeNumberFillIn").innerHTML = "<h3>No Team Found</h3>"
+    }
+    
+}
 
 /*
 
@@ -356,7 +380,6 @@ function getFilePrompts(file) {
 }
 
 
-let globalFile = ""
 
 function showPrompts(currentSelection) {
     let requiredInfo = document.getElementById("listOfRequiredInfo")

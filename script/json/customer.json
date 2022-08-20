@@ -97,5 +97,14 @@
         "authLevel": "2",
         "optionalPrompts": ["tierPricing"],
         "source":""
+    },
+    {
+        "title": "How to Order Frequent Buy Cards for Pet/Bird Food",
+        "tags": ["pet", "bird", "food", "kibble", "order", "frequent", "buyer"],
+        "dept":"Customer Accounts",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": ["tierPricing"],
+        "source":"https://docs.google.com/spreadsheets/d/1AuatUmWeoeIgqalzBeyIuADf3nEBZZb3HD1fkB1luqE/htmlembed?gid=1527021037&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A3:B3"
     }
 ]
