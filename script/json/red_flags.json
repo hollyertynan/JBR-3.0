@@ -31,18 +31,18 @@
         "tags":["red", "flag", "back", "office", "transaction", "counter", "reg history", "no primary"],
         "dept":"IT",
         "sub":"Back Office (Mi9)",
-        "authLevel": "2",
+        "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A58:B58"
+        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A82:B82"
     },
     {
         "title":"RED FLAGS - Last Reg History Status and Transaction Counter with No Secondary Info",
         "tags":["red", "flag", "back", "office", "transaction", "counter", "reg history", "no secondary"],
         "dept":"IT",
         "sub":"Back Office (Mi9)",
-        "authLevel": "2",
+        "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A82:B82"
+        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A58:B58"
     },
     {
         "title":"RED FLAGS - Registers Closed/Open, Primary is Correct",

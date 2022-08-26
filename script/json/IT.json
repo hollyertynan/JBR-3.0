@@ -1,7 +1,7 @@
 [
     {
         "title":"Stuck on Synchronizing with XPI App",
-        "tags":["payment","terminal","register","xpi","app","synchronizing", "card", "reader"],
+        "tags":["payment","terminal","register","xpi","app","synchronizing", "card", "reader", "pin", "pad"],
         "dept":"IT",
         "sub":"PC/POS Equipment",
         "authLevel": "1",
@@ -19,7 +19,7 @@
     }, 
     {
         "title":"Register Frozen",
-        "tags":["register","stuck","frozen","unresponsive"],
+        "tags":["register","stuck","frozen","unresponsive", "tender"],
         "dept":"IT",
         "sub":"POS Software",
         "authLevel": "1",
