@@ -385,7 +385,6 @@ function showPrompts(currentSelection) {
     let requiredInfo = document.getElementById("listOfRequiredInfo")
     amountToBeCompleted = 0
     promptCountAmount = 0
-    //currentSelection = Array(currentSelection)
     requiredInfo.innerHTML = ""
     if (currentSelection != "") {
         currentSelection = currentSelection.split(",")
