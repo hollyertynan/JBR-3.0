@@ -907,5 +907,13 @@
         "authLevel": "1",
         "optionalPrompts": [],
         "source": "https://docs.google.com/spreadsheets/d/1AuatUmWeoeIgqalzBeyIuADf3nEBZZb3HD1fkB1luqE/htmlembed?gid=0&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A28:B28"
-    }
+    },
+    {
+        "title":"Card Number Required",
+        "tags":["payment", "terminal", "card", "number", "required"],
+        "dept":"IT",
+        "sub":"PC/POS Equipment",
+        "authLevel": "1",
+        "optionalPrompts": ["registerShow"],
+        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B17:D17"    }
 ]
