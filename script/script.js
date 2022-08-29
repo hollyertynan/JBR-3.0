@@ -68,21 +68,21 @@ function autocorrect(tag) {
 
             // if the character is the same at the same position, add a point to the correction
             if (parseSearch.charAt(c) && parseSearch.charAt(c + 1) === tag.charAt(c) && tag.charAt(c + 1)) {
-                correctionCount += 1.5
+                correctionCount += 2
                 //if the character is the same before or after the current position, add a point
             } else if (parseSearch.charAt(c) == tag.charAt(c)) {
-                correctionCount += 1.2
+                correctionCount += 1.5
             } else if (parseSearch.charAt(c) == tag.charAt(c - 1)) {
-                correctionCount += .1
+                correctionCount += .3
             } else if (parseSearch.charAt(c) == tag.charAt(c + 1)) {
-                correctionCount += .1
+                correctionCount += .3
             } else {
                 correctionCount -= 0.5
             }
 
         }
         // check if too many corrrections have to be made to consider the words similar
-        if (correctionCount >= tag.length / 1.35 && !globalSearch.includes(tag)) {
+        if (correctionCount >= tag.length / 1.5 && !globalSearch.includes(tag)) {
             globalSearch.push(tag.toLowerCase())
             break;
         }
