@@ -907,5 +907,14 @@
         "authLevel": "1",
         "optionalPrompts": [],
         "source": "https://docs.google.com/spreadsheets/d/1AuatUmWeoeIgqalzBeyIuADf3nEBZZb3HD1fkB1luqE/htmlembed?gid=0&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A28:B28"
+    },
+    {
+        "title":"Other Payment Terminal Issues (CardNumber Required, Slow Cards, Unseen Errors",
+        "tags":["card", "number", "cardnumber", "payment", "terminal", "pinpad", "pin", "pad", "error", "C34", "chip", "emv", "swipe", "debit", "credit"],
+        "dept":"IT",
+        "sub":"Payment Terminal",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1EHxtSvRCfrIEy3LK_fLgnRu5Ov7N6EdMVj2cmKu-Jfo/htmlembed?gid=0&widget=false&chrome=true&single=true&range=C34:D34"
     }
 ]
