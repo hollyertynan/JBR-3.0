@@ -916,6 +916,15 @@
         "authLevel": "1",
         "optionalPrompts": [],
         "source": "https://docs.google.com/spreadsheets/d/1EHxtSvRCfrIEy3LK_fLgnRu5Ov7N6EdMVj2cmKu-Jfo/htmlembed?gid=0&widget=false&chrome=true&single=true&range=C34:D34"
+    },
+    {
+        "title":"'Access Denied' When Trying to Access Mi9 Portal",
+        "tags":["access", "denied", "password", "mi9", "merchant", "PO", "back", "office", "mail", "portal", "lock", "out"],
+        "dept":"IT",
+        "sub":"Mi9 Portal",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&single=true&widget=false&chrome=true&range=A206:B206"
     }
 
 ]
