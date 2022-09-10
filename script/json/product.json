@@ -56,8 +56,8 @@
         "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTX24xVOEWwucJGjbvsV4kNsSJ7TlUgTOShNrvZAC9C2ectQ7BzsrYhGjWpENfZ89jXssg9sTS0XL1m/pubhtml?single=true&amp;gid=907924166&amp;widget=true&amp;range=B7:D7"
     },
     {
-        "title": "Special Order Issues",
-        "tags": ["special", "order", "issues", "register"],
+        "title": "Special Order Issues/Reordering Special Order",
+        "tags": ["special", "order", "issues", "register", "reorder", "cancel", "BOSS", "customer"],
         "dept":"Product",
         "authLevel": "2",
         "optionalPrompts": [],
