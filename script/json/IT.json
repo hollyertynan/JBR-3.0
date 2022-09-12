@@ -934,6 +934,42 @@
         "authLevel": "1",
         "optionalPrompts": [],
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&single=true&widget=false&chrome=true&range=B54:D54"
+    },
+    {
+        "title":"Issues with Rental Machine",
+        "tags":["rental", "register", "computer", "machine"],
+        "dept":"IT",
+        "sub":"Rental",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&single=true&widget=false&chrome=true&range=B30:D30"
+    },
+    {
+        "title":"Receipts Emailed to Customers",
+        "tags":["register", "receipt", "email", "default", "send", "customer"],
+        "dept":"IT",
+        "sub":"Register Software",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&single=true&widget=false&chrome=true&range=B30:D30"
+    },
+    {
+        "title":"Hardwarestore.com and Online Order Issues",
+        "tags":["hardwarestore.com", "hardwarestore", "hardware store", "online", "order", "website", "site"],
+        "dept":"IT",
+        "sub":"Register Software",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=907924166&single=true&widget=false&chrome=true&range=B4:D4"
+    },
+    {
+        "title":"Configure API Server on Elvis Device",
+        "tags":["configure", "api", "server", "elvis", "welcome", "screen", "stuck"],
+        "dept":"IT",
+        "sub":"Register Software",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=907924166&single=true&widget=false&chrome=true&range=B4:D4"
     }
 
 ]

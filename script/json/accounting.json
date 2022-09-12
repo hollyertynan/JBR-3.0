@@ -160,5 +160,23 @@
         "authLevel": "1",
         "optionalPrompts": [],
         "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;chrome=treu&amp;widget=false&ample;single=true&amp;range=A188:B188"
+    },
+    {
+        "title": "RTV Reversals",
+        "tags": ["reverse", "reversing", "cancel", "RTV"],
+        "dept":"Accounting",
+        "sub":"",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;chrome=treu&amp;widget=false&ample;single=true&amp;range=A188:B188"
+    },
+    {
+        "title": "Missing / Voided Transactions",
+        "tags": ["missing", "transaction", "voided"],
+        "dept":"Accounting",
+        "sub":"",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/document/d/1uBxBlALyEP8_D8rgB7-mPfGbiM4Ao2m1GydvxqyfaR8/edit#bookmark=id.3kdpu03fle1u"
     }
 ]
