@@ -116,7 +116,10 @@ HW 1, Part 2, Author: Wenjin Zhou
                 <div id="loadingSpinner" class="spinner-border text-light" role="status" hidden>
                     <span class="sr-only"></span>
                   </div>
-                <iframe class="w-100 vh-100" id="resolutionframe" style="max-height:400px" hidden></iframe>
+                  <div style="display:block" id="fullscreenButton" hidden>
+                    <button type="button" class="btn btn-light float-start" id="FullScreen" data-status="minimized" onclick="toggleExpand(this.dataset.status)"><i id="fullIcon" class="bi bi-fullscreen"></i></button>
+                  </div>
+                    <iframe class="w-100 vh-100" id="resolutionframe" style="max-height:400px" hidden></iframe>
             </div>
         </div>
         <div class="row mx-auto">

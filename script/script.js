@@ -147,9 +147,25 @@ function sortList() {
     }
 }
 
+function toggleExpand(buttonStatus) {
+    console.log(buttonStatus)
+    if (buttonStatus == "minimized") {
+        document.getElementById('resolutionframe').style.maxHeight = "900px"
+        document.getElementById('FullScreen').dataset.status = "expanded"
+        $("#fullIcon").addClass("bi-fullscreen-exit").removeClass("bi-fullscreen")
+    } 
+    if (buttonStatus == "expanded") {
+        document.getElementById('resolutionframe').style.maxHeight = "400px"
+        document.getElementById('FullScreen').dataset.status = "minimized"
+        $("#fullIcon").addClass("bi-fullscreen").removeClass("bi-fullscreen-exit")
+    }
+    
+}
+
 function fillIframe(iframeValue) {
     document.getElementById("loadingSpinner").hidden = false
     setTimeout(function() {
+        document.getElementById("fullscreenButton").hidden = false
         document.getElementById("loadingSpinner").hidden = true
         document.getElementById("resolutionframe").src = iframeValue;
         $("#resolutionframe").attr("hidden",false)
