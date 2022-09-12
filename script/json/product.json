@@ -190,6 +190,14 @@
         "authLevel": "2",
         "optionalPrompts": ["retailPricingIssues"],
         "source": ""
+    },
+    {
+        "title": "Negative Report Discrepancies",
+        "tags": ["negative", "report", "stock", "discrepancy", "quantity", "inventory", "count", "sku", "incorrect", "adjustment", "discrepancies"],
+        "dept":"Product",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&single=true&widget=false&chrome=true&range=B25:D25"
     }
 ]
 

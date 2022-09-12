@@ -123,10 +123,15 @@ function sortList() {
 }
 
 function fillIframe(iframeValue) {
-    document.getElementById("resolutionframe").src = iframeValue;
-    $("#resolutionframe").attr("hidden",false)
-    $("#showButtons").attr("hidden",false);
-    $("#commentSpace").attr("hidden",false);
+    document.getElementById("loadingSpinner").hidden = false
+    setTimeout(function() {
+        document.getElementById("loadingSpinner").hidden = true
+        document.getElementById("resolutionframe").src = iframeValue;
+        $("#resolutionframe").attr("hidden",false)
+        $("#showButtons").attr("hidden",false);
+        $("#commentSpace").attr("hidden",false);
+    }, 1000)
+   
 }
 
 
@@ -199,6 +204,8 @@ function load() {
 function searchResultsToggling() {
     registerNumber = ""
     $("#searchResults").fadeIn(150)
+    
+    
 }
 
 
