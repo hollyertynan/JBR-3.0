@@ -146,9 +146,6 @@ function load() {
         searchBuffer = []
         splitAndRefineSearchList(search);
     }
-
-    //$("#searchResults").toggle(100)
-
     // processes for each file from resources[]
     for (let i = 0; i < resources.length; i++) {
         fetch("script/json/" + resources[i])
@@ -282,6 +279,18 @@ function populateSearch() {
         $("#searchResults").hide(300)
     })
 }
+
+var specifiedElement = document.getElementById("searchBar")
+
+document.addEventListener("click", event => {
+    const isClickInside = specifiedElement.contains(event.target)
+
+    if (!isClickInside) {
+        $("#searchResults").fadeOut(250)
+    } else {
+        searchResultsToggling()
+    }
+})
 
 var task_name = ""
 function getTitle(title, dept, sub) {
