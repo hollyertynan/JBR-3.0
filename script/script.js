@@ -22,6 +22,31 @@ var globalSearch = []
 var searchBuffer = []
 var wordExclusionFromSearch = ['the', 'to', 'and', 'or', 'where', 'what', 'a', 'an', 'it', 'how', 'when', 'not']
 
+/* this redoes the synonyms file. it should NOT be activated unless the synonyms file needs a full wipe and reset
+var generateJSONfile = []
+function generateSynonymsFromTagsJSON(tag) {
+    let jsonStuff = {
+        tag,
+        values: []
+    }
+    console.log(JSON.stringify(generateJSONfile))
+    if (!generateJSONfile.includes(JSON.stringify(jsonStuff))) {
+        generateJSONfile.push(JSON.stringify(jsonStuff))
+    }
+    
+}
+
+function downloadJSONFile() {
+    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(generateJSONfile);
+    var downloadAnchorNode = document.createElement('a');
+    downloadAnchorNode.setAttribute("href",     dataStr);
+    downloadAnchorNode.setAttribute("download", "Synonyms" + ".json");
+    document.body.appendChild(downloadAnchorNode); // required for firefox
+    downloadAnchorNode.click();
+    downloadAnchorNode.remove();
+}
+*/
+
 function splitAndRefineSearchList(searchToSplit) {
     var searchList = []
     searchList = searchToSplit.split(" ")
