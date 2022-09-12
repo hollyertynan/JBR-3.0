@@ -1,0 +1,2170 @@
+[
+    {
+        "tag": "Missing",
+        "values": []
+    },
+    {
+        "tag": "Voided",
+        "values": []
+    },
+    {
+        "tag": "Transactions",
+        "values": ["purchase"]
+    },
+    {
+        "tag": "Accounting",
+        "values": ["A-P", "accounts payable"]
+    },
+    {
+        "tag": "BlueTarp",
+        "values": []
+    },
+    {
+        "tag": "Capital",
+        "values": []
+    },
+    {
+        "tag": "Credit",
+        "values": []
+    },
+    {
+        "tag": "one",
+        "values": []
+    },
+    {
+        "tag": "blue",
+        "values": []
+    },
+    {
+        "tag": "tarp",
+        "values": []
+    },
+    {
+        "tag": "Defective",
+        "values": ["faulty"]
+    },
+    {
+        "tag": "RTV",
+        "values": []
+    },
+    {
+        "tag": "Damaged",
+        "values": ["broken", "destroyed", "bent", "busted"]
+    },
+    {
+        "tag": "accounting",
+        "values": ["A-P", "accounts payable"]
+    },
+    {
+        "tag": "system",
+        "values": []
+    },
+    {
+        "tag": "administrator",
+        "values": []
+    },
+    {
+        "tag": "receive",
+        "values": ["accept"]
+    },
+    {
+        "tag": "po",
+        "values": ["delivery"]
+    },
+    {
+        "tag": "setting up",
+        "values": ["installing"]
+    },
+    {
+        "tag": "new",
+        "values": ["another"]
+    },
+    {
+        "tag": "home",
+        "values": []
+    },
+    {
+        "tag": "heating",
+        "values": []
+    },
+    {
+        "tag": "customer",
+        "values": ["buyer", "shopper"]
+    },
+    {
+        "tag": "account",
+        "values": []
+    },
+    {
+        "tag": "store",
+        "values": []
+    },
+    {
+        "tag": "double",
+        "values": []
+    },
+    {
+        "tag": "charge",
+        "values": []
+    },
+    {
+        "tag": "payment",
+        "values": []
+    },
+    {
+        "tag": "general",
+        "values": ["all", "other"]
+    },
+    {
+        "tag": "inhouse",
+        "values": []
+    },
+    {
+        "tag": "house",
+        "values": []
+    },
+    {
+        "tag": "issue",
+        "values": []
+    },
+    {
+        "tag": "sales",
+        "values": []
+    },
+    {
+        "tag": "audit",
+        "values": []
+    },
+    {
+        "tag": "daybook",
+        "values": []
+    },
+    {
+        "tag": "issues",
+        "values": []
+    },
+    {
+        "tag": "bluetarp",
+        "values": []
+    },
+    {
+        "tag": "authorized",
+        "values": []
+    },
+    {
+        "tag": "signers",
+        "values": []
+    },
+    {
+        "tag": "requests",
+        "values": []
+    },
+    {
+        "tag": "capital",
+        "values": []
+    },
+    {
+        "tag": "cancel",
+        "values": []
+    },
+    {
+        "tag": "transfer",
+        "values": ["store-to-store"]
+    },
+    {
+        "tag": "mi9",
+        "values": ["winpos"]
+    },
+    {
+        "tag": "bank",
+        "values": []
+    },
+    {
+        "tag": "deposit",
+        "values": []
+    },
+    {
+        "tag": "slips",
+        "values": []
+    },
+    {
+        "tag": "credit",
+        "values": []
+    },
+    {
+        "tag": "application",
+        "values": ["app"]
+    },
+    {
+        "tag": "invoice",
+        "values": ["bill", "statement"]
+    },
+    {
+        "tag": "paid",
+        "values": []
+    },
+    {
+        "tag": "pay",
+        "values": []
+    },
+    {
+        "tag": "bill",
+        "values": []
+    },
+    {
+        "tag": "billing",
+        "values": []
+    },
+    {
+        "tag": "invoices",
+        "values": []
+    },
+    {
+        "tag": "gift",
+        "values": []
+    },
+    {
+        "tag": "cards",
+        "values": []
+    },
+    {
+        "tag": "order",
+        "values": ["request"]
+    },
+    {
+        "tag": "fishing",
+        "values": []
+    },
+    {
+        "tag": "license",
+        "values": []
+    },
+    {
+        "tag": "real",
+        "values": []
+    },
+    {
+        "tag": "estate",
+        "values": ["property"]
+    },
+    {
+        "tag": "special",
+        "values": []
+    },
+    {
+        "tag": "3",
+        "values": []
+    },
+    {
+        "tag": "reverse",
+        "values": []
+    },
+    {
+        "tag": "reversing",
+        "values": []
+    },
+    {
+        "tag": "missing",
+        "values": []
+    },
+    {
+        "tag": "transaction",
+        "values": ["purchase"]
+    },
+    {
+        "tag": "voided",
+        "values": []
+    },
+    {
+        "tag": "terminal",
+        "values": ["screen"]
+    },
+    {
+        "tag": "register",
+        "values": []
+    },
+    {
+        "tag": "xpi",
+        "values": []
+    },
+    {
+        "tag": "app",
+        "values": []
+    },
+    {
+        "tag": "synchronizing",
+        "values": []
+    },
+    {
+        "tag": "card",
+        "values": []
+    },
+    {
+        "tag": "reader",
+        "values": []
+    },
+    {
+        "tag": "pin",
+        "values": []
+    },
+    {
+        "tag": "pad",
+        "values": []
+    },
+    {
+        "tag": "receipt",
+        "values": []
+    },
+    {
+        "tag": "printer",
+        "values": []
+    },
+    {
+        "tag": "aubuchon",
+        "values": []
+    },
+    {
+        "tag": "logo",
+        "values": []
+    },
+    {
+        "tag": "stuck",
+        "values": []
+    },
+    {
+        "tag": "frozen",
+        "values": []
+    },
+    {
+        "tag": "unresponsive",
+        "values": []
+    },
+    {
+        "tag": "tender",
+        "values": []
+    },
+    {
+        "tag": "106",
+        "values": []
+    },
+    {
+        "tag": "flashing",
+        "values": []
+    },
+    {
+        "tag": "remove",
+        "values": []
+    },
+    {
+        "tag": "document",
+        "values": []
+    },
+    {
+        "tag": "from",
+        "values": []
+    },
+    {
+        "tag": "slip",
+        "values": []
+    },
+    {
+        "tag": "hand",
+        "values": []
+    },
+    {
+        "tag": "scanner",
+        "values": []
+    },
+    {
+        "tag": "scanning",
+        "values": []
+    },
+    {
+        "tag": "scan",
+        "values": []
+    },
+    {
+        "tag": "r2d2",
+        "values": []
+    },
+    {
+        "tag": "hung",
+        "values": []
+    },
+    {
+        "tag": "up",
+        "values": []
+    },
+    {
+        "tag": "illegal",
+        "values": []
+    },
+    {
+        "tag": "bitmap",
+        "values": []
+    },
+    {
+        "tag": "error",
+        "values": []
+    },
+    {
+        "tag": "battery",
+        "values": []
+    },
+    {
+        "tag": "backup",
+        "values": []
+    },
+    {
+        "tag": "ups",
+        "values": []
+    },
+    {
+        "tag": "beep",
+        "values": []
+    },
+    {
+        "tag": "beeping",
+        "values": []
+    },
+    {
+        "tag": "long",
+        "values": []
+    },
+    {
+        "tag": "signal",
+        "values": []
+    },
+    {
+        "tag": "input",
+        "values": []
+    },
+    {
+        "tag": "screen",
+        "values": []
+    },
+    {
+        "tag": "monitor",
+        "values": []
+    },
+    {
+        "tag": "display",
+        "values": []
+    },
+    {
+        "tag": "cash",
+        "values": []
+    },
+    {
+        "tag": "drawer",
+        "values": []
+    },
+    {
+        "tag": "not",
+        "values": []
+    },
+    {
+        "tag": "opening",
+        "values": []
+    },
+    {
+        "tag": "till",
+        "values": []
+    },
+    {
+        "tag": "signature",
+        "values": []
+    },
+    {
+        "tag": "loop",
+        "values": []
+    },
+    {
+        "tag": "period",
+        "values": []
+    },
+    {
+        "tag": "red",
+        "values": []
+    },
+    {
+        "tag": "flag",
+        "values": []
+    },
+    {
+        "tag": "back",
+        "values": []
+    },
+    {
+        "tag": "office",
+        "values": []
+    },
+    {
+        "tag": "EOD",
+        "values": []
+    },
+    {
+        "tag": "weekly",
+        "values": []
+    },
+    {
+        "tag": "comments",
+        "values": []
+    },
+    {
+        "tag": "grayed",
+        "values": []
+    },
+    {
+        "tag": "out",
+        "values": []
+    },
+    {
+        "tag": "mail",
+        "values": []
+    },
+    {
+        "tag": "training",
+        "values": []
+    },
+    {
+        "tag": "mode",
+        "values": []
+    },
+    {
+        "tag": "type",
+        "values": []
+    },
+    {
+        "tag": "spam",
+        "values": []
+    },
+    {
+        "tag": "repeating",
+        "values": []
+    },
+    {
+        "tag": "keyboard",
+        "values": []
+    },
+    {
+        "tag": "task",
+        "values": []
+    },
+    {
+        "tag": "bar",
+        "values": []
+    },
+    {
+        "tag": "wrong",
+        "values": []
+    },
+    {
+        "tag": "spot",
+        "values": []
+    },
+    {
+        "tag": "bottom",
+        "values": []
+    },
+    {
+        "tag": "decline",
+        "values": []
+    },
+    {
+        "tag": "declining",
+        "values": []
+    },
+    {
+        "tag": "tripos",
+        "values": []
+    },
+    {
+        "tag": "critical",
+        "values": []
+    },
+    {
+        "tag": "usb",
+        "values": []
+    },
+    {
+        "tag": "connection",
+        "values": []
+    },
+    {
+        "tag": "pen",
+        "values": []
+    },
+    {
+        "tag": "stylus",
+        "values": []
+    },
+    {
+        "tag": "reports",
+        "values": []
+    },
+    {
+        "tag": "huddle",
+        "values": []
+    },
+    {
+        "tag": "loading",
+        "values": []
+    },
+    {
+        "tag": "day",
+        "values": []
+    },
+    {
+        "tag": "report",
+        "values": []
+    },
+    {
+        "tag": "communication",
+        "values": []
+    },
+    {
+        "tag": "network",
+        "values": []
+    },
+    {
+        "tag": "down",
+        "values": []
+    },
+    {
+        "tag": "rewards",
+        "values": []
+    },
+    {
+        "tag": "needs",
+        "values": []
+    },
+    {
+        "tag": "recalibration",
+        "values": []
+    },
+    {
+        "tag": "touch",
+        "values": []
+    },
+    {
+        "tag": "will",
+        "values": []
+    },
+    {
+        "tag": "respond",
+        "values": []
+    },
+    {
+        "tag": "unable",
+        "values": []
+    },
+    {
+        "tag": "access",
+        "values": []
+    },
+    {
+        "tag": "lookup",
+        "values": []
+    },
+    {
+        "tag": "call",
+        "values": []
+    },
+    {
+        "tag": "referral",
+        "values": []
+    },
+    {
+        "tag": "code",
+        "values": []
+    },
+    {
+        "tag": "check",
+        "values": []
+    },
+    {
+        "tag": "windows",
+        "values": []
+    },
+    {
+        "tag": "start",
+        "values": []
+    },
+    {
+        "tag": "menu",
+        "values": []
+    },
+    {
+        "tag": "selling",
+        "values": []
+    },
+    {
+        "tag": "data",
+        "values": []
+    },
+    {
+        "tag": "entry",
+        "values": []
+    },
+    {
+        "tag": "character",
+        "values": []
+    },
+    {
+        "tag": "letter",
+        "values": []
+    },
+    {
+        "tag": "repeat",
+        "values": []
+    },
+    {
+        "tag": "free",
+        "values": []
+    },
+    {
+        "tag": "phantom",
+        "values": []
+    },
+    {
+        "tag": "port",
+        "values": []
+    },
+    {
+        "tag": "disconnect",
+        "values": []
+    },
+    {
+        "tag": "opened",
+        "values": []
+    },
+    {
+        "tag": "not issued",
+        "values": []
+    },
+    {
+        "tag": "fail",
+        "values": []
+    },
+    {
+        "tag": "color",
+        "values": []
+    },
+    {
+        "tag": "freeze",
+        "values": []
+    },
+    {
+        "tag": "paint",
+        "values": []
+    },
+    {
+        "tag": "loyalty",
+        "values": []
+    },
+    {
+        "tag": "points",
+        "values": []
+    },
+    {
+        "tag": "slow",
+        "values": []
+    },
+    {
+        "tag": "file",
+        "values": []
+    },
+    {
+        "tag": "closing",
+        "values": []
+    },
+    {
+        "tag": "connect",
+        "values": []
+    },
+    {
+        "tag": "associate",
+        "values": []
+    },
+    {
+        "tag": "record",
+        "values": []
+    },
+    {
+        "tag": "charity",
+        "values": []
+    },
+    {
+        "tag": "events",
+        "values": []
+    },
+    {
+        "tag": "date",
+        "values": []
+    },
+    {
+        "tag": "time",
+        "values": []
+    },
+    {
+        "tag": "change",
+        "values": []
+    },
+    {
+        "tag": "blinking",
+        "values": []
+    },
+    {
+        "tag": "ap",
+        "values": []
+    },
+    {
+        "tag": "light",
+        "values": []
+    },
+    {
+        "tag": "stihl",
+        "values": []
+    },
+    {
+        "tag": "TED",
+        "values": []
+    },
+    {
+        "tag": "phones",
+        "values": []
+    },
+    {
+        "tag": "calls",
+        "values": []
+    },
+    {
+        "tag": "receiving",
+        "values": []
+    },
+    {
+        "tag": "transactions",
+        "values": []
+    },
+    {
+        "tag": "back office",
+        "values": []
+    },
+    {
+        "tag": "processing",
+        "values": []
+    },
+    {
+        "tag": "loan",
+        "values": []
+    },
+    {
+        "tag": "4-1",
+        "values": []
+    },
+    {
+        "tag": "open",
+        "values": []
+    },
+    {
+        "tag": "safe",
+        "values": []
+    },
+    {
+        "tag": "drawers",
+        "values": []
+    },
+    {
+        "tag": "issuing",
+        "values": []
+    },
+    {
+        "tag": "mouse",
+        "values": []
+    },
+    {
+        "tag": "email",
+        "values": []
+    },
+    {
+        "tag": "poll",
+        "values": []
+    },
+    {
+        "tag": "count",
+        "values": []
+    },
+    {
+        "tag": "close",
+        "values": []
+    },
+    {
+        "tag": "registers",
+        "values": []
+    },
+    {
+        "tag": "reboot",
+        "values": []
+    },
+    {
+        "tag": "instructions",
+        "values": []
+    },
+    {
+        "tag": "power",
+        "values": []
+    },
+    {
+        "tag": "outage",
+        "values": []
+    },
+    {
+        "tag": "cabinet",
+        "values": []
+    },
+    {
+        "tag": "sequencing",
+        "values": []
+    },
+    {
+        "tag": "chrome",
+        "values": []
+    },
+    {
+        "tag": "book",
+        "values": []
+    },
+    {
+        "tag": "chromebook",
+        "values": []
+    },
+    {
+        "tag": "sequence",
+        "values": []
+    },
+    {
+        "tag": "runtime",
+        "values": []
+    },
+    {
+        "tag": "sport",
+        "values": []
+    },
+    {
+        "tag": "WiFi",
+        "values": []
+    },
+    {
+        "tag": "print",
+        "values": []
+    },
+    {
+        "tag": "elvis",
+        "values": []
+    },
+    {
+        "tag": "170",
+        "values": []
+    },
+    {
+        "tag": "inventory",
+        "values": []
+    },
+    {
+        "tag": "devices",
+        "values": []
+    },
+    {
+        "tag": "cycle",
+        "values": []
+    },
+    {
+        "tag": "counts",
+        "values": []
+    },
+    {
+        "tag": "zero",
+        "values": []
+    },
+    {
+        "tag": "audits",
+        "values": []
+    },
+    {
+        "tag": "facebook",
+        "values": []
+    },
+    {
+        "tag": "capture",
+        "values": []
+    },
+    {
+        "tag": "khoros",
+        "values": []
+    },
+    {
+        "tag": "TCB",
+        "values": []
+    },
+    {
+        "tag": "wrong info",
+        "values": []
+    },
+    {
+        "tag": "new employee",
+        "values": []
+    },
+    {
+        "tag": "new manager",
+        "values": []
+    },
+    {
+        "tag": "kiosk",
+        "values": []
+    },
+    {
+        "tag": "blinky",
+        "values": []
+    },
+    {
+        "tag": "online",
+        "values": []
+    },
+    {
+        "tag": "spectrometer",
+        "values": []
+    },
+    {
+        "tag": "spectrophotometer",
+        "values": []
+    },
+    {
+        "tag": "calibrating",
+        "values": []
+    },
+    {
+        "tag": "tinter",
+        "values": []
+    },
+    {
+        "tag": "ColoRx",
+        "values": []
+    },
+    {
+        "tag": "responding",
+        "values": []
+    },
+    {
+        "tag": "dispense",
+        "values": []
+    },
+    {
+        "tag": "eprtinerx",
+        "values": []
+    },
+    {
+        "tag": "valid",
+        "values": []
+    },
+    {
+        "tag": "machine",
+        "values": []
+    },
+    {
+        "tag": "live",
+        "values": []
+    },
+    {
+        "tag": "canadian",
+        "values": []
+    },
+    {
+        "tag": "currency",
+        "values": []
+    },
+    {
+        "tag": "exchange rate",
+        "values": []
+    },
+    {
+        "tag": "update",
+        "values": []
+    },
+    {
+        "tag": "hours",
+        "values": []
+    },
+    {
+        "tag": "missed",
+        "values": []
+    },
+    {
+        "tag": "end",
+        "values": []
+    },
+    {
+        "tag": "roll",
+        "values": []
+    },
+    {
+        "tag": "over",
+        "values": []
+    },
+    {
+        "tag": "max",
+        "values": []
+    },
+    {
+        "tag": "PO",
+        "values": []
+    },
+    {
+        "tag": "server",
+        "values": []
+    },
+    {
+        "tag": "amber",
+        "values": []
+    },
+    {
+        "tag": "computer",
+        "values": []
+    },
+    {
+        "tag": "boot",
+        "values": []
+    },
+    {
+        "tag": "turn",
+        "values": []
+    },
+    {
+        "tag": "on",
+        "values": []
+    },
+    {
+        "tag": "phish",
+        "values": []
+    },
+    {
+        "tag": "hook",
+        "values": []
+    },
+    {
+        "tag": "button",
+        "values": []
+    },
+    {
+        "tag": "phishing",
+        "values": []
+    },
+    {
+        "tag": "scam",
+        "values": []
+    },
+    {
+        "tag": "ajax error",
+        "values": []
+    },
+    {
+        "tag": "merchant",
+        "values": []
+    },
+    {
+        "tag": "0",
+        "values": []
+    },
+    {
+        "tag": "POs",
+        "values": []
+    },
+    {
+        "tag": "portal",
+        "values": []
+    },
+    {
+        "tag": "please",
+        "values": []
+    },
+    {
+        "tag": "contact",
+        "values": []
+    },
+    {
+        "tag": "triPOS",
+        "values": []
+    },
+    {
+        "tag": "communicate",
+        "values": []
+    },
+    {
+        "tag": "talk",
+        "values": []
+    },
+    {
+        "tag": "pinpad",
+        "values": []
+    },
+    {
+        "tag": "information",
+        "values": []
+    },
+    {
+        "tag": "white",
+        "values": []
+    },
+    {
+        "tag": "froze",
+        "values": []
+    },
+    {
+        "tag": "maintenance",
+        "values": []
+    },
+    {
+        "tag": "required",
+        "values": []
+    },
+    {
+        "tag": "enter",
+        "values": []
+    },
+    {
+        "tag": "password",
+        "values": []
+    },
+    {
+        "tag": "cable",
+        "values": []
+    },
+    {
+        "tag": "quickchip",
+        "values": []
+    },
+    {
+        "tag": "functionality",
+        "values": []
+    },
+    {
+        "tag": "setup",
+        "values": []
+    },
+    {
+        "tag": "arrived",
+        "values": []
+    },
+    {
+        "tag": "set",
+        "values": []
+    },
+    {
+        "tag": "jam",
+        "values": []
+    },
+    {
+        "tag": "blank",
+        "values": []
+    },
+    {
+        "tag": "HP",
+        "values": []
+    },
+    {
+        "tag": "Dell",
+        "values": []
+    },
+    {
+        "tag": "jamming",
+        "values": []
+    },
+    {
+        "tag": "stop",
+        "values": []
+    },
+    {
+        "tag": "fuser",
+        "values": []
+    },
+    {
+        "tag": "index",
+        "values": []
+    },
+    {
+        "tag": "range",
+        "values": []
+    },
+    {
+        "tag": "price",
+        "values": []
+    },
+    {
+        "tag": "tickets",
+        "values": []
+    },
+    {
+        "tag": "ink",
+        "values": []
+    },
+    {
+        "tag": "ribbon",
+        "values": []
+    },
+    {
+        "tag": "toner",
+        "values": []
+    },
+    {
+        "tag": "S2815dn",
+        "values": []
+    },
+    {
+        "tag": "2335",
+        "values": []
+    },
+    {
+        "tag": "2355",
+        "values": []
+    },
+    {
+        "tag": "m402n",
+        "values": []
+    },
+    {
+        "tag": "Order",
+        "values": []
+    },
+    {
+        "tag": "ticket",
+        "values": []
+    },
+    {
+        "tag": "feed",
+        "values": []
+    },
+    {
+        "tag": "green",
+        "values": []
+    },
+    {
+        "tag": "solid",
+        "values": []
+    },
+    {
+        "tag": "alternating",
+        "values": []
+    },
+    {
+        "tag": "label",
+        "values": []
+    },
+    {
+        "tag": "labelwriter",
+        "values": []
+    },
+    {
+        "tag": "dymo",
+        "values": []
+    },
+    {
+        "tag": "side by side",
+        "values": []
+    },
+    {
+        "tag": "side",
+        "values": []
+    },
+    {
+        "tag": "service",
+        "values": []
+    },
+    {
+        "tag": "bin",
+        "values": []
+    },
+    {
+        "tag": "skip",
+        "values": []
+    },
+    {
+        "tag": "calibrate",
+        "values": []
+    },
+    {
+        "tag": "theatro",
+        "values": []
+    },
+    {
+        "tag": "ear",
+        "values": []
+    },
+    {
+        "tag": "piece",
+        "values": []
+    },
+    {
+        "tag": "tech",
+        "values": []
+    },
+    {
+        "tag": "support",
+        "values": []
+    },
+    {
+        "tag": "number",
+        "values": []
+    },
+    {
+        "tag": "cardnumber",
+        "values": []
+    },
+    {
+        "tag": "C34",
+        "values": []
+    },
+    {
+        "tag": "chip",
+        "values": []
+    },
+    {
+        "tag": "emv",
+        "values": []
+    },
+    {
+        "tag": "swipe",
+        "values": []
+    },
+    {
+        "tag": "debit",
+        "values": []
+    },
+    {
+        "tag": "denied",
+        "values": []
+    },
+    {
+        "tag": "lock",
+        "values": []
+    },
+    {
+        "tag": "host",
+        "values": []
+    },
+    {
+        "tag": "rental",
+        "values": []
+    },
+    {
+        "tag": "default",
+        "values": []
+    },
+    {
+        "tag": "send",
+        "values": []
+    },
+    {
+        "tag": "hardwarestore.com",
+        "values": []
+    },
+    {
+        "tag": "hardwarestore",
+        "values": []
+    },
+    {
+        "tag": "hardware store",
+        "values": []
+    },
+    {
+        "tag": "website",
+        "values": []
+    },
+    {
+        "tag": "site",
+        "values": []
+    },
+    {
+        "tag": "configure",
+        "values": []
+    },
+    {
+        "tag": "api",
+        "values": []
+    },
+    {
+        "tag": "welcome",
+        "values": []
+    },
+    {
+        "tag": "key",
+        "values": []
+    },
+    {
+        "tag": "covers",
+        "values": []
+    },
+    {
+        "tag": "edi",
+        "values": []
+    },
+    {
+        "tag": "Sku",
+        "values": []
+    },
+    {
+        "tag": "UPC",
+        "values": []
+    },
+    {
+        "tag": "EDI",
+        "values": []
+    },
+    {
+        "tag": "min",
+        "values": []
+    },
+    {
+        "tag": "sku",
+        "values": []
+    },
+    {
+        "tag": "product",
+        "values": []
+    },
+    {
+        "tag": "Paint",
+        "values": []
+    },
+    {
+        "tag": "cost",
+        "values": []
+    },
+    {
+        "tag": "pricing",
+        "values": []
+    },
+    {
+        "tag": "retail",
+        "values": []
+    },
+    {
+        "tag": "upc",
+        "values": []
+    },
+    {
+        "tag": "smart",
+        "values": []
+    },
+    {
+        "tag": "reorder",
+        "values": []
+    },
+    {
+        "tag": "BOSS",
+        "values": []
+    },
+    {
+        "tag": "specific",
+        "values": []
+    },
+    {
+        "tag": "clearance",
+        "values": []
+    },
+    {
+        "tag": "SSC",
+        "values": []
+    },
+    {
+        "tag": "temporary",
+        "values": []
+    },
+    {
+        "tag": "honda",
+        "values": []
+    },
+    {
+        "tag": "bad",
+        "values": []
+    },
+    {
+        "tag": "air",
+        "values": []
+    },
+    {
+        "tag": "sponge",
+        "values": []
+    },
+    {
+        "tag": "immediate",
+        "values": []
+    },
+    {
+        "tag": "item",
+        "values": []
+    },
+    {
+        "tag": "package",
+        "values": []
+    },
+    {
+        "tag": "correct",
+        "values": []
+    },
+    {
+        "tag": "core",
+        "values": []
+    },
+    {
+        "tag": "return",
+        "values": []
+    },
+    {
+        "tag": "minimum",
+        "values": []
+    },
+    {
+        "tag": "quantity",
+        "values": []
+    },
+    {
+        "tag": "rqeuired",
+        "values": []
+    },
+    {
+        "tag": "multiple",
+        "values": []
+    },
+    {
+        "tag": "description",
+        "values": []
+    },
+    {
+        "tag": "incorrect",
+        "values": []
+    },
+    {
+        "tag": "unclear",
+        "values": []
+    },
+    {
+        "tag": "propane",
+        "values": []
+    },
+    {
+        "tag": "barcode",
+        "values": []
+    },
+    {
+        "tag": "orgill",
+        "values": []
+    },
+    {
+        "tag": "components",
+        "values": []
+    },
+    {
+        "tag": "sodastream",
+        "values": []
+    },
+    {
+        "tag": "cartidge",
+        "values": []
+    },
+    {
+        "tag": "exchange",
+        "values": []
+    },
+    {
+        "tag": "CO2",
+        "values": []
+    },
+    {
+        "tag": "benjamin",
+        "values": []
+    },
+    {
+        "tag": "moore",
+        "values": []
+    },
+    {
+        "tag": "ben",
+        "values": []
+    },
+    {
+        "tag": "national",
+        "values": []
+    },
+    {
+        "tag": "accounts",
+        "values": []
+    },
+    {
+        "tag": "vendor",
+        "values": []
+    },
+    {
+        "tag": "reset",
+        "values": []
+    },
+    {
+        "tag": "emery",
+        "values": []
+    },
+    {
+        "tag": "ejd",
+        "values": []
+    },
+    {
+        "tag": "negative",
+        "values": []
+    },
+    {
+        "tag": "stock",
+        "values": []
+    },
+    {
+        "tag": "discrepancy",
+        "values": []
+    },
+    {
+        "tag": "adjustment",
+        "values": []
+    },
+    {
+        "tag": "discrepancies",
+        "values": []
+    },
+    {
+        "tag": "kronos",
+        "values": []
+    },
+    {
+        "tag": "clock",
+        "values": []
+    },
+    {
+        "tag": "in",
+        "values": []
+    },
+    {
+        "tag": "hr",
+        "values": []
+    },
+    {
+        "tag": "Chamber",
+        "values": []
+    },
+    {
+        "tag": "Of",
+        "values": []
+    },
+    {
+        "tag": "Commerce",
+        "values": []
+    },
+    {
+        "tag": "Dues",
+        "values": []
+    },
+    {
+        "tag": "Payment",
+        "values": []
+    },
+    {
+        "tag": "Marketing",
+        "values": []
+    },
+    {
+        "tag": "HR",
+        "values": []
+    },
+    {
+        "tag": "file updater",
+        "values": []
+    },
+    {
+        "tag": "second db",
+        "values": []
+    },
+    {
+        "tag": "counter",
+        "values": []
+    },
+    {
+        "tag": "reg history",
+        "values": []
+    },
+    {
+        "tag": "no primary",
+        "values": []
+    },
+    {
+        "tag": "no secondary",
+        "values": []
+    },
+    {
+        "tag": "closed",
+        "values": []
+    },
+    {
+        "tag": "primary",
+        "values": []
+    },
+    {
+        "tag": "secondary",
+        "values": []
+    },
+    {
+        "tag": "team",
+        "values": []
+    },
+    {
+        "tag": "hero",
+        "values": []
+    },
+    {
+        "tag": "applications",
+        "values": ["apps"]
+    },
+    {
+        "tag": "discount",
+        "values": []
+    },
+    {
+        "tag": "military",
+        "values": []
+    },
+    {
+        "tag": "ht",
+        "values": []
+    },
+    {
+        "tag": "pro",
+        "values": []
+    },
+    {
+        "tag": "contractor",
+        "values": []
+    },
+    {
+        "tag": "merge",
+        "values": []
+    },
+    {
+        "tag": "quote",
+        "values": []
+    },
+    {
+        "tag": "tax",
+        "values": []
+    },
+    {
+        "tag": "exempt",
+        "values": []
+    },
+    {
+        "tag": "form",
+        "values": []
+    },
+    {
+        "tag": "add",
+        "values": []
+    },
+    {
+        "tag": "request",
+        "values": []
+    },
+    {
+        "tag": "delete",
+        "values": []
+    },
+    {
+        "tag": "sign",
+        "values": []
+    },
+    {
+        "tag": "member",
+        "values": []
+    },
+    {
+        "tag": "sheets",
+        "values": []
+    },
+    {
+        "tag": "year",
+        "values": []
+    },
+    {
+        "tag": "tier",
+        "values": []
+    },
+    {
+        "tag": "15%",
+        "values": []
+    },
+    {
+        "tag": "pet",
+        "values": []
+    },
+    {
+        "tag": "bird",
+        "values": []
+    },
+    {
+        "tag": "food",
+        "values": []
+    },
+    {
+        "tag": "kibble",
+        "values": []
+    },
+    {
+        "tag": "frequent",
+        "values": []
+    },
+    {
+        "tag": "buyer",
+        "values": []
+    },
+    {
+        "tag": "orange",
+        "values": []
+    },
+    {
+        "tag": "shelf",
+        "values": []
+    },
+    {
+        "tag": "tape",
+        "values": []
+    },
+    {
+        "tag": "shelves",
+        "values": []
+    },
+    {
+        "tag": "operations",
+        "values": []
+    },
+    {
+        "tag": "equipment",
+        "values": []
+    },
+    {
+        "tag": "use",
+        "values": []
+    },
+    {
+        "tag": "locks",
+        "values": []
+    },
+    {
+        "tag": "keys",
+        "values": []
+    },
+    {
+        "tag": "forklift",
+        "values": []
+    },
+    {
+        "tag": "safety",
+        "values": []
+    },
+    {
+        "tag": "repair",
+        "values": []
+    },
+    {
+        "tag": "clean",
+        "values": []
+    },
+    {
+        "tag": "rubbish",
+        "values": []
+    },
+    {
+        "tag": "garbage",
+        "values": []
+    },
+    {
+        "tag": "waste",
+        "values": []
+    },
+    {
+        "tag": "disposal",
+        "values": []
+    },
+    {
+        "tag": "property",
+        "values": []
+    },
+    {
+        "tag": "masks",
+        "values": []
+    },
+    {
+        "tag": "covid",
+        "values": []
+    },
+    {
+        "tag": "face",
+        "values": []
+    },
+    {
+        "tag": "glass",
+        "values": []
+    },
+    {
+        "tag": "plexi",
+        "values": []
+    },
+    {
+        "tag": "plexiglass",
+        "values": []
+    },
+    {
+        "tag": "cutter",
+        "values": []
+    },
+    {
+        "tag": "cut",
+        "values": []
+    },
+    {
+        "tag": "entegrity",
+        "values": []
+    },
+    {
+        "tag": "cleaner",
+        "values": []
+    },
+    {
+        "tag": "shirt",
+        "values": []
+    },
+    {
+        "tag": "porter",
+        "values": []
+    },
+    {
+        "tag": "business",
+        "values": []
+    },
+    {
+        "tag": "brush",
+        "values": []
+    },
+    {
+        "tag": "cutwheel",
+        "values": []
+    },
+    {
+        "tag": "hyko",
+        "values": []
+    },
+    {
+        "tag": "materials",
+        "values": []
+    },
+    {
+        "tag": "screening",
+        "values": []
+    },
+    {
+        "tag": "spline",
+        "values": []
+    },
+    {
+        "tag": "HTH",
+        "values": []
+    },
+    {
+        "tag": "home team",
+        "values": []
+    },
+    {
+        "tag": "HTP",
+        "values": []
+    },
+    {
+        "tag": "employee",
+        "values": []
+    },
+    {
+        "tag": "numbers",
+        "values": []
+    },
+    {
+        "tag": "aisle",
+        "values": []
+    },
+    {
+        "tag": "header",
+        "values": []
+    },
+    {
+        "tag": "signs",
+        "values": []
+    },
+    {
+        "tag": "labels",
+        "values": []
+    },
+    {
+        "tag": "now",
+        "values": []
+    },
+    {
+        "tag": "hiring",
+        "values": []
+    },
+    {
+        "tag": "touchpoint",
+        "values": []
+    },
+    {
+        "tag": "stickers",
+        "values": []
+    },
+    {
+        "tag": "journey",
+        "values": []
+    },
+    {
+        "tag": "iq",
+        "values": []
+    },
+    {
+        "tag": "contracts",
+        "values": []
+    },
+    {
+        "tag": "lanyard",
+        "values": []
+    },
+    {
+        "tag": "name",
+        "values": []
+    },
+    {
+        "tag": "tag",
+        "values": []
+    },
+    {
+        "tag": "clear",
+        "values": []
+    },
+    {
+        "tag": "plastic",
+        "values": []
+    },
+    {
+        "tag": "holders",
+        "values": []
+    },
+    {
+        "tag": "gloves",
+        "values": []
+    }
+]
