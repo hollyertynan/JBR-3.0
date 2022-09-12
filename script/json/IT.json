@@ -496,7 +496,7 @@
     }, 
     {
         "title":"Sequencing Change Issues",
-        "tags":["sequencing", "change", "issues"],
+        "tags":["sequencing", "change", "issues", "chrome", "book", "chromebook", "sequence"],
         "dept":"IT",
         "sub":"Chromebook",
         "authLevel": "1",
@@ -514,7 +514,7 @@
     }, 
     {
         "title":"Chromebook Can't Connect to the Wi-Fi",
-        "tags":["WiFi", "issues", "chromebook"],
+        "tags":["WiFi", "issues", "chromebook", "chrome", "book"],
         "dept":"IT",
         "sub":"Chromebook",
         "authLevel": "1",
@@ -523,7 +523,7 @@
     }, 
     {
         "title":"Chromebook Can't Print",
-        "tags":["print", "chromebook"],
+        "tags":["print", "chromebook", "chrome", "book"],
         "dept":"IT",
         "sub":"Chromebook",
         "authLevel": "1",
@@ -640,7 +640,7 @@
     }, 
     {
         "title":"Updating Store Hours",
-        "tags":["update", "store", "hours", "change"],
+        "tags":["update", "store", "hours", "change", "new"],
         "dept":"IT",
         "sub":"IT Maintenance",
         "authLevel": "1",
@@ -649,7 +649,7 @@
     }, 
     {
         "title":"Running EOD For a Store",
-        "tags":["EOD", "store", "missed"],
+        "tags":["EOD", "store", "missed", "end", "day", "roll"],
         "dept":"IT",
         "sub":"IT Maintenance",
         "authLevel": "1",
@@ -658,7 +658,7 @@
     }, 
     {
         "title":"Paint Over Max Order",
-        "tags":["paint", "over", "max"],
+        "tags":["paint", "over", "max", "order", "PO"],
         "dept":"IT",
         "sub":"IT Maintenance",
         "authLevel": "1",
@@ -667,7 +667,7 @@
     }, 
     {
         "title":"Email Server Doesn't Boot Up and has an Amber Light",
-        "tags":["email", "server", "amber", "light", "computer"],
+        "tags":["email", "server", "amber", "light", "computer", "boot", "turn", "on"],
         "dept":"IT",
         "sub":"Email Server",
         "authLevel": "1",
@@ -676,7 +676,7 @@
     },
     {
         "title":"Phish Hook Button in Email Not Working",
-        "tags":["phish", "hook", "email", "server"],
+        "tags":["phish", "hook", "email", "server", "button", "phishing", "scam"],
         "dept":"IT",
         "sub":"Email Server",
         "authLevel": "1",
@@ -685,7 +685,7 @@
     }, 
     {
         "title":"'Ajax Error 0' in Mi9 Merchant",
-        "tags":["ajax error", "merchant", "mi9"],
+        "tags":["ajax error", "merchant", "mi9", "0", "receiving", "POs"],
         "dept":"IT",
         "sub":"Email Server",
         "authLevel": "1",
@@ -694,7 +694,7 @@
     }, 
     {
         "title":"'An Error Has Occurred' When Trying to Receive In a PO",
-        "tags":["error", "system", "administrator", "mi9", "merchant", "portal", "PO"],
+        "tags":["error", "system", "administrator", "mi9", "merchant", "portal", "PO", "please", "contact", "receive"],
         "dept":"IT",
         "sub":"Email Server",
         "authLevel": "1",
@@ -703,7 +703,7 @@
     }, 
     {
         "title":"Payment Terminal Shows Message 'Unable to Communicate with triPOS",
-        "tags":["payment", "terminal", "register", "triPOS", "communicate"],
+        "tags":["payment", "terminal", "register", "triPOS", "communicate", "talk", "card", "reader", "pin", "pad", "pinpad"],
         "dept":"IT",
         "sub":"Payment Terminal",
         "authLevel": "1",
@@ -712,7 +712,7 @@
     }, 
     {
         "title":"Stuck On System Information",
-        "tags":["payment", "terminal", "stuck", "system", "information"],
+        "tags":["payment", "terminal", "stuck", "system", "information", "white", "screen", "froze", "card", "reader", "pin", "pad", "pinpad"],
         "dept":"IT",
         "sub":"Payment Terminal",
         "authLevel": "1",
@@ -721,7 +721,7 @@
     }, 
     {
         "title":"'Maintenance Required' or 'Enter Password to Login'",
-        "tags":["maintenance", "required", "payment", "terminal"],
+        "tags":["maintenance", "required", "payment", "terminal", "enter", "password"],
         "dept":"IT",
         "sub":"Payment Terminal",
         "authLevel": "1",
@@ -730,7 +730,7 @@
     }, 
     {
         "title":"Critical Error: No USB Connection, Please Check Cable",
-        "tags":["maintenance", "required", "payment", "terminal"],
+        "tags":["maintenance", "required", "payment", "terminal", "check", "cable", "card", "reader", "pin", "pad", "pinpad"],
         "dept":"IT",
         "sub":"Payment Terminal",
         "authLevel": "1",
@@ -739,7 +739,7 @@
     }, 
     {
         "title":"'Cannot Access QuickChip Functionality' Message on Register",
-        "tags":["quickchip", "access", "register", "functionality"],
+        "tags":["quickchip", "access", "register", "functionality", "card", "reader", "pin", "pad", "pinpad"],
         "dept":"IT",
         "sub":"Register Software",
         "authLevel": "1",
@@ -748,7 +748,7 @@
     }, 
     {
         "title":"New Register Setup Has Arrived At Store",
-        "tags":["new", "register", "setup"],
+        "tags":["new", "register", "setup", "arrived", "hook", "up", "set"],
         "dept":"IT",
         "sub":"Register Hardware",
         "authLevel": "1",
@@ -757,7 +757,7 @@
     },
     {
         "title":"Printer Not Printing",
-        "tags":["office", "kiosk", "printer", "print"],
+        "tags":["office", "kiosk", "printer", "print", "jam", "blank", "email", "HP", "Dell"],
         "dept":"IT",
         "sub":"Printers",
         "authLevel": "1",
@@ -766,7 +766,7 @@
     },
     {
         "title":"Printer Continuously Jams",
-        "tags":["office", "kiosk", "printer", "print", "jamming", "jam"],
+        "tags":["office", "kiosk", "printer", "print", "jamming", "jam", "stop", "HP", "Dell"],
         "dept":"IT",
         "sub":"Printers",
         "authLevel": "1",
@@ -775,7 +775,7 @@
     },
     {
         "title":"Printer Not Scanning",
-        "tags":["office", "printer", "kiosk", "print", "scanning", "scan"],
+        "tags":["office", "printer", "kiosk", "print", "scanning", "scan", "HP", "Dell"],
         "dept":"IT",
         "sub":"Printers",
         "authLevel": "1",
@@ -784,7 +784,7 @@
     },
     {
         "title":"Fuser Error on Printer",
-        "tags":["office", "printer", "kiosk", "print", "fuser", "error"],
+        "tags":["office", "printer", "kiosk", "print", "fuser", "error", "HP", "Dell"],
         "dept":"IT",
         "sub":"Printers",
         "authLevel": "1",
@@ -793,7 +793,7 @@
     },
     {
         "title":"Printer Index Out of Range",
-        "tags":["office", "printer", "kiosk", "print", "index", "range", "out"],
+        "tags":["office", "printer", "kiosk", "print", "index", "range", "out", "HP", "Dell"],
         "dept":"IT",
         "sub":"Printers",
         "authLevel": "1",
@@ -925,6 +925,15 @@
         "authLevel": "1",
         "optionalPrompts": [],
         "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&single=true&widget=false&chrome=true&range=A206:B206"
+    },
+    {
+        "title":"Host Monitor is Down",
+        "tags":["store", "live", "host", "monitor", "network"],
+        "dept":"IT",
+        "sub":"HQ Processes",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&single=true&widget=false&chrome=true&range=B54:D54"
     }
 
 ]
