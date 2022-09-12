@@ -961,6 +961,15 @@
         "authLevel": "1",
         "optionalPrompts": [],
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=907924166&single=true&widget=false&chrome=true&range=B4:D4"
+    },
+    {
+        "title":"Configure API Server on Elvis Device",
+        "tags":["configure", "api", "server", "elvis", "welcome", "screen", "stuck"],
+        "dept":"IT",
+        "sub":"Register Software",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=907924166&single=true&widget=false&chrome=true&range=B4:D4"
     }
 
 ]
