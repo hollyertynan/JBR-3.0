@@ -957,7 +957,7 @@
         "title":"Hardwarestore.com and Online Order Issues",
         "tags":["hardwarestore.com", "hardwarestore", "hardware store", "online", "order", "website", "site"],
         "dept":"IT",
-        "sub":"Register Software",
+        "sub":"Hardwarestore.com",
         "authLevel": "1",
         "optionalPrompts": [],
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=907924166&single=true&widget=false&chrome=true&range=B4:D4"
@@ -966,10 +966,18 @@
         "title":"Configure API Server on Elvis Device",
         "tags":["configure", "api", "server", "elvis", "welcome", "screen", "stuck"],
         "dept":"IT",
-        "sub":"Register Software",
+        "sub":"ELVIS Devices",
         "authLevel": "1",
         "optionalPrompts": [],
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=907924166&single=true&widget=false&chrome=true&range=B4:D4"
+    },
+    {
+        "title":"Covers for Payment Terminal Keypads",
+        "tags":["key", "covers", "payment", "terminal", "pin", "pad", "pinpad", "card", "reader"],
+        "dept":"IT",
+        "sub":"PC/POS Equipment",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&single=true&widget=false&chrome=true&range=B51:D51"
     }
-
 ]
