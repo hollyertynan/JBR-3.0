@@ -83,7 +83,7 @@ HW 1, Part 2, Author: Wenjin Zhou
             <div class="col col-md-6 mx-auto text-center">
                 <img src="assets/logo.png" class="img-fluid py-3" id="logo">
 
-                <fieldset style="z-index:100" id="fieldsetForForm" disabled>
+                <fieldset style="z-index:100" id="fieldsetForForm">
                     <div class="input-group pt-1 mb-1">
                         <input type="text" class="form-control" placeholder="Disabled Until Signed In" aria-label="Search"
                             aria-describedby="inputText" id="searchBar" onfocus="searchResultsToggling()" onkeypress="load();">
@@ -115,10 +115,10 @@ HW 1, Part 2, Author: Wenjin Zhou
             <div class="col col-md-10 mx-auto text-center py-3">
                 <div id="loadingSpinner" class="spinner-border text-light" role="status" hidden>
                     <span class="sr-only"></span>
-                  </div>
-                  <div style="display:block" id="fullscreenButton" hidden>
-                    <button type="button" class="btn btn-light float-start" id="FullScreen" data-status="minimized" onclick="toggleExpand(this.dataset.status)"><i id="fullIcon" class="bi bi-fullscreen"></i></button>
-                  </div>
+                    </div>
+                    <div style="display:block" id="fullscreenButton" hidden>
+                        <button type="button" class="btn btn-dark float-end w-100 text-end" id="FullScreen" data-status="minimized" onclick="toggleExpand(this.dataset.status)" title="fullscreen"><i id="fullIcon" class="bi bi-fullscreen"></i></button>
+                    </div>
                     <iframe class="w-100 vh-100" id="resolutionframe" style="max-height:400px" hidden></iframe>
             </div>
         </div>
