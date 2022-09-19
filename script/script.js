@@ -47,6 +47,33 @@ function downloadJSONFile() {
 }
 */
 
+var synonymsFile
+
+$(document).ready( () => {
+    fetch("script/json/synonyms.json")
+    .then(response => {
+        if (!response.ok) {
+            throw new Error("HTTP error " + response.status);
+        }
+        return response.json();
+    })
+    .then(json => {
+        synonymsFile = json
+        console.log(synonymsFile)
+    })
+})
+
+function synonym() {
+    for (i in globalSearch) {
+        for (c in synonymsFile) {
+            if (synonymsFile[c].values.includes(globalSearch[i])) {
+                globalSearch.push(synonymsFile[c].tag)
+            }
+        }
+    }
+}
+
+
 function splitAndRefineSearchList(searchToSplit) {
     var searchList = []
     searchList = searchToSplit.split(" ")
@@ -192,6 +219,7 @@ function load() {
         searchBuffer = []
         splitAndRefineSearchList(search);
     }
+    synonym()
     // processes for each file from resources[]
     for (let i = 0; i < resources.length; i++) {
         fetch("script/json/" + resources[i])

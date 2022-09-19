@@ -221,7 +221,7 @@
     },
     {
         "tag": "gift",
-        "values": []
+        "values": ["cash"]
     },
     {
         "tag": "cards",
@@ -337,7 +337,7 @@
     },
     {
         "tag": "unresponsive",
-        "values": []
+        "values": ["stuck"]
     },
     {
         "tag": "tender",
