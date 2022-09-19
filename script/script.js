@@ -59,9 +59,9 @@ $(document).ready( () => {
     })
     .then(json => {
         synonymsFile = json
-        console.log(synonymsFile)
     })
 })
+
 
 function synonym() {
     for (i in globalSearch) {
@@ -175,7 +175,6 @@ function sortList() {
 }
 
 function toggleExpand(buttonStatus) {
-    console.log(buttonStatus)
     if (buttonStatus == "minimized") {
         document.getElementById('resolutionframe').style.maxHeight = "900px"
         document.getElementById('FullScreen').dataset.status = "expanded"
@@ -197,6 +196,13 @@ function fillIframe(iframeValue) {
         document.getElementById("resolutionframe").src = iframeValue;
         $("#resolutionframe").attr("hidden",false)
         $("#showButtons").attr("hidden",false);
+        if(authLevel > 1) {
+            document.getElementById("ticketText").innerText = "No luck?"
+            $("#createTicketButton").attr("onclick", `showPrompts("issueNotListed")`)
+        } else {
+            $("#createTicketButton").attr("onclick", `SubForm()`)
+            
+        }
         $("#commentSpace").attr("hidden",false);
     }, 1000)
    
@@ -283,9 +289,16 @@ function searchResultsToggling() {
 
 // Execute a function when the user presses a key on the keyboard
 var input = document.getElementById("searchBar");
-
+var unresolvedSearchTerms = []
 input.addEventListener("keyup", function(event) {
     event.preventDefault();
+
+    const key = event.key
+    if (key !== "Backspace" && key !== "Control") {
+        unresolvedSearchTerms += key
+    } else if (input.value == "") {
+        unresolvedSearchTerms += " "
+    }
     load();
     $(".searchResultsButtons").fadeIn(250)
 });
@@ -375,16 +388,23 @@ function getTitle(title, dept, sub) {
     // create link since we're getting the title now
     const a = document.querySelector("#createTicketButton");
 
-    if (dept == 'IT') {
+    if (authLevel > 1) {
+        return
+    } else if (dept == 'IT') {
         a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=IT%20Help%20Desk\&subcategory=" + sub + "\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
+        a.target = "_blank"
     } else if (dept == 'Product') {
         a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=Product%20Team\&subcategory=" + sub + "\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
+        a.target = "_blank"
     } else if (dept == 'Accounting') {
         a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=Accounting\&subcategory=" + sub + "\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
+        a.target = "_blank"
     } else if (dept == 'Marketing') {
         a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=Marketing\&subcategory=" + sub + "\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
+        a.target = "_blank"
     } else if (dept == 'Human Resources') {
         a.href = "https://aubuchonmilitia.tyndaleadvisors.com/HelpDeskRequest/Create/?computername=" + "JBR3" + "\&title=" + title + "\&category=Human%20Resources\&subcategory=" + sub + "\&description=Type here what you already tried and we'll get back to you ASAP. Thank you!"
+        a.target = "_blank"
     }
 }
 

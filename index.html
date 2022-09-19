@@ -134,9 +134,9 @@ HW 1, Part 2, Author: Wenjin Zhou
         <div class="row mx-auto pb-5" id="showButtons" hidden>
             <div class="col-1"></div>
             <div class="col-5 mx-auto">
-                <a href="temp" target="_blank" class="btn btn-danger w-100 h-100 my-auto" id="createTicketButton"><i
+                <a class="btn btn-danger w-100 h-100 my-auto" id="createTicketButton"><i
                         class="bi bi-x-circle" style="font-size: 2.5rem;" onclick="SubForm()"></i>
-                    <h4>No luck? Submit a ticket!</h4>
+                    <h4 id="ticketText">No luck? Submit a ticket!</h4>
                 </a>
             </div>
     
@@ -172,6 +172,7 @@ HW 1, Part 2, Author: Wenjin Zhou
             <input name="Store Number" hidden />
             <input name="LocationFrom" hidden />
             <input name="Register Number" hidden />
+            <input name="unresolvedSearch" hidden />
         </form>
     </div>
 
