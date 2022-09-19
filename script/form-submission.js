@@ -27,6 +27,7 @@ function SubForm() {
     document.forms['submitMyForm'].elements['Comments'].value = comments.value;
     document.forms['submitMyForm'].elements['LocationFrom'].value = authLevel;
     document.forms['submitMyForm'].elements['Register Number'].value = registerNumber;
+    document.forms['submitMyForm'].elements['unresolvedSearch'].value = unresolvedSearchTerms;
     
     document.getElementById("submittext").innerHTML = "";
     $("#submittext").addClass("spinner-border text-light");
