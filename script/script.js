@@ -69,7 +69,8 @@ $(document).ready( () => {
 
 var notificationsList = [
     "Added notifications.",
-    "Fixed the Defective Items option."
+    "Fixed the Defective Items option.",
+    "<br><br>Please remember, the more you use JBR the better it becomes! Try to find everything you can on here, and if you can't find what you're looking for, use the 'My Issue Isn't Listed' button to report the issue."
 ]
 
 //toast notifications
