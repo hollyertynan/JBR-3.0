@@ -75,10 +75,19 @@ var notificationsList = [
 
 //toast notifications
 $(document).ready( () => {
+    let sessionViewed = sessionStorage.getItem("notifications")
+    if (sessionViewed != "true") {
+        sessionStorage.setItem("notifications", true)
+        $("#notificationBox").toast("show")
+    }
+    
     notificationsList.forEach(notification => {
         document.getElementById("notificationText").innerHTML += `${notification}` + "<br>"
-    }) 
-    $("#notificationBox").toast("show", 10000)
+    })
+    
+    
+
+    
 })
 
 
