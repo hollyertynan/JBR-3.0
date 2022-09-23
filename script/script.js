@@ -49,6 +49,9 @@ function downloadJSONFile() {
 
 var synonymsFile
 
+
+
+//synonyms file generation
 $(document).ready( () => {
     fetch("script/json/synonyms.json")
     .then(response => {
@@ -60,6 +63,21 @@ $(document).ready( () => {
     .then(json => {
         synonymsFile = json
     })
+
+    
+})
+
+var notificationsList = [
+    "Added notifications.",
+    "Fixed the Defective Items option."
+]
+
+//toast notifications
+$(document).ready( () => {
+    notificationsList.forEach(notification => {
+        document.getElementById("notificationText").innerHTML += `${notification}` + "<br>"
+    }) 
+    $("#notificationBox").toast("show", 10000)
 })
 
 
