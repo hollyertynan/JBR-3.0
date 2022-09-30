@@ -343,7 +343,7 @@
     }, 
     {
         "title":"'Associate Record Not Found'",
-        "tags":["associate", "record", "error", "register"],
+        "tags":["associate", "record", "error", "register", "found", "read"],
         "dept":"IT",
         "sub":"PC/POS Equipment",
         "authLevel": "1",

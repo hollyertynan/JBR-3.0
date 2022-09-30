@@ -1,0 +1,6 @@
+<div class="form-check mx-2 my-2">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="countTasks();">
+  <label class="form-check-label" for="flexCheckDefault">
+    If the amount of products they want is below five, please send this to the Team Merchandising Manager; the team number can be found at the top of the screen after you've picked a store. If it is above 5 Skus, treat it like a min/max change by adding it to the spreadsheet. You can find directions for min/max changes by searching for them. Please click the check box to acknowledge.
+  </label>
+</div>

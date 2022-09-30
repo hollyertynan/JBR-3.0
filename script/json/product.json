@@ -198,6 +198,22 @@
         "authLevel": "2",
         "optionalPrompts": [],
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&single=true&widget=false&chrome=true&range=B25:D25"
+    },
+    {
+        "title": "Store Asking for New Products to be Added to Inventory",
+        "tags": ["store", "new", "product", "inventory", "stock", "sell", "item", "sku"],
+        "dept":"Product",
+        "authLevel": "1",
+        "optionalPrompts": ["newProducts"],
+        "source": "https://docs.google.com/spreadsheets/d/1YcfBW3r3amEy2YHrdHQf1WlJ881D1x3gsnHE4rroB-o/htmlembed?gid=221&widget=false&single=true&chrome=true&range=A1:D19"
+    },
+    {
+        "title": "Store Requesting to Overstock Seasonal Items",
+        "tags": ["store", "overstock", "over", "stock", "seasonal", "more"],
+        "dept":"Product",
+        "authLevel": "1",
+        "optionalPrompts": ["merchManagaer"],
+        "source": "https://docs.google.com/spreadsheets/d/1YcfBW3r3amEy2YHrdHQf1WlJ881D1x3gsnHE4rroB-o/htmlembed?gid=221&widget=false&single=true&chrome=true&range=A1:D19"
     }
 ]
 
