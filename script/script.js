@@ -322,7 +322,8 @@ input.addEventListener("keyup", function(event) {
     event.preventDefault();
 
     const key = event.key
-    if (key !== "Backspace" && key !== "Control") {
+    console.log(key.length)
+    if (key.length == 1) {
         unresolvedSearchTerms += key
     } else if (input.value == "") {
         unresolvedSearchTerms += " "
