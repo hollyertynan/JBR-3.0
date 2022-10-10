@@ -979,5 +979,14 @@
         "authLevel": "1",
         "optionalPrompts": [],
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&single=true&widget=false&chrome=true&range=B51:D51"
+    },
+    {
+        "title":"Buttons Showing Up on the Wrong Side of WinPOS (example: Buttons should be on the left but are showing on the right)",
+        "tags":["buttons", "showing", "left", "right", "wrong", "side", "winpos", "hand", "handed"],
+        "dept":"IT",
+        "sub":"Register Software",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&single=true&widget=false&chrome=true&range=A208:B208"
     }
 ]
