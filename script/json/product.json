@@ -214,6 +214,14 @@
         "authLevel": "1",
         "optionalPrompts": ["merchManagaer"],
         "source": "https://docs.google.com/spreadsheets/d/1YcfBW3r3amEy2YHrdHQf1WlJ881D1x3gsnHE4rroB-o/htmlembed?gid=221&widget=false&single=true&chrome=true&range=A1:D19"
+    },
+    {
+        "title": "Closing Special Orders at the Register",
+        "tags": ["close", "closing", "register", "special", "order"],
+        "dept": "Product",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1AuatUmWeoeIgqalzBeyIuADf3nEBZZb3HD1fkB1luqE/htmlembed?gid=353809746&widget=false&single=true&chrome=true&range=A2:D2"
     }
 ]
 

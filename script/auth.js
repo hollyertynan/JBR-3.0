@@ -35,6 +35,7 @@ function handleCredentialResponse(response) {
     $("#g_id_onload").attr("hidden",true);
 
     whitelistedNames = [
+      "Scott Aubuchon",
       "Tynan Hollyer",
       "Suzanne Fleury",
       "Damian Oakes",
@@ -73,12 +74,13 @@ function handleCredentialResponse(response) {
 
 function createAuthLevel(nameCheck) {
   const RSC_MEMBERS = [
-    "Brady Bernard",
     "Carolyn Bell",
     "Elizabeth Eaton"
   ]
 
   const POS_MEMBERS = [
+    "Brady Bernard",
+    "Scott Aubuchon",
     "Suzanne Fleury",
     "Connor Caissie",
     "Tynan Hollyer",
