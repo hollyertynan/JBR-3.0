@@ -989,4 +989,14 @@
         "optionalPrompts": [],
         "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&single=true&widget=false&chrome=true&range=A208:B208"
     }
+    ,
+    {
+        "title":"Cards Declining on ALL REGISTERS",
+        "tags":["debit", "credit", "decline", "declining", "register", "payment", "terminal", "pinpad"],
+        "dept":"IT",
+        "sub":"Register Software",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&single=true&widget=false&chrome=true&range=A20:B20"
+    }
 ]
