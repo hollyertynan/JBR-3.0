@@ -988,8 +988,7 @@
         "authLevel": "1",
         "optionalPrompts": [],
         "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&single=true&widget=false&chrome=true&range=A208:B208"
-    }
-    ,
+    },
     {
         "title":"Cards Declining on ALL REGISTERS",
         "tags":["debit", "credit", "decline", "declining", "register", "payment", "terminal", "pinpad"],
@@ -998,5 +997,23 @@
         "authLevel": "1",
         "optionalPrompts": [],
         "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&single=true&widget=false&chrome=true&range=A20:B20"
+    },
+    {
+        "title":"Internet Not Working on One/Few Devices (Not Whole Network)",
+        "tags":["Internet", "paint", "computer", "wifi", "network", "connect"],
+        "dept":"IT",
+        "sub":"PC/POS Equipment",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&widget=false&chrome=true&single=true&range=A210:B210"
+    },
+    {
+        "title":"'POS Operator XXX Fix Payroll #' on Store Reports",
+        "tags":["POS", "operator", "payroll", "number", "#", "xxx", "report", "GO%", "home", "team", "employee"],
+        "dept":"IT",
+        "sub":"Back Office (Mi9)",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&widget=false&chrome=true&single=true&range=A212:B212"
     }
 ]

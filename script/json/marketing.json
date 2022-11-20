@@ -15,5 +15,13 @@
         "authLevel": "2",
         "optionalPrompts": [],
         "source":""
+    },
+    {
+        "title":"Coupon Issues",
+        "tags":["coupon", "issues"],
+        "dept":"Marketing",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=642263605&widget=false&chrome=true&single=true&range=B2:D2"
     }
 ]
