@@ -68,9 +68,16 @@ $(document).ready( () => {
 })
 
 var notificationsList = [
-    "Added notifications.",
-    "Fixed the Defective Items option.",
-    "<br><br>Please remember, the more you use JBR the better it becomes! Try to find everything you can on here, and if you can't find what you're looking for, use the 'My Issue Isn't Listed' button to report the issue."
+    "Major pushes to JBR! The below instructions have been added.<br><br>",
+    "• Creating customer rewards",
+    "• Resolving network issues on one computer",
+    "• Ordering Benjamin Moore Color Chips",
+    "• Coupon issues",
+    "• Canceling Online Orders (By Customer Request)",
+    "• 'POS Operator XXX fix payroll #'",
+    "<br><br>Also clarified some ambiguous intructions, and added some more backend search functionality.",
+    "<br>As always please continue to use this tool. The more you use it the better is gets!"
+
 ]
 
 //toast notifications
