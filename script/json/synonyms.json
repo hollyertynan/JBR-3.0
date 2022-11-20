@@ -125,7 +125,7 @@
     },
     {
         "tag": "issue",
-        "values": []
+        "values": ["issues"]
     },
     {
         "tag": "sales",
@@ -141,7 +141,7 @@
     },
     {
         "tag": "issues",
-        "values": []
+        "values": ["issue"]
     },
     {
         "tag": "bluetarp",
@@ -589,7 +589,7 @@
     },
     {
         "tag": "connection",
-        "values": []
+        "values": ["connect"]
     },
     {
         "tag": "pen",
@@ -781,7 +781,7 @@
     },
     {
         "tag": "connect",
-        "values": []
+        "values": ["connection"]
     },
     {
         "tag": "associate",
@@ -1681,7 +1681,7 @@
     },
     {
         "tag": "benjamin",
-        "values": []
+        "values": ["ben"]
     },
     {
         "tag": "moore",
@@ -1689,7 +1689,7 @@
     },
     {
         "tag": "ben",
-        "values": []
+        "values": ["benjamin"]
     },
     {
         "tag": "national",

@@ -196,5 +196,14 @@
         "authLevel": "2",
         "optionalPrompts": [],
         "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A29:D29"
+    },
+    {
+        "title":"Ordering Benjamin Moore Paint Chips",
+        "tags": ["benjamin", "moore", "paint", "chips"],
+        "dept":"Operations",
+        "sub":"",
+        "authLevel": "1",
+        "optionalPrompts": ["kioskStart"],
+        "source":"https://sites.google.com/a/aubuchon.com/kiosk-start-page/?pli=1"
     }
 ]

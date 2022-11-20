@@ -1,6 +1,6 @@
 <div class="form-check mx-2 my-2">
   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="countTasks();">
   <label class="form-check-label" for="flexCheckDefault">
-    When changing a Min/Max to zero, please make sure you are setting the Replenishment Method to "Use Replenishment Rules", and the product status to "Suspended". You <em>must</em> add them to the Min/Max (this week's date) Change spreadsheet. Do <em>not</em> adjust min/maxes manually without having approval from the team merchandising manager. Click the check box to acknowledge.
+    <em>If changing a Min/Max to zero,</em> please make sure you are setting the Replenishment Method to "Use Replenishment Rules", and the product status to "Suspended". Do <em>not</em> adjust min/maxes manually without having approval from the team merchandising manager. Click the check box to acknowledge.
   </label>
 </div>
