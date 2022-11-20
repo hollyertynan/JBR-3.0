@@ -106,5 +106,14 @@
         "authLevel": "2",
         "optionalPrompts": ["tierPricing"],
         "source":"https://docs.google.com/spreadsheets/d/1AuatUmWeoeIgqalzBeyIuADf3nEBZZb3HD1fkB1luqE/htmlembed?gid=1527021037&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A3:B3"
+    },
+    {
+        "title": "Adding Rewards to a Customer Account",
+        "tags": ["add", "rewards", "customer", "account", "home",  "team", "dollar"],
+        "dept":"Customer Accounts",
+        "sub":"",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "source":"https://docs.google.com/document/d/1uBxBlALyEP8_D8rgB7-mPfGbiM4Ao2m1GydvxqyfaR8/edit#bookmark=id.sbe8yga4tfmz"
     }
 ]
