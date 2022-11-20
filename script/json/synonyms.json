@@ -633,7 +633,7 @@
     },
     {
         "tag": "rewards",
-        "values": []
+        "values": ["reward"]
     },
     {
         "tag": "needs",

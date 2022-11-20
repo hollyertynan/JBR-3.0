@@ -918,8 +918,8 @@
         "source": "https://docs.google.com/spreadsheets/d/1EHxtSvRCfrIEy3LK_fLgnRu5Ov7N6EdMVj2cmKu-Jfo/htmlembed?gid=0&widget=false&chrome=true&single=true&range=C34:D34"
     },
     {
-        "title":"'Access Denied' When Trying to Access Mi9 Portal",
-        "tags":["access", "denied", "password", "mi9", "merchant", "PO", "back", "office", "mail", "portal", "lock", "out"],
+        "title":"'Access Denied' When Trying to Access Mi9 Portal/Mi9 Portal Password Reset",
+        "tags":["access", "denied", "password", "mi9", "merchant", "PO", "back", "office", "mail", "portal", "lock", "out", "reset"],
         "dept":"IT",
         "sub":"Mi9 Portal",
         "authLevel": "1",
