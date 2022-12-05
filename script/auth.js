@@ -115,7 +115,7 @@ function enableFormBuilder(nameCheck) {
       
     }
 
-    $("#searchBar").attr("placeholder", "Search");
+    $("#searchBar").attr("placeholder", "Search (use * to view all responses)");
     $("#inputText").prop("value", "Search");
 
     $("#fieldsetForForm").attr("disabled",false);
