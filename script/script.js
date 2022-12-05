@@ -282,7 +282,16 @@ function load() {
 
                         autocorrect(tag)
                         //find tag in json object
-                        if (globalSearch.includes(tag.toLowerCase()) && !searchBuffer.includes(this.answer[i].title) && authLevel >= this.answer[i].authLevel) {
+                        if(globalSearch.includes("*") && !searchBuffer.includes(this.answer[i].title) && authLevel >= this.answer[i].authLevel) {
+                            tempTitle = this.answer[i].title
+                            tempText = this.answer[i].source
+                            tempDept = this.answer[i].dept
+                            tempSub = this.answer[i].sub
+                            searchBuffer.push(this.answer[i].title)
+                            optionalPromptsCheck(this.answer[i].optionalPrompts);
+                            populateSearch();
+                        }
+                        if (globalSearch.includes(tag.toLowerCase()) && !searchBuffer.includes(this.answer[i].title) && authLevel >= this.answer[i].authLevel && !globalSearch.includes("*")) {
                             calculatePriority(tag, this.answer[i].title);
                             searchBuffer.push(this.answer[i].title)
 
