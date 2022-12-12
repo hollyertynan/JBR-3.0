@@ -68,15 +68,12 @@ $(document).ready( () => {
 })
 
 var notificationsList = [
-    "Major pushes to JBR! The below instructions have been added.<br><br>",
-    "• Creating customer rewards",
-    "• Resolving network issues on one computer",
-    "• Ordering Benjamin Moore Color Chips",
-    "• Coupon issues",
-    "• Canceling Online Orders (By Customer Request)",
-    "• 'POS Operator XXX fix payroll #'",
-    "<br><br>Also clarified some ambiguous intructions, and added some more backend search functionality.",
-    "<br>As always please continue to use this tool. The more you use it the better is gets!"
+    "Certain solutions will now have a tooltip when hovered over. This tooltip includes some extra information about the response, including:<br>",
+    "• A more detailed description of the problem <br>",
+    "• Other ways the issue could present itself <br>",
+    "<br>",
+    "<br>",
+    "As always thank you for using JBR! Remember, the more you use this tool, the better it becomes." 
 
 ]
 
@@ -138,6 +135,7 @@ var tempText
 var tempTitle
 var tempDept
 var tempSub
+var tempTooltip
 var favoredSearchResult = false
 
 function autocorrect(tag) {
@@ -243,6 +241,15 @@ function fillIframe(iframeValue) {
    
 }
 
+$(document).mousemove(function(e) {
+    $("#tooltip-custom").css({
+      left: e.pageX - 250,
+      top: e.pageY
+    });
+});
+
+
+
 
 // this is me going ultra god mode
 function load() {
@@ -283,6 +290,7 @@ function load() {
                         autocorrect(tag)
                         //find tag in json object
                         if(globalSearch.includes("*") && !searchBuffer.includes(this.answer[i].title) && authLevel >= this.answer[i].authLevel) {
+                            tempTooltip = this.answer[i].tooltip
                             tempTitle = this.answer[i].title
                             tempText = this.answer[i].source
                             tempDept = this.answer[i].dept
@@ -296,7 +304,7 @@ function load() {
                             searchBuffer.push(this.answer[i].title)
 
                             if (priorityCheck > 2) {
-                                
+                                tempTooltip = this.answer[i].tooltip
                                 tempTitle = this.answer[i].title
                                 tempText = this.answer[i].source
                                 tempDept = this.answer[i].dept
@@ -380,22 +388,30 @@ function calculatePriority(tag, titlePass) {
     })
 }
 
+function loadTooltip(tooltipText) {
+    if(tooltipText != "") {
+        document.getElementById("tooltip-custom").innerHTML = "<em>Note: " + tooltipText + "</em>"
+        document.getElementById("tooltip-custom").hidden = false
+    }
+}
 
 //populates the searchResults field with the info pass in through load()
 //also properly hides logo and animates the search results to appear to the top of the page
 var dept_name = ""
 
 function populateSearch() {
-    
+    Result.tooltip = tempTooltip
     Result.title = tempTitle
     Result.source = tempText
     Result.dept = tempDept
     Result.sub = tempSub
     dept_name = Result.dept
+
+    console.log(Result)
     if (Result.title == undefined) {
         return;
     }
-    document.getElementById("searchResults").innerHTML += "<button data-optionalprompts=\"" + optionalPrompts + "\"  data-priority=\"" + priorityCheck + "\" class=\"list-group-item py-3 searchResultsButtons\" value=\"" + Result.source + "\" onclick=\"showPrompts(this.dataset.optionalprompts);fillIframe(this.value);getTitle(this.innerText, '"+ Result.dept +"', '" + Result.sub + "');\">" + Result.title + "</button>"
+    document.getElementById("searchResults").innerHTML += "<button data-optionalprompts=\"" + optionalPrompts + "\"  data-tooltip=\"" + Result.tooltip + "\" data-priority=\"" + priorityCheck + "\" class=\"list-group-item py-3 searchResultsButtons\" value=\"" + Result.source + "\" onmouseover=\"loadTooltip(this.dataset.tooltip);\" onmouseleave=\"document.getElementById('tooltip-custom').hidden = true\" onclick=\"showPrompts(this.dataset.optionalprompts);fillIframe(this.value);getTitle(this.innerText, '"+ Result.dept +"', '" + Result.sub + "');\">" + Result.title + "</button>"
     
     Result = {}
     $(".searchResultsButtons").on({
@@ -412,6 +428,8 @@ function populateSearch() {
     $(".list-group-item").click(function () {
         $("#searchResults").hide(300)
     })
+
+
 }
 
 var specifiedElement = document.getElementById("searchBar")

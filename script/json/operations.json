@@ -1,209 +1,395 @@
 [
     {
-        "title":"Need Orange Shelf Tape",
-        "tags":["orange", "shelf", "tape", "sales", "shelves", "operations"],
-        "dept":"Operations",
-        "sub":"",
+        "title": "Need Orange Shelf Tape",
+        "tags": [
+            "orange",
+            "shelf",
+            "tape",
+            "sales",
+            "shelves",
+            "operations"
+        ],
+        "dept": "Operations",
+        "sub": "",
         "authLevel": "2",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A4:D4"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A4:D4"
     },
     {
-        "title":"Need New Equipment (Red Hook Locks, Paint Keys, etc)",
-        "tags":["new", "equipment", "store", "use", "red", "hook", "locks", "keys", "operations"],
-        "dept":"Operations",
-        "sub":"",
+        "title": "Need New Equipment (Red Hook Locks, Paint Keys, etc)",
+        "tags": [
+            "new",
+            "equipment",
+            "store",
+            "use",
+            "red",
+            "hook",
+            "locks",
+            "keys",
+            "operations"
+        ],
+        "dept": "Operations",
+        "sub": "",
         "authLevel": "2",
-        "optionalPrompts": ["opsManager"],
-        "source":"https://docs.google.com/spreadsheets/d/1YcfBW3r3amEy2YHrdHQf1WlJ881D1x3gsnHE4rroB-o/htmlembed?gid=221&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A1:D20"
+        "optionalPrompts": [
+            "opsManager"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1YcfBW3r3amEy2YHrdHQf1WlJ881D1x3gsnHE4rroB-o/htmlembed?gid=221&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A1:D20"
     },
     {
-        "title":"Forklift Maintenance",
-        "tags":["forklift", "safety", "repair", "maintenance", "operations"],
-        "dept":"Operations",
-        "sub":"",
+        "title": "Forklift Maintenance",
+        "tags": [
+            "forklift",
+            "safety",
+            "repair",
+            "maintenance",
+            "operations"
+        ],
+        "dept": "Operations",
+        "sub": "",
         "authLevel": "2",
-        "optionalPrompts": ["opsManager"],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A12:D12"
+        "optionalPrompts": [
+            "opsManager"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A12:D12"
     },
     {
-        "title":"Card Swipe Cleaning Cards",
-        "tags":["card", "swipe", "chip", "emv", "clean", "cards", "payment", "terminal", "pinpad"],
-        "dept":"Operations",
-        "sub":"",
-        "authLevel": "2",
-        "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A18:C18"
-    },
-    {
-        "title":"Rubbish / Property Maintenance",
-        "tags":["rubbish", "garbage", "waste", "disposal", "maintenance", "property"],
-        "dept":"Operations",
-        "sub":"",
-        "authLevel": "2",
-        "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A18:C18"
-    },
-    {
-        "title":"Store Use Safety Masks",
-        "tags":["safety", "masks", "covid", "store", "use", "face"],
-        "dept":"Operations",
-        "sub":"",
-        "authLevel": "2",
-        "optionalPrompts": ["storeSafetyMasks"],
-        "source":""
-    },
-    {
-        "title":"New Glass and / or Plexi Cutter",
-        "tags":["glass", "plexi", "plexiglass", "cutter", "cut", "machine", "new"],
-        "dept":"Operations",
-        "sub":"",
-        "authLevel": "2",
-        "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A20:D20"
-    },
-    {
-        "title":"New Integrity Cleaner Shirt Needed for Porter",
-        "tags":["new", "entegrity", "cleaner", "shirt", "porter"],
-        "dept":"Operations",
-        "sub":"",
+        "title": "Card Swipe Cleaning Cards",
+        "tags": [
+            "card",
+            "swipe",
+            "chip",
+            "emv",
+            "clean",
+            "cards",
+            "payment",
+            "terminal",
+            "pinpad"
+        ],
+        "dept": "Operations",
+        "sub": "",
         "authLevel": "2",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A21:D21"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A18:C18"
     },
     {
-        "title":"Business Cards",
-        "tags":["business", "cards"],
-        "dept":"Operations",
-        "sub":"",
+        "title": "Rubbish / Property Maintenance",
+        "tags": [
+            "rubbish",
+            "garbage",
+            "waste",
+            "disposal",
+            "maintenance",
+            "property"
+        ],
+        "dept": "Operations",
+        "sub": "",
         "authLevel": "2",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B13:C13"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A18:C18"
     },
     {
-        "title":"New Brush / Cutwheel for the Key Machine",
-        "tags":["new", "brush", "cutwheel", "cutter", "key", "machine", "hyko"],
-        "dept":"Operations",
-        "sub":"",
+        "title": "Store Use Safety Masks",
+        "tags": [
+            "safety",
+            "masks",
+            "covid",
+            "store",
+            "use",
+            "face"
+        ],
+        "dept": "Operations",
+        "sub": "",
+        "authLevel": "2",
+        "optionalPrompts": [
+            "storeSafetyMasks"
+        ],
+        "tooltip": "",
+        "source": ""
+    },
+    {
+        "title": "New Glass and / or Plexi Cutter",
+        "tags": [
+            "glass",
+            "plexi",
+            "plexiglass",
+            "cutter",
+            "cut",
+            "machine",
+            "new"
+        ],
+        "dept": "Operations",
+        "sub": "",
         "authLevel": "2",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A126:B126"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A20:D20"
     },
     {
-        "title":"Need Materials for Screen Repair",
-        "tags":["screen", "repair", "materials", "screening", "spline"],
-        "dept":"Operations",
-        "sub":"",
+        "title": "New Integrity Cleaner Shirt Needed for Porter",
+        "tags": [
+            "new",
+            "entegrity",
+            "cleaner",
+            "shirt",
+            "porter"
+        ],
+        "dept": "Operations",
+        "sub": "",
         "authLevel": "2",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A128:B128"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A21:D21"
     },
     {
-        "title":"Ordering More Member Sign-Up Sheets",
-        "tags":["member", "sign", "up", "application", "HTH", "home team", "HTP", "hero", "pro", "sheets"],
-        "dept":"Operations",
-        "sub":"",
+        "title": "Business Cards",
+        "tags": [
+            "business",
+            "cards"
+        ],
+        "dept": "Operations",
+        "sub": "",
         "authLevel": "2",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A136:C136"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B13:C13"
     },
     {
-        "title":"Setting Up Register Numbers for a New Employee",
-        "tags":["new", "employee", "register", "numbers", "setup"],
-        "dept":"Operations",
-        "sub":"",
-        "authLevel": "2",
-        "optionalPrompts": ["pleaseEscalate"],
-        "source":""
-    },
-    {
-        "title":"Store Asking for New Aisle Header Signs",
-        "tags":["new", "aisle", "header", "signs", "labels"],
-        "dept":"Operations",
-        "sub":"",
-        "authLevel": "2",
-        "optionalPrompts": ["merchManager"],
-        "source":"https://docs.google.com/spreadsheets/d/1YcfBW3r3amEy2YHrdHQf1WlJ881D1x3gsnHE4rroB-o/htmlembed?gid=221&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A1:D20"
-    },
-    {
-        "title":"Store Asking for New Now Hiring Signs",
-        "tags":["new", "now", "hiring", "signs", "employee"],
-        "dept":"Operations",
-        "sub":"",
-        "authLevel": "2",
-        "optionalPrompts": ["hrManager"],
-        "source":"https://docs.google.com/spreadsheets/d/1YcfBW3r3amEy2YHrdHQf1WlJ881D1x3gsnHE4rroB-o/htmlembed?gid=221&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A1:D20"
-    },
-    {
-        "title":"Store Asking For Touchpoint Stickers",
-        "tags":["touchpoint", "covid", "safety", "stickers", "touch", "contact"],
-        "dept":"Operations",
-        "sub":"",
+        "title": "New Brush / Cutwheel for the Key Machine",
+        "tags": [
+            "new",
+            "brush",
+            "cutwheel",
+            "cutter",
+            "key",
+            "machine",
+            "hyko"
+        ],
+        "dept": "Operations",
+        "sub": "",
         "authLevel": "2",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A27:D27"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A126:B126"
     },
     {
-        "title":"Need 'Journey IQ' Password Reset",
-        "tags":["journey", "iq", "password", "reset"],
-        "dept":"Operations",
-        "sub":"",
-        "authLevel": "2",
-        "optionalPrompts": ["opsManager"],
-        "source":"https://docs.google.com/spreadsheets/d/1YcfBW3r3amEy2YHrdHQf1WlJ881D1x3gsnHE4rroB-o/htmlembed?gid=221&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A1:D20"
-    },
-    {
-        "title":"Store Needs Rental Contracts",
-        "tags":["customer", "rental", "contracts"],
-        "dept":"Operations",
-        "sub":"",
+        "title": "Need Materials for Screen Repair",
+        "tags": [
+            "screen",
+            "repair",
+            "materials",
+            "screening",
+            "spline"
+        ],
+        "dept": "Operations",
+        "sub": "",
         "authLevel": "2",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A28:D28"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A128:B128"
     },
     {
-        "title":"Store Needs Lanyards",
-        "tags":["lanyard", "name", "tag", "order"],
-        "dept":"Operations",
-        "sub":"",
+        "title": "Ordering More Member Sign-Up Sheets",
+        "tags": [
+            "member",
+            "sign",
+            "up",
+            "application",
+            "HTH",
+            "home team",
+            "HTP",
+            "hero",
+            "pro",
+            "sheets"
+        ],
+        "dept": "Operations",
+        "sub": "",
         "authLevel": "2",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=1442970144&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A10:D10"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A136:C136"
     },
     {
-        "title":"Store Asking for Gift Cards",
-        "tags":["gift", "card", "cash", "order"],
-        "dept":"Operations",
-        "sub":"",
+        "title": "Setting Up Register Numbers for a New Employee",
+        "tags": [
+            "new",
+            "employee",
+            "register",
+            "numbers",
+            "setup"
+        ],
+        "dept": "Operations",
+        "sub": "",
+        "authLevel": "2",
+        "optionalPrompts": [
+            "pleaseEscalate"
+        ],
+        "tooltip": "",
+        "source": ""
+    },
+    {
+        "title": "Store Asking for New Aisle Header Signs",
+        "tags": [
+            "new",
+            "aisle",
+            "header",
+            "signs",
+            "labels"
+        ],
+        "dept": "Operations",
+        "sub": "",
+        "authLevel": "2",
+        "optionalPrompts": [
+            "merchManager"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1YcfBW3r3amEy2YHrdHQf1WlJ881D1x3gsnHE4rroB-o/htmlembed?gid=221&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A1:D20"
+    },
+    {
+        "title": "Store Asking for New Now Hiring Signs",
+        "tags": [
+            "new",
+            "now",
+            "hiring",
+            "signs",
+            "employee"
+        ],
+        "dept": "Operations",
+        "sub": "",
+        "authLevel": "2",
+        "optionalPrompts": [
+            "hrManager"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1YcfBW3r3amEy2YHrdHQf1WlJ881D1x3gsnHE4rroB-o/htmlembed?gid=221&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A1:D20"
+    },
+    {
+        "title": "Store Asking For Touchpoint Stickers",
+        "tags": [
+            "touchpoint",
+            "covid",
+            "safety",
+            "stickers",
+            "touch",
+            "contact"
+        ],
+        "dept": "Operations",
+        "sub": "",
         "authLevel": "2",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A15:D15"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A27:D27"
     },
     {
-        "title":"Clear Plastic Sign Holders",
-        "tags":["clear", "plastic", "sign", "holders"],
-        "dept":"Operations",
-        "sub":"",
+        "title": "Need 'Journey IQ' Password Reset",
+        "tags": [
+            "journey",
+            "iq",
+            "password",
+            "reset"
+        ],
+        "dept": "Operations",
+        "sub": "",
+        "authLevel": "2",
+        "optionalPrompts": [
+            "opsManager"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1YcfBW3r3amEy2YHrdHQf1WlJ881D1x3gsnHE4rroB-o/htmlembed?gid=221&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A1:D20"
+    },
+    {
+        "title": "Store Needs Rental Contracts",
+        "tags": [
+            "customer",
+            "rental",
+            "contracts"
+        ],
+        "dept": "Operations",
+        "sub": "",
         "authLevel": "2",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A29:D29"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A28:D28"
     },
     {
-        "title":"Gloves for Propane Station",
-        "tags":["gloves", "propane", "station"],
-        "dept":"Operations",
-        "sub":"",
+        "title": "Store Needs Lanyards",
+        "tags": [
+            "lanyard",
+            "name",
+            "tag",
+            "order"
+        ],
+        "dept": "Operations",
+        "sub": "",
         "authLevel": "2",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A29:D29"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=1442970144&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A10:D10"
     },
     {
-        "title":"Ordering Benjamin Moore Paint Chips",
-        "tags": ["benjamin", "moore", "paint", "chips"],
-        "dept":"Operations",
-        "sub":"",
+        "title": "Store Asking for Gift Cards",
+        "tags": [
+            "gift",
+            "card",
+            "cash",
+            "order"
+        ],
+        "dept": "Operations",
+        "sub": "",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A15:D15"
+    },
+    {
+        "title": "Clear Plastic Sign Holders",
+        "tags": [
+            "clear",
+            "plastic",
+            "sign",
+            "holders"
+        ],
+        "dept": "Operations",
+        "sub": "",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A29:D29"
+    },
+    {
+        "title": "Gloves for Propane Station",
+        "tags": [
+            "gloves",
+            "propane",
+            "station"
+        ],
+        "dept": "Operations",
+        "sub": "",
+        "authLevel": "2",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A29:D29"
+    },
+    {
+        "title": "Ordering Benjamin Moore Paint Chips",
+        "tags": [
+            "benjamin",
+            "moore",
+            "paint",
+            "chips"
+        ],
+        "dept": "Operations",
+        "sub": "",
         "authLevel": "1",
-        "optionalPrompts": ["kioskStart"],
-        "source":"https://sites.google.com/a/aubuchon.com/kiosk-start-page/?pli=1"
+        "optionalPrompts": [
+            "kioskStart"
+        ],
+        "tooltip": "",
+        "source": "https://sites.google.com/a/aubuchon.com/kiosk-start-page/?pli=1"
     }
 ]
