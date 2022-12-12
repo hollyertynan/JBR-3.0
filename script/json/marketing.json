@@ -1,27 +1,47 @@
 [
     {
         "title": "Problems with Kronos Time Clock",
-        "tags": ["kronos","time","clock","in","hr"],
-        "dept":"Human Resources",
-        "sub":"Kronos Workforce",
+        "tags": [
+            "kronos",
+            "time",
+            "clock",
+            "in",
+            "hr"
+        ],
+        "dept": "Human Resources",
+        "sub": "Kronos Workforce",
         "authLevel": "2",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=1527021037&widget=false&chrome=false&headers=false&range=B2"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=1527021037&widget=false&chrome=false&headers=false&range=B2"
     },
     {
-        "title":"Chamber of Commerce Dues",
-        "tags":["Chamber", "Of", "Commerce", "Dues", "Payment", "Marketing", "HR"],
-        "dept":"Marketing",
+        "title": "Chamber of Commerce Dues",
+        "tags": [
+            "Chamber",
+            "Of",
+            "Commerce",
+            "Dues",
+            "Payment",
+            "Marketing",
+            "HR"
+        ],
+        "dept": "Marketing",
         "authLevel": "2",
         "optionalPrompts": [],
-        "source":""
+        "tooltip": "",
+        "source": ""
     },
     {
-        "title":"Coupon Issues",
-        "tags":["coupon", "issues"],
-        "dept":"Marketing",
+        "title": "Coupon Issues",
+        "tags": [
+            "coupon",
+            "issues"
+        ],
+        "dept": "Marketing",
         "authLevel": "2",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=642263605&widget=false&chrome=true&single=true&range=B2:D2"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=642263605&widget=false&chrome=true&single=true&range=B2:D2"
     }
 ]

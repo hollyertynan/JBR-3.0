@@ -1,182 +1,308 @@
 [
     {
         "title": "Missing/Voided Transactions",
-        "tags": ["Missing", "Voided", "Transactions", "Accounting"],
-        "dept":"Accounting",
-        "sub":"",
+        "tags": [
+            "Missing",
+            "Voided",
+            "Transactions",
+            "Accounting"
+        ],
+        "dept": "Accounting",
+        "sub": "",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "Transactions that disappear from the back office. May also appear as the register being frozen at the end of a transaction, after the customer has paid.",
         "source": ""
     },
     {
         "title": "BlueTarp (Capital One Trade Credit) Applications",
-        "tags": ["BlueTarp", "Capital", "Credit", "Accounting", "one", "blue", "tarp"],
-        "dept":"Accounting",
-        "sub":"",
+        "tags": [
+            "BlueTarp",
+            "Capital",
+            "Credit",
+            "Accounting",
+            "one",
+            "blue",
+            "tarp"
+        ],
+        "dept": "Accounting",
+        "sub": "",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": ""
     },
     {
         "title": "Defective Items",
-        "tags": ["Defective", "RTV", "Accounting", "Damaged"],
-        "dept":"Accounting",
-        "sub":"",
+        "tags": [
+            "Defective",
+            "RTV",
+            "Accounting",
+            "Damaged"
+        ],
+        "dept": "Accounting",
+        "sub": "",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "Other keywords used by the store to refer to defective items may include 'Damaged' or 'Broken'. This does NOT include reversals for RTVs. If an RTV Reversal is requested, please search for that solution on JBR.",
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B8:D8"
     },
     {
         "title": "An error has occurred {0}, please contact your system administrator when trying to receive a PO",
-        "tags": ["accounting", "system", "administrator", "receive", "po"],
-        "dept":"Accounting",
-        "sub":"PO/Invoice EDI suppliers",
+        "tags": [
+            "error",
+            "accounting",
+            "system",
+            "administrator",
+            "receive",
+            "nothing",
+            "happens",
+            "po"
+        ],
+        "dept": "Accounting",
+        "sub": "PO/Invoice EDI suppliers",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=958982344&widget=false&chrome=false&headers=false&range=B2:C2"
+        "tooltip": "This error may also present itself as nothing happening when a PO is received on the Mi9 portal.",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=958982344&widget=false&chrome=false&headers=false&range=B2:C2"
     },
     {
         "title": "Setting Up a New Home Heating Customer Account",
-        "tags": ["setting up", "new", "home", "heating", "customer", "account"],
-        "dept":"Accounting",
-        "sub":"",
+        "tags": [
+            "setting up",
+            "new",
+            "home",
+            "heating",
+            "customer",
+            "account"
+        ],
+        "dept": "Accounting",
+        "sub": "",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=958982344&widget=false&chrome=false&headers=false&range=B2:C2"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=958982344&widget=false&chrome=false&headers=false&range=B2:C2"
     },
     {
         "title": "Store Has a Customer That Was Double Charged",
-        "tags": ["store", "double", "charge", "customer", "payment"],
-        "dept":"Accounting",
-        "sub":"",
+        "tags": [
+            "store",
+            "double",
+            "charge",
+            "customer",
+            "payment"
+        ],
+        "dept": "Accounting",
+        "sub": "",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A18:D18"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A18:D18"
     },
     {
         "title": "General Inhouse Account Issues",
-        "tags": ["general", "inhouse", "house", "account", "issue"],
-        "dept":"Accounting",
-        "sub":"",
+        "tags": [
+            "general",
+            "inhouse",
+            "house",
+            "account",
+            "issue"
+        ],
+        "dept": "Accounting",
+        "sub": "",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A21:D21"
+        "tooltip": "This is different from the store being unable to charge an inhouse account. If the issue relates to charging an inhouse account, please refer to the solution in JBR named 'Can't Charge Inhouse Account'.",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A21:D21"
     },
     {
         "title": "Can't Charge Inhouse Account",
-        "tags": ["charge", "inhouse", "account", "issue"],
-        "dept":"Accounting",
-        "sub":"",
+        "tags": [
+            "charge",
+            "inhouse",
+            "account",
+            "issue"
+        ],
+        "dept": "Accounting",
+        "sub": "",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A146:B146"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A146:B146"
     },
     {
         "title": "Sales Audit / Daybook Issues",
-        "tags": ["sales", "audit", "daybook", "issues", "accounting"],
-        "dept":"Accounting",
-        "sub":"",
+        "tags": [
+            "sales",
+            "audit",
+            "daybook",
+            "issues",
+            "accounting"
+        ],
+        "dept": "Accounting",
+        "sub": "",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/pubhtml?single=true&amp;gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A23:D23"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/pubhtml?single=true&amp;gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A23:D23"
     },
     {
         "title": "Requests to Add/Remove Authorized Signers on BlueTarp Accounts",
-        "tags": ["bluetarp", "authorized", "signers", "requests", "blue", "tarp", "capital", "one"],
-        "dept":"Accounting",
-        "sub":"",
+        "tags": [
+            "bluetarp",
+            "authorized",
+            "signers",
+            "requests",
+            "blue",
+            "tarp",
+            "capital",
+            "one"
+        ],
+        "dept": "Accounting",
+        "sub": "",
         "authLevel": "1",
-        "optionalPrompts": ["authSigners"],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A6:D6"
+        "optionalPrompts": [
+            "authSigners"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A6:D6"
     },
     {
         "title": "Store Needs to Cancel a Transfer",
-        "tags": ["store", "cancel", "transfer", "mi9"],
-        "dept":"Accounting",
-        "sub":"",
+        "tags": [
+            "store",
+            "cancel",
+            "transfer",
+            "mi9"
+        ],
+        "dept": "Accounting",
+        "sub": "",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A184:B184"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A184:B184"
     },
     {
         "title": "Store Ordering Bank Deposit Slips",
-        "tags": ["bank", "deposit", "slips", "store"],
-        "dept":"Accounting",
-        "sub":"",
+        "tags": [
+            "bank",
+            "deposit",
+            "slips",
+            "store"
+        ],
+        "dept": "Accounting",
+        "sub": "",
         "authLevel": "1",
-        "optionalPrompts": ["depositSlips"],
-        "source":""
+        "optionalPrompts": [
+            "depositSlips"
+        ],
+        "tooltip": "",
+        "source": ""
     },
     {
         "title": "BlueTarp Applications",
-        "tags": ["bluetarp", "credit", "application", "blue", "tarp", "capital", "one"],
-        "dept":"Accounting",
-        "sub":"",
+        "tags": [
+            "bluetarp",
+            "credit",
+            "application",
+            "blue",
+            "tarp",
+            "capital",
+            "one"
+        ],
+        "dept": "Accounting",
+        "sub": "",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A6:D6"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A6:D6"
     },
     {
         "title": "Store is Asking for Invoice to be Paid",
-        "tags": ["invoice", "paid", "pay", "bill", "billing", "invoices"],
-        "dept":"Accounting",
-        "sub":"",
+        "tags": [
+            "invoice",
+            "paid",
+            "pay",
+            "bill",
+            "billing",
+            "invoices"
+        ],
+        "dept": "Accounting",
+        "sub": "",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A29:D29"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A29:D29"
     },
     {
         "title": "Store is Asking for Gift Cards",
-        "tags": ["gift", "cards", "order"],
-        "dept":"Accounting",
-        "sub":"",
+        "tags": [
+            "gift",
+            "cards",
+            "order"
+        ],
+        "dept": "Accounting",
+        "sub": "",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A15:D15"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A15:D15"
     },
     {
         "title": "Fishing Licenses",
-        "tags": ["fishing", "license"],
-        "dept":"Accounting",
-        "sub":"",
+        "tags": [
+            "fishing",
+            "license"
+        ],
+        "dept": "Accounting",
+        "sub": "",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A31:C31"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A31:C31"
     },
     {
         "title": "Real Estate",
-        "tags": ["real", "estate"],
-        "dept":"Accounting",
-        "sub":"",
+        "tags": [
+            "real",
+            "estate"
+        ],
+        "dept": "Accounting",
+        "sub": "",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A32:D32"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A32:D32"
     },
     {
         "title": "BlueTarp Charges on Special Orders",
-        "tags": ["special", "order", "bluetarp", "charge", "3"],
-        "dept":"Accounting",
-        "sub":"",
+        "tags": [
+            "special",
+            "order",
+            "bluetarp",
+            "charge",
+            "3"
+        ],
+        "dept": "Accounting",
+        "sub": "",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;chrome=true&amp;widget=false&ample;single=true&amp;range=A188:B188"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;chrome=true&amp;widget=false&ample;single=true&amp;range=A188:B188"
     },
     {
         "title": "RTV Reversals",
-        "tags": ["reverse", "reversing", "cancel", "RTV"],
-        "dept":"Accounting",
-        "sub":"",
+        "tags": [
+            "reverse",
+            "reversing",
+            "cancel",
+            "RTV"
+        ],
+        "dept": "Accounting",
+        "sub": "",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;chrome=true&amp;widget=false&ample;single=true&amp;range=A30:D30"
-    },
-    {
-        "title": "Missing / Voided Transactions",
-        "tags": ["missing", "transaction", "voided"],
-        "dept":"Accounting",
-        "sub":"",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source":"https://docs.google.com/document/d/1uBxBlALyEP8_D8rgB7-mPfGbiM4Ao2m1GydvxqyfaR8/edit#bookmark=id.3kdpu03fle1u"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=790165298&amp;chrome=true&amp;widget=false&ample;single=true&amp;range=A30:D30"
     }
 ]

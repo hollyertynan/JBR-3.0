@@ -1,229 +1,470 @@
 [
     {
         "title": "PO & EDI Issues",
-        "tags": ["po","edi","PO","Sku","UPC","EDI"],
-        "dept":"Product",
+        "tags": [
+            "po",
+            "edi",
+            "PO",
+            "Sku",
+            "UPC",
+            "EDI"
+        ],
+        "dept": "Product",
         "authLevel": "2",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/edit#gid=790165298&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A25:D25"
     },
     {
         "title": "Changing Min or Max for Less than Five Skus",
-        "tags": ["min","max","sku","product","PO","Sku","UPC","Paint"],
-        "dept":"Product",
+        "tags": [
+            "min",
+            "max",
+            "sku",
+            "product",
+            "PO",
+            "Sku",
+            "UPC",
+            "Paint"
+        ],
+        "dept": "Product",
         "authLevel": "2",
-        "optionalPrompts": ["replenRules"],
+        "optionalPrompts": [
+            "replenRules"
+        ],
+        "tooltip": "",
         "source": "https://docs.google.com/document/d/1mFusBLuX-9x6au519f7vxTo-QVzDbCIfJl4v-RJS_dY/edit#bookmark=id.sl8axyivd97z"
     },
     {
         "title": "Cost Issues",
-        "tags": ["cost","issues","price","pricing","retail","Sku","UPC"],
-        "dept":"Product",
+        "tags": [
+            "cost",
+            "issues",
+            "price",
+            "pricing",
+            "retail",
+            "Sku",
+            "UPC"
+        ],
+        "dept": "Product",
         "authLevel": "2",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTX24xVOEWwucJGjbvsV4kNsSJ7TlUgTOShNrvZAC9C2ectQ7BzsrYhGjWpENfZ89jXssg9sTS0XL1m/pubhtml?single=true&amp;gid=907924166&amp;widget=true&amp;range=B2:D2"
     },
     {
         "title": "Changing Min or Max for More than Five Skus",
-        "tags": ["min","max","sku","product","PO","Sku","UPC","Paint"],
-        "dept":"Product",
+        "tags": [
+            "min",
+            "max",
+            "sku",
+            "product",
+            "PO",
+            "Sku",
+            "UPC",
+            "Paint"
+        ],
+        "dept": "Product",
         "authLevel": "2",
-        "optionalPrompts": ["replenRules"],
+        "optionalPrompts": [
+            "replenRules"
+        ],
+        "tooltip": "",
         "source": "https://drive.google.com/u/0/open?id=1JtgVi2ALWczpixndeokMI7jT_YV20EKIYXDgI9Y-gWg"
     },
     {
         "title": "Product Needs a SKU",
-        "tags": ["product", "needs", "sku", "upc", "file"],
-        "dept":"Product",
+        "tags": [
+            "product",
+            "needs",
+            "sku",
+            "upc",
+            "file"
+        ],
+        "dept": "Product",
         "authLevel": "2",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTX24xVOEWwucJGjbvsV4kNsSJ7TlUgTOShNrvZAC9C2ectQ7BzsrYhGjWpENfZ89jXssg9sTS0XL1m/pubhtml?single=true&amp;gid=907924166&amp;widget=true&amp;range=B16:D16"
     },
     {
         "title": "UPC Not On File",
-        "tags": ["product", "sku", "upc", "file"],
-        "dept":"Product",
+        "tags": [
+            "product",
+            "sku",
+            "upc",
+            "file"
+        ],
+        "dept": "Product",
         "authLevel": "2",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTX24xVOEWwucJGjbvsV4kNsSJ7TlUgTOShNrvZAC9C2ectQ7BzsrYhGjWpENfZ89jXssg9sTS0XL1m/pubhtml?single=true&amp;gid=907924166&amp;widget=true&amp;range=B12:D12"
     },
     {
         "title": "Smart Cycle Count Issues",
-        "tags": ["smart", "cycle", "count", "zero", "audit", "inventory"],
-        "dept":"Product",
+        "tags": [
+            "smart",
+            "cycle",
+            "count",
+            "zero",
+            "audit",
+            "inventory"
+        ],
+        "dept": "Product",
         "authLevel": "2",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTX24xVOEWwucJGjbvsV4kNsSJ7TlUgTOShNrvZAC9C2ectQ7BzsrYhGjWpENfZ89jXssg9sTS0XL1m/pubhtml?single=true&amp;gid=907924166&amp;widget=true&amp;range=B7:D7"
     },
     {
-        "title": "Special Order Issues/Reordering Special Order",
-        "tags": ["special", "order", "issues", "register", "reorder", "cancel", "BOSS", "customer"],
-        "dept":"Product",
-        "authLevel": "2",
+        "title": "Reordering Special Order",
+        "tags": [
+            "special",
+            "order",
+            "issues",
+            "register",
+            "reorder",
+            "cancel",
+            "BOSS",
+            "customer"
+        ],
+        "dept": "Product",
+        "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "Special Orders relate to orders placed at the register. They are NOT related to BOSS/online orders.",
         "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTX24xVOEWwucJGjbvsV4kNsSJ7TlUgTOShNrvZAC9C2ectQ7BzsrYhGjWpENfZ89jXssg9sTS0XL1m/pubhtml?single=true&amp;gid=907924166&amp;widget=true&amp;range=B8:D8"
     },
     {
         "title": "Store Specific Clearance Pricing",
-        "tags": ["store", "specific", "clearance", "pricing", "SSC", "min", "max", "retail"],
-        "dept":"Product",
+        "tags": [
+            "store",
+            "specific",
+            "clearance",
+            "pricing",
+            "SSC",
+            "min",
+            "max",
+            "retail"
+        ],
+        "dept": "Product",
         "authLevel": "2",
-        "optionalPrompts": ["replenRules"],
+        "optionalPrompts": [
+            "replenRules"
+        ],
+        "tooltip": "",
         "source": "https://docs.google.com/document/d/1mFusBLuX-9x6au519f7vxTo-QVzDbCIfJl4v-RJS_dY/edit#bookmark=id.pufx8h954y10"
     },
     {
         "title": "Store Specific Temporary Pricing",
-        "tags": ["store", "specific", "temporary", "pricing", "min", "max", "retail"],
-        "dept":"Product",
+        "tags": [
+            "store",
+            "specific",
+            "temporary",
+            "pricing",
+            "min",
+            "max",
+            "retail"
+        ],
+        "dept": "Product",
         "authLevel": "2",
-        "optionalPrompts": ["replenRules"],
+        "optionalPrompts": [
+            "replenRules"
+        ],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTX24xVOEWwucJGjbvsV4kNsSJ7TlUgTOShNrvZAC9C2ectQ7BzsrYhGjWpENfZ89jXssg9sTS0XL1m/pubhtml?single=true&amp;gid=907924166&amp;widget=true&amp;range=B10:D10"
     },
     {
         "title": "Honda Orders",
-        "tags": ["honda", "order"],
-        "dept":"Product",
+        "tags": [
+            "honda",
+            "order"
+        ],
+        "dept": "Product",
         "authLevel": "2",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTX24xVOEWwucJGjbvsV4kNsSJ7TlUgTOShNrvZAC9C2ectQ7BzsrYhGjWpENfZ89jXssg9sTS0XL1m/pubhtml?single=true&amp;gid=907924166&amp;widget=true&amp;range=B5:D5"
     },
     {
         "title": "Order More Bad Air Sponges",
-        "tags": ["bad", "air", "sponge", "order", "po"],
-        "dept":"Product",
+        "tags": [
+            "bad",
+            "air",
+            "sponge",
+            "order",
+            "po"
+        ],
+        "dept": "Product",
         "authLevel": "2",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTX24xVOEWwucJGjbvsV4kNsSJ7TlUgTOShNrvZAC9C2ectQ7BzsrYhGjWpENfZ89jXssg9sTS0XL1m/pubhtml?single=true&amp;gid=907924166&amp;widget=true&amp;range=B30:D30"
     },
     {
         "title": "Immediate Price Changes",
-        "tags": ["immediate", "price", "change", "retail"],
-        "dept":"Product",
+        "tags": [
+            "immediate",
+            "price",
+            "change",
+            "retail"
+        ],
+        "dept": "Product",
         "authLevel": "2",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTX24xVOEWwucJGjbvsV4kNsSJ7TlUgTOShNrvZAC9C2ectQ7BzsrYhGjWpENfZ89jXssg9sTS0XL1m/pubhtml?single=true&amp;gid=907924166&amp;widget=true&amp;range=B30:D30"
     },
     {
         "title": "Item Packaging Not Correct",
-        "tags": ["item", "package", "correct", "wrong"],
-        "dept":"Product",
+        "tags": [
+            "item",
+            "package",
+            "correct",
+            "wrong"
+        ],
+        "dept": "Product",
         "authLevel": "2",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTX24xVOEWwucJGjbvsV4kNsSJ7TlUgTOShNrvZAC9C2ectQ7BzsrYhGjWpENfZ89jXssg9sTS0XL1m/pubhtml?single=true&amp;gid=790165298&amp;widget=true&amp;range=B25:D25"
     },
     {
         "title": "Battery Core Charges",
-        "tags": ["battery", "core", "charge", "return"],
-        "dept":"Product",
+        "tags": [
+            "battery",
+            "core",
+            "charge",
+            "return"
+        ],
+        "dept": "Product",
         "authLevel": "2",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?single=true&amp;gid=1612994648&amp;widget=true&amp;chrome=false&amp;range=A122:B122"
     },
     {
         "title": "Minimum Quantity Required to Close a PO",
-        "tags": ["minimum", "quantity", "rqeuired", "close", "po", "multiple"],
-        "dept":"Product",
+        "tags": [
+            "minimum",
+            "quantity",
+            "rqeuired",
+            "close",
+            "po",
+            "multiple"
+        ],
+        "dept": "Product",
         "authLevel": "2",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "http://aubdata2/Reports/Pages/Report.aspx?ItemPath=%2fAccounting+Reports%2fVendor+Info+%28Mi9%29"
     },
     {
         "title": "Item Description Incorrect / Unclear / Missing",
-        "tags": ["item", "description", "incorrect", "missing", "unclear", "Sku"],
-        "dept":"Product",
+        "tags": [
+            "item",
+            "description",
+            "incorrect",
+            "missing",
+            "unclear",
+            "Sku"
+        ],
+        "dept": "Product",
         "authLevel": "2",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTX24xVOEWwucJGjbvsV4kNsSJ7TlUgTOShNrvZAC9C2ectQ7BzsrYhGjWpENfZ89jXssg9sTS0XL1m/pubhtml?single=true&amp;gid=907924166&amp;widget=true&amp;range=B38:D38"
     },
     {
         "title": "Propane Barcodes",
-        "tags": ["propane", "barcode", "upc"],
-        "dept":"Product",
+        "tags": [
+            "propane",
+            "barcode",
+            "upc"
+        ],
+        "dept": "Product",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://tcb.wea/CreateAsign/CreateAsign.aspx"
     },
     {
         "title": "Orgill Products Missing Components",
-        "tags": ["orgill", "online", "order", "item", "components", "missing"],
-        "dept":"Product",
+        "tags": [
+            "orgill",
+            "online",
+            "order",
+            "item",
+            "components",
+            "missing"
+        ],
+        "dept": "Product",
         "authLevel": "2",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=907924166&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A47:D47"
     },
     {
         "title": "Charging Customer for Sodastream Cartidge Without Exchange",
-        "tags": ["sodastream", "cartidge", "exchange", "charge", "CO2"],
-        "dept":"Product",
+        "tags": [
+            "sodastream",
+            "cartidge",
+            "exchange",
+            "charge",
+            "CO2"
+        ],
+        "dept": "Product",
         "authLevel": "2",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1AuatUmWeoeIgqalzBeyIuADf3nEBZZb3HD1fkB1luqE/htmlembed?gid=0&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A27:B27"
     },
     {
         "title": "Benjamin Moore National Accounts Order",
-        "tags": ["benjamin", "moore", "ben", "national", "accounts", "order", "paint"],
-        "dept":"Product",
+        "tags": [
+            "benjamin",
+            "moore",
+            "ben",
+            "national",
+            "accounts",
+            "order",
+            "paint"
+        ],
+        "dept": "Product",
         "authLevel": "2",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/document/d/14BPeHu4cadKj3wKrdLXpNsPhba-r39UL-MhWLGYbMwk/edit#bookmark=id.n11v0612bv75"
     },
     {
         "title": "Sending E-Mail to Store for Benjamin Moore National Accounts Order",
-        "tags": ["benjamin", "moore", "ben", "national", "accounts", "order", "paint", "email"],
-        "dept":"Product",
+        "tags": [
+            "benjamin",
+            "moore",
+            "ben",
+            "national",
+            "accounts",
+            "order",
+            "paint",
+            "email"
+        ],
+        "dept": "Product",
         "authLevel": "2",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/document/d/1zDKyGV8MNtJrN7q_e-5evyLEmWLJbb-DG5uLIPC9t64/edit"
     },
     {
         "title": "Need a Vendor Website Password Reset",
-        "tags": ["vendor", "website", "password", "reset", "orgill", "emery", "ejd", "benjamin", "moore", "ben"],
-        "dept":"Product",
+        "tags": [
+            "vendor",
+            "website",
+            "password",
+            "reset",
+            "orgill",
+            "emery",
+            "ejd",
+            "benjamin",
+            "moore",
+            "ben"
+        ],
+        "dept": "Product",
         "authLevel": "2",
-        "optionalPrompts": ["vendorPassword"],
+        "optionalPrompts": [
+            "vendorPassword"
+        ],
+        "tooltip": "",
         "source": ""
     },
     {
         "title": "Retail Pricing Issues",
-        "tags": ["retail", "price", "incorrect", "issue", "wrong"],
-        "dept":"Product",
+        "tags": [
+            "retail",
+            "price",
+            "incorrect",
+            "issue",
+            "wrong"
+        ],
+        "dept": "Product",
         "authLevel": "2",
-        "optionalPrompts": ["retailPricingIssues"],
+        "optionalPrompts": [
+            "retailPricingIssues"
+        ],
+        "tooltip": "",
         "source": ""
     },
     {
         "title": "Negative Report Discrepancies",
-        "tags": ["negative", "report", "stock", "discrepancy", "quantity", "inventory", "count", "sku", "incorrect", "adjustment", "discrepancies"],
-        "dept":"Product",
+        "tags": [
+            "negative",
+            "report",
+            "stock",
+            "discrepancy",
+            "quantity",
+            "inventory",
+            "count",
+            "sku",
+            "incorrect",
+            "adjustment",
+            "discrepancies"
+        ],
+        "dept": "Product",
         "authLevel": "2",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&single=true&widget=false&chrome=true&range=B25:D25"
     },
     {
         "title": "Store Asking for New Products to be Added to Inventory",
-        "tags": ["store", "new", "product", "inventory", "stock", "sell", "item", "sku"],
-        "dept":"Product",
+        "tags": [
+            "store",
+            "new",
+            "product",
+            "inventory",
+            "stock",
+            "sell",
+            "item",
+            "sku"
+        ],
+        "dept": "Product",
         "authLevel": "1",
-        "optionalPrompts": ["newProducts"],
+        "optionalPrompts": [
+            "newProducts"
+        ],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1YcfBW3r3amEy2YHrdHQf1WlJ881D1x3gsnHE4rroB-o/htmlembed?gid=221&widget=false&single=true&chrome=true&range=A1:D19"
     },
     {
         "title": "Store Requesting to Overstock Seasonal Items",
-        "tags": ["store", "overstock", "over", "stock", "seasonal", "more"],
-        "dept":"Product",
+        "tags": [
+            "store",
+            "overstock",
+            "over",
+            "stock",
+            "seasonal",
+            "more"
+        ],
+        "dept": "Product",
         "authLevel": "1",
-        "optionalPrompts": ["merchManagaer"],
+        "optionalPrompts": [
+            "merchManagaer"
+        ],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1YcfBW3r3amEy2YHrdHQf1WlJ881D1x3gsnHE4rroB-o/htmlembed?gid=221&widget=false&single=true&chrome=true&range=A1:D19"
     },
     {
         "title": "Closing Special Orders at the Register",
-        "tags": ["close", "closing", "register", "special", "order"],
+        "tags": [
+            "close",
+            "closing",
+            "register",
+            "special",
+            "order"
+        ],
         "dept": "Product",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1AuatUmWeoeIgqalzBeyIuADf3nEBZZb3HD1fkB1luqE/htmlembed?gid=353809746&widget=false&single=true&chrome=true&range=A2:D2"
     }
 ]
-
-
-

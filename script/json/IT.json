@@ -1,1019 +1,1990 @@
 [
     {
-        "title":"Stuck on Synchronizing with XPI App",
-        "tags":["payment","terminal","register","xpi","app","synchronizing", "card", "reader", "pin", "pad"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Stuck on Synchronizing with XPI App",
+        "tags": [
+            "payment",
+            "terminal",
+            "register",
+            "xpi",
+            "app",
+            "synchronizing",
+            "card",
+            "reader",
+            "pin",
+            "pad"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
-        "optionalPrompts": ["registerShow"],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B2:D2"
+        "optionalPrompts": [
+            "registerShow"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B2:D2"
     },
     {
-        "title":"No Aubuchon Logo on Receipt Printer",
-        "tags":["receipt","printer","aubuchon","logo","register"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "No Aubuchon Logo on Receipt Printer",
+        "tags": [
+            "receipt",
+            "printer",
+            "aubuchon",
+            "logo",
+            "register"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
-        "optionalPrompts": ["registerShow"],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B3:C3"
-    }, 
-    {
-        "title":"Register Frozen",
-        "tags":["register","stuck","frozen","unresponsive", "tender"],
-        "dept":"IT",
-        "sub":"POS Software",
-        "authLevel": "1",
-        "optionalPrompts": ["registerShow"],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B4:D4"
+        "optionalPrompts": [
+            "registerShow"
+        ],
+        "tooltip": "Printer",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B3:C3"
     },
     {
-        "title":"Receipt Printer Stopped Printing: Code 106 or Flashing 'Remove Document from Slip Printer'",
-        "tags":["receipt","printer","frozen","106", "flashing", "remove", "document", "from", "slip", "printer", "register"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Register Frozen",
+        "tags": [
+            "register",
+            "stuck",
+            "frozen",
+            "unresponsive",
+            "tender"
+        ],
+        "dept": "IT",
+        "sub": "POS Software",
         "authLevel": "1",
-        "optionalPrompts": ["registerShow"],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B5:D5"
+        "optionalPrompts": [
+            "registerShow"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B4:D4"
     },
     {
-        "title":"Hand Scanner Not Working",
-        "tags":["hand", "scanner", "scanning", "scan", "r2d2", "register"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Receipt Printer Stopped Printing: Code 106 or Flashing 'Remove Document from Slip Printer'",
+        "tags": [
+            "receipt",
+            "printer",
+            "frozen",
+            "106",
+            "flashing",
+            "remove",
+            "document",
+            "from",
+            "slip",
+            "printer",
+            "register"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
+        "authLevel": "1",
+        "optionalPrompts": [
+            "registerShow"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B5:D5"
+    },
+    {
+        "title": "Hand Scanner Not Working",
+        "tags": [
+            "hand",
+            "scanner",
+            "scanning",
+            "scan",
+            "r2d2",
+            "register"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B6:D6"
+        "tooltip": "This issue can present itself in a few different ways. If the hand scanner beeps once then doesn't scan anything, it's likely it's a new scanner and it needs to be programmed.",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B6:D6"
     },
     {
-        "title":"Receipt Printer Hung Up",
-        "tags":["receipt", "printer", "frozen", "hung", "up", "register"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Receipt Printer Hung Up",
+        "tags": [
+            "receipt",
+            "printer",
+            "frozen",
+            "hung",
+            "up",
+            "register"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
-        "optionalPrompts": ["registerShow"],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B7:C7"
+        "optionalPrompts": [
+            "registerShow"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B7:C7"
     },
     {
-        "title":"Illegal Bitmap Error",
-        "tags":["illegal", "bitmap", "error", "receipt", "printer", "register"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B8:D8"
-    },
-    {
-        "title":"Battery Backup Long Beep",
-        "tags":["battery", "backup", "ups", "beep", "beeping", "long"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B9:C9"
-    },
-    {
-        "title":"Monitor Displays 'No Signal Input'",
-        "tags":["signal", "input", "screen", "monitor", "display"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B10:D10"
-    },
-    {
-        "title":"Cash Drawer Is Not Opening",
-        "tags":["cash", "drawer", "not", "opening", "register", "till"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Illegal Bitmap Error",
+        "tags": [
+            "illegal",
+            "bitmap",
+            "error",
+            "receipt",
+            "printer",
+            "register"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B11:D11"
+        "tooltip": "Deprecated, only here for redundancy's sake.",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B8:D8"
     },
     {
-        "title":"Signature Loop on Card Reader",
-        "tags":["card", "reader", "signature", "loop", "payment", "terminal"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Battery Backup Long Beep",
+        "tags": [
+            "battery",
+            "backup",
+            "ups",
+            "beep",
+            "beeping",
+            "long"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
-        "optionalPrompts": ["registerShow"],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B12"
-    }, 
+        "optionalPrompts": [],
+        "tooltip": "The battery backup (also referred to as a UPS) refers to a box at the registers that has all of the equipment at said register plugged into it. This protects them from frying after a power outage.",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B9:C9"
+    },
     {
-        "title":"RED FLAGS - Accounting Period",
-        "tags":["accounting", "period", "red", "flag", "back", "office", "mi9", "EOD"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Monitor Displays 'No Signal Input'",
+        "tags": [
+            "signal",
+            "input",
+            "screen",
+            "monitor",
+            "display"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B10:D10"
+    },
+    {
+        "title": "Cash Drawer Is Not Opening",
+        "tags": [
+            "cash",
+            "drawer",
+            "not",
+            "opening",
+            "register",
+            "till"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B11:D11"
+    },
+    {
+        "title": "Signature Loop on Card Reader",
+        "tags": [
+            "card",
+            "reader",
+            "signature",
+            "loop",
+            "payment",
+            "terminal"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
+        "authLevel": "1",
+        "optionalPrompts": [
+            "registerShow"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B12"
+    },
+    {
+        "title": "RED FLAGS - Accounting Period",
+        "tags": [
+            "accounting",
+            "period",
+            "red",
+            "flag",
+            "back",
+            "office",
+            "mi9",
+            "EOD"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "3",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/pubhtml?gid=0&amp;chrome=true&amp;single=true&amp;widget=false&amp;range=E286:F286"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/pubhtml?gid=0&amp;chrome=true&amp;single=true&amp;widget=false&amp;range=E286:F286"
     },
     {
-        "title":"Weekly Comments Grayed Out",
-        "tags":["weekly", "comments", "grayed", "out", "mail"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Weekly Comments Grayed Out",
+        "tags": [
+            "weekly",
+            "comments",
+            "grayed",
+            "out",
+            "mail"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B13"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B13"
     },
     {
-        "title":"Register Stuck in Training Mode",
-        "tags":["register", "training", "mode", "stuck"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Register Stuck in Training Mode",
+        "tags": [
+            "register",
+            "training",
+            "mode",
+            "stuck"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
-        "optionalPrompts": ["registerShow"],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B14:C14"
+        "optionalPrompts": [
+            "registerShow"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B14:C14"
     },
     {
-        "title":"Cannot Type, Spamming Same Repeating Character",
-        "tags":["type", "spam", "repeating", "keyboard", "stuck"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Cannot Type, Spamming Same Repeating Character",
+        "tags": [
+            "type",
+            "spam",
+            "repeating",
+            "keyboard",
+            "stuck"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B15"
+        "tooltip": "This issue can also present itself as weird letters typing or random windows opening instead of the letters you're pressing. That happens when the 'Ctrl' key on the keyboard is stuck.",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B15"
     },
     {
-        "title":"Bottom Task Bar in the Wrong Spot",
-        "tags":["task", "bar", "wrong", "spot", "bottom"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Bottom Task Bar in the Wrong Spot",
+        "tags": [
+            "task",
+            "bar",
+            "wrong",
+            "spot",
+            "bottom"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B16:C16"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B16:C16"
     },
     {
-        "title":"Declining All Cards",
-        "tags":["decline", "declining", "card", "cards", "tripos", "payment", "terminal", "card", "reader"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Declining All Cards",
+        "tags": [
+            "decline",
+            "declining",
+            "card",
+            "cards",
+            "tripos",
+            "payment",
+            "terminal",
+            "card",
+            "reader"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
-        "optionalPrompts": ["registerShow"],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B17:D17"
+        "optionalPrompts": [
+            "registerShow"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B17:D17"
     },
     {
-        "title":"Critical Error: No USB Connection (Card Reader)",
-        "tags":["critical", "error", "usb", "connection", "card", "payment", "terminal", "card", "reader"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Critical Error: No USB Connection (Card Reader)",
+        "tags": [
+            "critical",
+            "error",
+            "usb",
+            "connection",
+            "card",
+            "payment",
+            "terminal",
+            "card",
+            "reader"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
-        "optionalPrompts": ["registerShow"],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B18:C18"
+        "optionalPrompts": [
+            "registerShow"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B18:C18"
     },
     {
-        "title":"New Payment Terminal",
-        "tags":["new", "payment", "terminal", "card", "reader"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "New Payment Terminal",
+        "tags": [
+            "new",
+            "payment",
+            "terminal",
+            "card",
+            "reader"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
-        "optionalPrompts": ["registerShow"],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B19"
+        "optionalPrompts": [
+            "registerShow"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B19"
     },
     {
-        "title":"Need a new stylus / pen for the Payment Terminal",
-        "tags":["pen", "stylus", "payment", "terminal", "card", "reader"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Need a new stylus / pen for the Payment Terminal",
+        "tags": [
+            "pen",
+            "stylus",
+            "payment",
+            "terminal",
+            "card",
+            "reader"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B20"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B20"
     },
     {
-        "title":"Reports and Huddle Up Not Loading",
-        "tags":["reports", "huddle", "loading", "mail", "day", "report"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Reports and Huddle Up Not Loading",
+        "tags": [
+            "reports",
+            "huddle",
+            "loading",
+            "mail",
+            "day",
+            "report"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B22"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR3XNuW0idFotjnC58LmHnhe_HZqGgbibUQVXNB_4iPYLXHFZhaMxo8Rc1p_vIGPDHg7L_PQWm3g3rN/pubhtml?single=true&gid=0&widget=false&chrome=false&headers=false&range=B22"
     },
     {
-        "title":"Communication Error / Network Down",
-        "tags":["communication", "error", "network", "down", "rewards"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Communication Error / Network Down",
+        "tags": [
+            "communication",
+            "error",
+            "network",
+            "down",
+            "rewards"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A64:B65"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A64:B65"
     },
     {
-        "title":"Store needs a new Keyboard, Monitor, Printer, Scanner, etc.",
-        "tags":["new","payment","terminal","card","reader","pen","stylus","card","reader","store","needs","new","keyboard","monitor"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Store needs a new Keyboard, Monitor, Printer, Scanner, etc.",
+        "tags": [
+            "new",
+            "payment",
+            "terminal",
+            "card",
+            "reader",
+            "pen",
+            "stylus",
+            "card",
+            "reader",
+            "store",
+            "needs",
+            "new",
+            "keyboard",
+            "monitor"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B20:D20"
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B20:D20"
     },
     {
-        "title":"Monitor Screen Needs Recalibration",
-        "tags":["input","display","monitor","screen","needs","recalibration"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Monitor Screen Needs Recalibration",
+        "tags": [
+            "input",
+            "display",
+            "monitor",
+            "screen",
+            "needs",
+            "recalibration"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
-        "optionalPrompts": ["registerShow"],
-        "source":"https://docs.google.com/document/d/1kGTAsmiZJ-ojL1tn-k8FlCXmI6BILa0b_j0pVW7EitA/edit"
-    }, 
+        "optionalPrompts": [
+            "registerShow"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/document/d/1kGTAsmiZJ-ojL1tn-k8FlCXmI6BILa0b_j0pVW7EitA/edit"
+    },
     {
-        "title":"Touch Screen Will not Respond to Input",
-        "tags":["register","touch","screen","will","not","respond","input", "monitor"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Touch Screen Will Not Respond to Input",
+        "tags": [
+            "register",
+            "touch",
+            "screen",
+            "will",
+            "not",
+            "respond",
+            "input",
+            "monitor"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
-        "optionalPrompts": ["registerShow"],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A162:B162"
-    }, 
+        "optionalPrompts": [
+            "registerShow"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A162:B162"
+    },
     {
-        "title":"'Unable to Access Credit' Message on Screen",
-        "tags":["unable", "access", "credit", "payment", "terminal", "register"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "'Unable to Access Credit' Message on Screen",
+        "tags": [
+            "unable",
+            "access",
+            "credit",
+            "payment",
+            "terminal",
+            "register"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
-        "optionalPrompts": ["registerShow"],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A32:B32"
-    }, 
+        "optionalPrompts": [
+            "registerShow"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A32:B32"
+    },
     {
-        "title":"Communications Issues with Customer Account Lookup, but Store Has Network",
-        "tags":["communication", "issues", "error", "network", "down", "account", "customer", "lookup"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Communications Issues with Customer Account Lookup, but Store Has Network",
+        "tags": [
+            "communication",
+            "issues",
+            "error",
+            "network",
+            "down",
+            "account",
+            "customer",
+            "lookup"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A74:B74"
-    }, 
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A74:B74"
+    },
     {
-        "title":"'Call for Referral Code' Message on Monitor",
-        "tags":["call", "referral", "code", "check", "payment", "terminal"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "'Call for Referral Code' Message on Monitor",
+        "tags": [
+            "call",
+            "referral",
+            "code",
+            "check",
+            "payment",
+            "terminal"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A50:B50"
-    }, 
+        "tooltip": "Mostly deprecated, this is related to the payment terminal, not to checks.",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A50:B50"
+    },
     {
-        "title":"Register Screen is Stuck as the Windows Start menu",
-        "tags":["register", "screen", "stuck", "windows", "start", "menu"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Register Screen is Stuck as the Windows Start menu",
+        "tags": [
+            "register",
+            "screen",
+            "stuck",
+            "windows",
+            "start",
+            "menu"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A86:B86"
-    }, 
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A86:B86"
+    },
     {
-        "title":"'Gift Card System Down' Message When Using or Selling a Gift Card",
-        "tags":["gift", "card", "system", "down", "selling", "register"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "'Gift Card System Down' Message When Using or Selling a Gift Card",
+        "tags": [
+            "gift",
+            "card",
+            "system",
+            "down",
+            "selling",
+            "register"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
-        "optionalPrompts": ["registerShow"],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A90:B90"
-    }, 
+        "optionalPrompts": [
+            "registerShow"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A90:B90"
+    },
     {
-        "title":"Data Entry Field (Sku Field, Employee Number Field, etc.) is Filled with the Same Repeating Character",
-        "tags":["data", "entry", "character", "letter", "repeat", "keyboard", "register"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A90:B90"
-    }, 
-    {
-        "title":"Freeing Up Phantom Port in Use",
-        "tags":["free", "phantom", "port", "register", "disconnect"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A130:C130"
-    }, 
-    {
-        "title":"Registers are Opened Without Being Issued in the Back Office",
-        "tags":["register", "opened", "not issued", "back", "office"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A142:B142"
-    }, 
-    {
-        "title":"Inhouse Charges Not Working",
-        "tags":["inhouse", "charge", "fail", "account"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Data Entry Field (Sku Field, Employee Number Field, etc.) is Filled with the Same Repeating Character",
+        "tags": [
+            "data",
+            "entry",
+            "character",
+            "letter",
+            "repeat",
+            "keyboard",
+            "register"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A146:B146"
-    }, 
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A90:B90"
+    },
     {
-        "title":"Scanning Paint Causes Register to Freeze, or Doesn't Display All Colors",
-        "tags":["color", "freeze", "register", "lookup", "display", "paint"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
-        "authLevel": "1",
-        "optionalPrompts": ["registerShow"],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A160:B160"
-    }, 
-    {
-        "title":"Loyalty Points Loading Slow/Receipts Not Processing When Scanned",
-        "tags":["loyalty", "points", "receipt", "scan", "slow"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Freeing Up Phantom Port in Use",
+        "tags": [
+            "free",
+            "phantom",
+            "port",
+            "register",
+            "disconnect"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A74:B74"
-    }, 
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A130:C130"
+    },
     {
-        "title":"'File is Missing', or Mi9 Closes Out When Trying to Start Mi9 at the Registers",
-        "tags":["file", "missing", "mi9", "closing", "register", "connect"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Registers are Opened Without Being Issued in the Back Office",
+        "tags": [
+            "register",
+            "opened",
+            "not issued",
+            "back",
+            "office"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A182:B182"
-    }, 
-    {
-        "title":"BlueTarp Transaction On Special Orders",
-        "tags":["BlueTarp", "special", "order", "payment", "blue", "tarp", "capital", "one"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A182:B182"
-    }, 
-    {
-        "title":"'Associate Record Not Found'",
-        "tags":["associate", "record", "error", "register", "found", "read"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
-        "authLevel": "1",
-        "optionalPrompts": ["registerShow"],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A192:B192"
-    }, 
-    {
-        "title":"Registers Displaying Non-Ongoing Events (Charity, Etc.)",
-        "tags":["charity", "events", "register"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A198:B198"
-    }, 
-    {
-        "title":"Changing Date/Time on a Register",
-        "tags":["date", "time", "register", "change"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
-        "authLevel": "1",
-        "optionalPrompts": ["registerShow"],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A198:B198"
-    }, 
-    {
-        "title":"Blinking Red Light on AP",
-        "tags":["blinking", "red", "ap", "light"],
-        "dept":"IT",
-        "sub":"WiFi",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A96:B96"
-    }, 
-    {
-        "title":"Connecting Stihl TED to Wi-Fi",
-        "tags":["stihl", "TED"],
-        "dept":"IT",
-        "sub":"WiFi",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source":"https://docs.google.com/document/d/1-UJ2_4iV9_5vmK8mf6GlAGUYmTKGUAC5ud4NHmM5HO4/edit"
-    }, 
-    {
-        "title":"Phones Aren't Making or Receiving Calls",
-        "tags":["phones", "calls", "receiving"],
-        "dept":"IT",
-        "sub":"VoIP/Phone Issues",
-        "authLevel": "1",
-        "optionalPrompts": ["VOIPcallsreceiving"],
-        "source":"https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chome=true&amp;single=true&amp;range=A67:B68"
-    }, 
-    {
-        "title":"Transactions Not Going Through to the Back Office",
-        "tags":["transactions", "back office", "processing"],
-        "dept":"IT",
-        "sub":"Back Office (Mi9)",
-        "authLevel": "1",
-        "optionalPrompts": ["pleaseEscalate"],
-        "source": ""
-    }, 
-    {
-        "title":"No Network Connection",
-        "tags":["network", "down", "connection"],
-        "dept":"IT",
-        "sub":"Back Office (Mi9)",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A64:C65"
-    }, 
-    {
-        "title":"Cash Up Issues",
-        "tags":["cash", "up", "issues", "EOD"],
-        "dept":"IT",
-        "sub":"Back Office (Mi9)",
-        "authLevel": "1",
-        "optionalPrompts": ["pleaseEscalate"],
-        "source": ""
-    }, 
-    {
-        "title":"'Loan Amount Exceeds Cash in Safe' Message When Issuing Drawers",
-        "tags":["register", "loan", "4-1", "open", "safe", "cash", "drawers", "issuing"],
-        "dept":"IT",
-        "sub":"Back Office (Mi9)",
-        "authLevel": "1",
-        "optionalPrompts": ["followStepsAndNotify"],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A84:B84"
-    }, 
-    {
-        "title":"Keyboard/Mouse Works on Email Computer, but Not On Mi9 Computer",
-        "tags":["keyboard", "mouse", "email", "mi9", "back", "office"],
-        "dept":"IT",
-        "sub":"Back Office (Mi9)",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A98:B98"
-    }, 
-    {
-        "title":"Issues with Poll File",
-        "tags":["poll", "file"],
-        "dept":"IT",
-        "sub":"Back Office (Mi9)",
-        "authLevel": "1",
-        "optionalPrompts": ["pleaseEscalate"],
-        "source": ""
-    }, 
-    {
-        "title":"'Last Transaction Counter - None' Displays When Trying to Close a Drawer",
-        "tags":["transaction", "count", "drawer", "close", "EOD"],
-        "dept":"IT",
-        "sub":"Back Office (Mi9)",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A106:B106"
-    }, 
-    {
-        "title":"Registers Are Opened Without Being Issued in the Back Office",
-        "tags":["registers", "opened", "issuing", "back", "office"],
-        "dept":"IT",
-        "sub":"Back Office (Mi9)",
-        "authLevel": "1",
-        "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A142:B142"
-    }, 
+    },
     {
-        "title":"Back Office Needs to be Rebooted",
-        "tags":["back", "office", "reboot"],
-        "dept":"IT",
-        "sub":"Back Office (Mi9)",
+        "title": "Inhouse Charges Not Working",
+        "tags": [
+            "inhouse",
+            "charge",
+            "fail",
+            "account"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;single=true&amp;range=A140:B140"
-    }, 
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A146:B146"
+    },
     {
-        "title":"Cash Up Instructions Add/Change Requests",
-        "tags":["cash", "up", "instructions", "requests"],
-        "dept":"IT",
-        "sub":"Back Office (Mi9)",
+        "title": "Scanning Paint Causes Register to Freeze, or Doesn't Display All Colors",
+        "tags": [
+            "color",
+            "freeze",
+            "register",
+            "lookup",
+            "display",
+            "paint"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
+        "authLevel": "1",
+        "optionalPrompts": [
+            "registerShow"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A160:B160"
+    },
+    {
+        "title": "Loyalty Points Loading Slow/Receipts Not Processing When Scanned",
+        "tags": [
+            "loyalty",
+            "points",
+            "receipt",
+            "scan",
+            "slow"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B48:D48"
-    }, 
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A74:B74"
+    },
     {
-        "title":"Power Outage at Store and Now Their Cabinet Will Not Boot Back Up",
-        "tags":["power", "outage", "cabinet", "back", "office"],
-        "dept":"IT",
-        "sub":"Back Office (Mi9)",
+        "title": "'File is Missing', or Mi9 Closes Out When Trying to Start Mi9 at the Registers",
+        "tags": [
+            "open",
+            "start",
+            "file",
+            "missing",
+            "mi9",
+            "closing",
+            "register",
+            "connect"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B48:D48"
-    }, 
+        "tooltip": "This issue could also present as the Mi9 loading window popping up, then disappearing and nothing shows up.",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A182:B182"
+    },
     {
-        "title":"Sequencing Change Issues",
-        "tags":["sequencing", "change", "issues", "chrome", "book", "chromebook", "sequence"],
-        "dept":"IT",
-        "sub":"Chromebook",
+        "title": "'Associate Record Not Found'",
+        "tags": [
+            "associate",
+            "record",
+            "error",
+            "register",
+            "found",
+            "read"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
-        "optionalPrompts": ["pleaseEscalate"],
-        "source": ""
-    }, 
+        "optionalPrompts": [
+            "registerShow"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A192:B192"
+    },
     {
-        "title":"'Runtime Error' Message When Trying to Access Certain Pages",
-        "tags":["runtime", "error", "sport"],
-        "dept":"IT",
-        "sub":"SPORT",
-        "authLevel": "1",
-        "optionalPrompts": ["pleaseEscalate"],
-        "source": ""
-    }, 
-    {
-        "title":"Chromebook Can't Connect to the Wi-Fi",
-        "tags":["WiFi", "issues", "chromebook", "chrome", "book"],
-        "dept":"IT",
-        "sub":"Chromebook",
-        "authLevel": "1",
-        "optionalPrompts": ["useBackup"],
-        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;chrome=true&amp;widget=false&amp;single=true&range=B3:D3"
-    }, 
-    {
-        "title":"Chromebook Can't Print",
-        "tags":["print", "chromebook", "chrome", "book"],
-        "dept":"IT",
-        "sub":"Chromebook",
-        "authLevel": "1",
-        "optionalPrompts": ["useBackup"],
-        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;chrome=true&amp;widget=false&amp;single=true&range=B3:D3"
-    }, 
-    {
-        "title":"Store's Inventory on Their Elvis Devices Show Store 170",
-        "tags":["elvis", "store", "170", "inventory", "devices"],
-        "dept":"IT",
-        "sub":"ELVIS Devices",
+        "title": "Registers Displaying Non-Ongoing Events (Charity, Etc.)",
+        "tags": [
+            "charity",
+            "events",
+            "register"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A154:B154"
-    }, 
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A198:B198"
+    },
     {
-        "title":"Issues with Mi9 Merchant/Cycle Counts/Zero Audits",
-        "tags":["elvis", "cycle", "counts", "zero", "audits"],
-        "dept":"IT",
-        "sub":"ELVIS Devices",
+        "title": "Changing Date/Time on a Register",
+        "tags": [
+            "date",
+            "time",
+            "register",
+            "change"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
+        "authLevel": "1",
+        "optionalPrompts": [
+            "registerShow"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A198:B198"
+    },
+    {
+        "title": "Blinking Red Light on AP",
+        "tags": [
+            "blinking",
+            "red",
+            "ap",
+            "light"
+        ],
+        "dept": "IT",
+        "sub": "WiFi",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B50:D50"
-    }, 
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A96:B96"
+    },
     {
-        "title":"Issues with Capture/Khoros App",
-        "tags":["elvis", "facebook", "capture", "khoros"],
-        "dept":"IT",
-        "sub":"ELVIS Devices",
-        "authLevel": "1",
-        "optionalPrompts": ["khoros"],
-        "source": ""
-    }, 
-    {
-        "title":"TCB App Showing Wrong Info From New Employee",
-        "tags":["elvis", "TCB", "wrong info", "new employee", "new manager"],
-        "dept":"IT",
-        "sub":"ELVIS Devices",
+        "title": "Connecting Stihl TED to Wi-Fi",
+        "tags": [
+            "stihl",
+            "TED"
+        ],
+        "dept": "IT",
+        "sub": "WiFi",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A196:B196"
-    }, 
+        "tooltip": "",
+        "source": "https://docs.google.com/document/d/1-UJ2_4iV9_5vmK8mf6GlAGUYmTKGUAC5ud4NHmM5HO4/edit"
+    },
     {
-        "title":"Online Order: Blinky Does Not Blink and No Print Out",
-        "tags":["kiosk", "blinky", "online", "order"],
-        "dept":"IT",
-        "sub":"Kiosk",
+        "title": "Phones Aren't Making or Receiving Calls",
+        "tags": [
+            "phones",
+            "calls",
+            "receiving"
+        ],
+        "dept": "IT",
+        "sub": "VoIP/Phone Issues",
         "authLevel": "1",
-        "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A16:B16"
-    }, 
+        "optionalPrompts": [
+            "VOIPcallsreceiving"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chome=true&amp;single=true&amp;range=A67:B68"
+    },
     {
-        "title":"Store Having Issues Canceling an Online Order",
-        "tags":["cancel", "online", "order"],
-        "dept":"IT",
-        "sub":"Kiosk",
+        "title": "Transactions Not Going Through to the Back Office",
+        "tags": [
+            "transactions",
+            "back office",
+            "processing"
+        ],
+        "dept": "IT",
+        "sub": "Back Office (Mi9)",
         "authLevel": "1",
-        "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A180:B180"
-    }, 
-    {
-        "title":"Uncanceling a Line on an Online Order",
-        "tags":["cancel", "online", "order"],
-        "dept":"IT",
-        "sub":"Kiosk",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A170:B170"
-    }, 
-    {
-        "title":"Spectrometer Not Calibrating",
-        "tags":["spectrometer", "spectrophotometer", "calibrating", "paint"],
-        "dept":"IT",
-        "sub":"Paint Machine",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A170:B170"
-    }, 
-    {
-        "title":"Tinter not Responding to Commands in ColoRx; No Error Messages",
-        "tags":["tinter", "ColoRx", "responding", "dispense", "paint"],
-        "dept":"IT",
-        "sub":"Paint Machine",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A104:B104"
-    }, 
-    {
-        "title":"Paint Machine Gives Error Message 'Eprinterx: Printer Selected Not Valid'",
-        "tags":["eprtinerx", "valid", "paint", "machine"],
-        "dept":"IT",
-        "sub":"Paint Machine",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A170:B170"
-    }, 
-    {
-        "title":"Live Sales Not Loading",
-        "tags":["live", "sales", "loading"],
-        "dept":"IT",
-        "sub":"IT Maintenance",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A8:B8"
-    }, 
-    {
-        "title":"Canadian Conversion Rate Change",
-        "tags":["canadian", "currency", "exchange rate"],
-        "dept":"IT",
-        "sub":"IT Maintenance",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source": "https://docs.google.com/document/d/1ufv0T_8oO5gP0NJDdmSrUx9pE_bvV8wjEQ69pyIaxS8/edit"
-    }, 
-    {
-        "title":"Updating Store Hours",
-        "tags":["update", "store", "hours", "change", "new"],
-        "dept":"IT",
-        "sub":"IT Maintenance",
-        "authLevel": "1",
-        "optionalPrompts": ["storeHours"],
-        "source": "https://docs.google.com/document/d/1Z-W6tQayH4jNlQNqtFKw31KUpTgSMVMoNSoDvPC2vVI/edit#"
-    }, 
-    {
-        "title":"Running EOD For a Store",
-        "tags":["EOD", "store", "missed", "end", "day", "roll"],
-        "dept":"IT",
-        "sub":"IT Maintenance",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source": "https://docs.google.com/document/d/1uBxBlALyEP8_D8rgB7-mPfGbiM4Ao2m1GydvxqyfaR8/edit#bookmark=id.4lu14criokzi"
-    }, 
-    {
-        "title":"Paint Over Max Order",
-        "tags":["paint", "over", "max", "order", "PO"],
-        "dept":"IT",
-        "sub":"IT Maintenance",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source": "https://docs.google.com/document/d/1JqAxLJFS2J_Poag57C5VJPuif1xbDRCXmm5VH6aBeuo/edit"
-    }, 
-    {
-        "title":"Email Server Doesn't Boot Up and has an Amber Light",
-        "tags":["email", "server", "amber", "light", "computer", "boot", "turn", "on"],
-        "dept":"IT",
-        "sub":"Email Server",
-        "authLevel": "1",
-        "optionalPrompts": ["pleaseEscalate"],
+        "optionalPrompts": [
+            "pleaseEscalate"
+        ],
+        "tooltip": "",
         "source": ""
     },
     {
-        "title":"Phish Hook Button in Email Not Working",
-        "tags":["phish", "hook", "email", "server", "button", "phishing", "scam"],
-        "dept":"IT",
-        "sub":"Email Server",
+        "title": "No Network Connection",
+        "tags": [
+            "network",
+            "down",
+            "connection"
+        ],
+        "dept": "IT",
+        "sub": "Back Office (Mi9)",
         "authLevel": "1",
         "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A144:B144"
-    }, 
+        "tooltip": "This issue can present itself as customer lookup down, phones not working, debit cards not working, and many more.",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A64:C65"
+    },
     {
-        "title":"'Ajax Error 0' in Mi9 Merchant",
-        "tags":["ajax error", "merchant", "mi9", "0", "receiving", "POs"],
-        "dept":"IT",
-        "sub":"Email Server",
+        "title": "Cash Up Issues",
+        "tags": [
+            "cash",
+            "up",
+            "issues",
+            "EOD"
+        ],
+        "dept": "IT",
+        "sub": "Back Office (Mi9)",
         "authLevel": "1",
-        "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A186:B186"
-    }, 
-    {
-        "title":"'An Error Has Occurred' When Trying to Receive In a PO",
-        "tags":["error", "system", "administrator", "mi9", "merchant", "portal", "PO", "please", "contact", "receive"],
-        "dept":"IT",
-        "sub":"Email Server",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A194:B194"
-    }, 
-    {
-        "title":"Payment Terminal Shows Message 'Unable to Communicate with triPOS",
-        "tags":["payment", "terminal", "register", "triPOS", "communicate", "talk", "card", "reader", "pin", "pad", "pinpad"],
-        "dept":"IT",
-        "sub":"Payment Terminal",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A14:B14"
-    }, 
-    {
-        "title":"Stuck On System Information",
-        "tags":["payment", "terminal", "stuck", "system", "information", "white", "screen", "froze", "card", "reader", "pin", "pad", "pinpad"],
-        "dept":"IT",
-        "sub":"Payment Terminal",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A14:B14"
-    }, 
-    {
-        "title":"'Maintenance Required' or 'Enter Password to Login'",
-        "tags":["maintenance", "required", "payment", "terminal", "enter", "password"],
-        "dept":"IT",
-        "sub":"Payment Terminal",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&ampchrome=true&amp;single=true&amp;range=A24:D24"
-    }, 
-    {
-        "title":"Critical Error: No USB Connection, Please Check Cable",
-        "tags":["maintenance", "required", "payment", "terminal", "check", "cable", "card", "reader", "pin", "pad", "pinpad"],
-        "dept":"IT",
-        "sub":"Payment Terminal",
-        "authLevel": "1",
-        "optionalPrompts": [],
-        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&ampchrome=true&amp;single=true&amp;range=A24:D24"
-    }, 
-    {
-        "title":"'Cannot Access QuickChip Functionality' Message on Register",
-        "tags":["quickchip", "access", "register", "functionality", "card", "reader", "pin", "pad", "pinpad"],
-        "dept":"IT",
-        "sub":"Register Software",
-        "authLevel": "1",
-        "optionalPrompts": ["pleaseEscalate"],
+        "optionalPrompts": [
+            "pleaseEscalate"
+        ],
+        "tooltip": "",
         "source": ""
-    }, 
+    },
     {
-        "title":"New Register Setup Has Arrived At Store",
-        "tags":["new", "register", "setup", "arrived", "hook", "up", "set"],
-        "dept":"IT",
-        "sub":"Register Hardware",
+        "title": "'Loan Amount Exceeds Cash in Safe' Message When Issuing Drawers",
+        "tags": [
+            "register",
+            "loan",
+            "4-1",
+            "open",
+            "safe",
+            "cash",
+            "drawers",
+            "issuing"
+        ],
+        "dept": "IT",
+        "sub": "Back Office (Mi9)",
+        "authLevel": "1",
+        "optionalPrompts": [
+            "followStepsAndNotify"
+        ],
+        "tooltip": "Occurs when not enough money is in the virtual safe in the back office.",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A84:B84"
+    },
+    {
+        "title": "Keyboard/Mouse Works on Email Computer, but Not On Mi9 Computer",
+        "tags": [
+            "keyboard",
+            "mouse",
+            "email",
+            "mi9",
+            "back",
+            "office"
+        ],
+        "dept": "IT",
+        "sub": "Back Office (Mi9)",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A98:B98"
+    },
+    {
+        "title": "Issues with Poll File",
+        "tags": [
+            "poll",
+            "file"
+        ],
+        "dept": "IT",
+        "sub": "Back Office (Mi9)",
+        "authLevel": "1",
+        "optionalPrompts": [
+            "pleaseEscalate"
+        ],
+        "tooltip": "",
+        "source": ""
+    },
+    {
+        "title": "'Last Transaction Counter - None' Displays When Trying to Close a Drawer",
+        "tags": [
+            "transaction",
+            "count",
+            "drawer",
+            "close",
+            "EOD"
+        ],
+        "dept": "IT",
+        "sub": "Back Office (Mi9)",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A106:B106"
+    },
+    {
+        "title": "Registers Are Opened Without Being Issued in the Back Office",
+        "tags": [
+            "registers",
+            "opened",
+            "issuing",
+            "back",
+            "office"
+        ],
+        "dept": "IT",
+        "sub": "Back Office (Mi9)",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A142:B142"
+    },
+    {
+        "title": "Back Office Needs to be Rebooted",
+        "tags": [
+            "back",
+            "office",
+            "reboot"
+        ],
+        "dept": "IT",
+        "sub": "Back Office (Mi9)",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;single=true&amp;range=A140:B140"
+    },
+    {
+        "title": "Cash Up Instructions Add/Change Requests",
+        "tags": [
+            "cash",
+            "up",
+            "instructions",
+            "requests"
+        ],
+        "dept": "IT",
+        "sub": "Back Office (Mi9)",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B48:D48"
+    },
+    {
+        "title": "Power Outage at Store and Now Their Cabinet Will Not Boot Back Up",
+        "tags": [
+            "power",
+            "outage",
+            "cabinet",
+            "back",
+            "office"
+        ],
+        "dept": "IT",
+        "sub": "Back Office (Mi9)",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B48:D48"
+    },
+    {
+        "title": "Sequencing Change Issues",
+        "tags": [
+            "sequencing",
+            "change",
+            "issues",
+            "chrome",
+            "book",
+            "chromebook",
+            "sequence"
+        ],
+        "dept": "IT",
+        "sub": "Chromebook",
+        "authLevel": "1",
+        "optionalPrompts": [
+            "pleaseEscalate"
+        ],
+        "tooltip": "",
+        "source": ""
+    },
+    {
+        "title": "'Runtime Error' Message When Trying to Access Certain Pages",
+        "tags": [
+            "runtime",
+            "error",
+            "sport"
+        ],
+        "dept": "IT",
+        "sub": "SPORT",
+        "authLevel": "1",
+        "optionalPrompts": [
+            "pleaseEscalate"
+        ],
+        "tooltip": "",
+        "source": ""
+    },
+    {
+        "title": "Chromebook Can't Connect to the Wi-Fi",
+        "tags": [
+            "WiFi",
+            "issues",
+            "chromebook",
+            "chrome",
+            "book"
+        ],
+        "dept": "IT",
+        "sub": "Chromebook",
+        "authLevel": "1",
+        "optionalPrompts": [
+            "useBackup"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;chrome=true&amp;widget=false&amp;single=true&range=B3:D3"
+    },
+    {
+        "title": "Chromebook Can't Print",
+        "tags": [
+            "print",
+            "chromebook",
+            "chrome",
+            "book"
+        ],
+        "dept": "IT",
+        "sub": "Chromebook",
+        "authLevel": "1",
+        "optionalPrompts": [
+            "useBackup"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;chrome=true&amp;widget=false&amp;single=true&range=B3:D3"
+    },
+    {
+        "title": "Store's Inventory on Their Elvis Devices Show Store 170",
+        "tags": [
+            "elvis",
+            "store",
+            "170",
+            "inventory",
+            "devices"
+        ],
+        "dept": "IT",
+        "sub": "ELVIS Devices",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A154:B154"
+    },
+    {
+        "title": "Issues with Mi9 Merchant/Cycle Counts/Zero Audits",
+        "tags": [
+            "elvis",
+            "cycle",
+            "counts",
+            "zero",
+            "audits"
+        ],
+        "dept": "IT",
+        "sub": "ELVIS Devices",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B50:D50"
+    },
+    {
+        "title": "Issues with Capture/Khoros App",
+        "tags": [
+            "elvis",
+            "facebook",
+            "capture",
+            "khoros"
+        ],
+        "dept": "IT",
+        "sub": "ELVIS Devices",
+        "authLevel": "1",
+        "optionalPrompts": [
+            "khoros"
+        ],
+        "tooltip": "",
+        "source": ""
+    },
+    {
+        "title": "TCB App Showing Wrong Info From New Employee",
+        "tags": [
+            "elvis",
+            "TCB",
+            "wrong info",
+            "new employee",
+            "new manager"
+        ],
+        "dept": "IT",
+        "sub": "ELVIS Devices",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A196:B196"
+    },
+    {
+        "title": "Online Order: Blinky Does Not Blink and No Print Out",
+        "tags": [
+            "kiosk",
+            "blinky",
+            "online",
+            "order"
+        ],
+        "dept": "IT",
+        "sub": "Kiosk",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A16:B16"
+    },
+    {
+        "title": "Store Having Issues Canceling an Online Order",
+        "tags": [
+            "cancel",
+            "online",
+            "order"
+        ],
+        "dept": "IT",
+        "sub": "Kiosk",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A180:B180"
+    },
+    {
+        "title": "Uncanceling a Line on an Online Order",
+        "tags": [
+            "cancel",
+            "online",
+            "order"
+        ],
+        "dept": "IT",
+        "sub": "Kiosk",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A170:B170"
+    },
+    {
+        "title": "Spectrometer Not Calibrating",
+        "tags": [
+            "spectrometer",
+            "spectrophotometer",
+            "calibrating",
+            "paint"
+        ],
+        "dept": "IT",
+        "sub": "Paint Machine",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A170:B170"
+    },
+    {
+        "title": "Tinter not Responding to Commands in ColoRx; No Error Messages",
+        "tags": [
+            "tinter",
+            "ColoRx",
+            "responding",
+            "dispense",
+            "paint"
+        ],
+        "dept": "IT",
+        "sub": "Paint Machine",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A104:B104"
+    },
+    {
+        "title": "Paint Machine Gives Error Message 'Eprinterx: Printer Selected Not Valid'",
+        "tags": [
+            "eprtinerx",
+            "valid",
+            "paint",
+            "machine"
+        ],
+        "dept": "IT",
+        "sub": "Paint Machine",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A170:B170"
+    },
+    {
+        "title": "Live Sales Not Loading",
+        "tags": [
+            "live",
+            "sales",
+            "loading"
+        ],
+        "dept": "IT",
+        "sub": "IT Maintenance",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A8:B8"
+    },
+    {
+        "title": "Canadian Conversion Rate Change",
+        "tags": [
+            "canadian",
+            "currency",
+            "exchange rate"
+        ],
+        "dept": "IT",
+        "sub": "IT Maintenance",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/document/d/1ufv0T_8oO5gP0NJDdmSrUx9pE_bvV8wjEQ69pyIaxS8/edit"
+    },
+    {
+        "title": "Updating Store Hours",
+        "tags": [
+            "update",
+            "store",
+            "hours",
+            "change",
+            "new"
+        ],
+        "dept": "IT",
+        "sub": "IT Maintenance",
+        "authLevel": "1",
+        "optionalPrompts": [
+            "storeHours"
+        ],
+        "tooltip": "",
+        "source": "https://docs.google.com/document/d/1Z-W6tQayH4jNlQNqtFKw31KUpTgSMVMoNSoDvPC2vVI/edit#"
+    },
+    {
+        "title": "Running EOD For a Store",
+        "tags": [
+            "EOD",
+            "store",
+            "missed",
+            "end",
+            "day",
+            "roll"
+        ],
+        "dept": "IT",
+        "sub": "IT Maintenance",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/document/d/1uBxBlALyEP8_D8rgB7-mPfGbiM4Ao2m1GydvxqyfaR8/edit#bookmark=id.4lu14criokzi"
+    },
+    {
+        "title": "Paint Over Max Order",
+        "tags": [
+            "paint",
+            "over",
+            "max",
+            "order",
+            "PO"
+        ],
+        "dept": "IT",
+        "sub": "IT Maintenance",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/document/d/1JqAxLJFS2J_Poag57C5VJPuif1xbDRCXmm5VH6aBeuo/edit"
+    },
+    {
+        "title": "Email Server Doesn't Boot Up and has an Amber Light",
+        "tags": [
+            "email",
+            "server",
+            "amber",
+            "light",
+            "computer",
+            "boot",
+            "turn",
+            "on"
+        ],
+        "dept": "IT",
+        "sub": "Email Server",
+        "authLevel": "1",
+        "optionalPrompts": [
+            "pleaseEscalate"
+        ],
+        "tooltip": "",
+        "source": ""
+    },
+    {
+        "title": "Phish Hook Button in Email Not Working",
+        "tags": [
+            "phish",
+            "hook",
+            "email",
+            "server",
+            "button",
+            "phishing",
+            "scam"
+        ],
+        "dept": "IT",
+        "sub": "Email Server",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A144:B144"
+    },
+    {
+        "title": "'Ajax Error 0' in Mi9 Merchant",
+        "tags": [
+            "ajax error",
+            "merchant",
+            "mi9",
+            "0",
+            "receiving",
+            "POs"
+        ],
+        "dept": "IT",
+        "sub": "Email Server",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A186:B186"
+    },
+    {
+        "title": "Payment Terminal Shows Message 'Unable to Communicate with triPOS",
+        "tags": [
+            "payment",
+            "terminal",
+            "register",
+            "triPOS",
+            "communicate",
+            "talk",
+            "card",
+            "reader",
+            "pin",
+            "pad",
+            "pinpad"
+        ],
+        "dept": "IT",
+        "sub": "Payment Terminal",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A14:B14"
+    },
+    {
+        "title": "Stuck On System Information",
+        "tags": [
+            "payment",
+            "terminal",
+            "stuck",
+            "system",
+            "information",
+            "white",
+            "screen",
+            "froze",
+            "card",
+            "reader",
+            "pin",
+            "pad",
+            "pinpad"
+        ],
+        "dept": "IT",
+        "sub": "Payment Terminal",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A14:B14"
+    },
+    {
+        "title": "'Maintenance Required' or 'Enter Password to Login'",
+        "tags": [
+            "maintenance",
+            "required",
+            "payment",
+            "terminal",
+            "enter",
+            "password"
+        ],
+        "dept": "IT",
+        "sub": "Payment Terminal",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&ampchrome=true&amp;single=true&amp;range=A24:D24"
+    },
+    {
+        "title": "Critical Error: No USB Connection, Please Check Cable",
+        "tags": [
+            "maintenance",
+            "required",
+            "payment",
+            "terminal",
+            "check",
+            "cable",
+            "card",
+            "reader",
+            "pin",
+            "pad",
+            "pinpad"
+        ],
+        "dept": "IT",
+        "sub": "Payment Terminal",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
+        "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&ampchrome=true&amp;single=true&amp;range=A24:D24"
+    },
+    {
+        "title": "'Cannot Access QuickChip Functionality' Message on Register",
+        "tags": [
+            "quickchip",
+            "access",
+            "register",
+            "functionality",
+            "card",
+            "reader",
+            "pin",
+            "pad",
+            "pinpad"
+        ],
+        "dept": "IT",
+        "sub": "Register Software",
+        "authLevel": "1",
+        "optionalPrompts": [
+            "pleaseEscalate"
+        ],
+        "tooltip": "",
+        "source": ""
+    },
+    {
+        "title": "New Register Setup Has Arrived At Store",
+        "tags": [
+            "new",
+            "register",
+            "setup",
+            "arrived",
+            "hook",
+            "up",
+            "set"
+        ],
+        "dept": "IT",
+        "sub": "Register Hardware",
+        "authLevel": "1",
+        "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/document/d/1lEcWJOkRSD_EUj8xnZFPEHnG-5mNNsALEMZFPGasbI0/edit#heading=h.xelo7xrhz9st"
     },
     {
-        "title":"Printer Not Printing",
-        "tags":["office", "kiosk", "printer", "print", "jam", "blank", "email", "HP", "Dell"],
-        "dept":"IT",
-        "sub":"Printers",
+        "title": "Printer Not Printing",
+        "tags": [
+            "office",
+            "kiosk",
+            "printer",
+            "print",
+            "jam",
+            "blank",
+            "email",
+            "HP",
+            "Dell"
+        ],
+        "dept": "IT",
+        "sub": "Printers",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B14:D14"
     },
     {
-        "title":"Printer Continuously Jams",
-        "tags":["office", "kiosk", "printer", "print", "jamming", "jam", "stop", "HP", "Dell"],
-        "dept":"IT",
-        "sub":"Printers",
+        "title": "Printer Continuously Jams",
+        "tags": [
+            "office",
+            "kiosk",
+            "printer",
+            "print",
+            "jamming",
+            "jam",
+            "stop",
+            "HP",
+            "Dell"
+        ],
+        "dept": "IT",
+        "sub": "Printers",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B14:D14"
     },
     {
-        "title":"Printer Not Scanning",
-        "tags":["office", "printer", "kiosk", "print", "scanning", "scan", "HP", "Dell"],
-        "dept":"IT",
-        "sub":"Printers",
+        "title": "Printer Not Scanning",
+        "tags": [
+            "office",
+            "printer",
+            "kiosk",
+            "print",
+            "scanning",
+            "scan",
+            "HP",
+            "Dell"
+        ],
+        "dept": "IT",
+        "sub": "Printers",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B14:D14"
     },
     {
-        "title":"Fuser Error on Printer",
-        "tags":["office", "printer", "kiosk", "print", "fuser", "error", "HP", "Dell"],
-        "dept":"IT",
-        "sub":"Printers",
+        "title": "Fuser Error on Printer",
+        "tags": [
+            "office",
+            "printer",
+            "kiosk",
+            "print",
+            "fuser",
+            "error",
+            "HP",
+            "Dell"
+        ],
+        "dept": "IT",
+        "sub": "Printers",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=B14:D14"
     },
     {
-        "title":"Printer Index Out of Range",
-        "tags":["office", "printer", "kiosk", "print", "index", "range", "out", "HP", "Dell"],
-        "dept":"IT",
-        "sub":"Printers",
+        "title": "Printer Index Out of Range",
+        "tags": [
+            "office",
+            "printer",
+            "kiosk",
+            "print",
+            "index",
+            "range",
+            "out",
+            "HP",
+            "Dell"
+        ],
+        "dept": "IT",
+        "sub": "Printers",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A164:B164"
     },
     {
-        "title":"Store Needs Toner/Price Tickets/Ink Ribbon",
-        "tags":["office", "printer", "kiosk", "price", "tickets", "ink", "ribbon", "toner", "S2815dn", "2335", "2355", "m402n", "HP", "Dell", "Order"],
-        "dept":"IT",
-        "sub":"Printers",
+        "title": "Store Needs Toner/Price Tickets/Ink Ribbon",
+        "tags": [
+            "office",
+            "printer",
+            "kiosk",
+            "price",
+            "tickets",
+            "ink",
+            "ribbon",
+            "toner",
+            "S2815dn",
+            "2335",
+            "2355",
+            "m402n",
+            "HP",
+            "Dell",
+            "Order"
+        ],
+        "dept": "IT",
+        "sub": "Printers",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=1192200083&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A2:D13"
     },
     {
-        "title":"No Power/No Light Around Feed Button on Price Ticket Printer",
-        "tags":["price", "ticket", "printer", "light", "feed", "power"],
-        "dept":"IT",
-        "sub":"Price Ticket Printer",
+        "title": "No Power/No Light Around Feed Button on Price Ticket Printer",
+        "tags": [
+            "price",
+            "ticket",
+            "printer",
+            "light",
+            "feed",
+            "power"
+        ],
+        "dept": "IT",
+        "sub": "Price Ticket Printer",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A172:B172"
     },
     {
-        "title":"Price Ticket Printer Flashing Amber",
-        "tags":["price", "ticket", "printer", "light", "flashing", "amber", "feed"],
-        "dept":"IT",
-        "sub":"Price Ticket Printer",
+        "title": "Price Ticket Printer Flashing Amber",
+        "tags": [
+            "price",
+            "ticket",
+            "printer",
+            "light",
+            "flashing",
+            "amber",
+            "feed"
+        ],
+        "dept": "IT",
+        "sub": "Price Ticket Printer",
         "authLevel": "1",
-        "optionalPrompts": ["pleaseEscalate"],
+        "optionalPrompts": [
+            "pleaseEscalate"
+        ],
+        "tooltip": "",
         "source": ""
     },
     {
-        "title":"Price Ticket Printer Flashing Red",
-        "tags":["price", "ticket", "printer", "light", "flashing", "red", "feed"],
-        "dept":"IT",
-        "sub":"Price Ticket Printer",
+        "title": "Price Ticket Printer Flashing Red",
+        "tags": [
+            "price",
+            "ticket",
+            "printer",
+            "light",
+            "flashing",
+            "red",
+            "feed"
+        ],
+        "dept": "IT",
+        "sub": "Price Ticket Printer",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1AuatUmWeoeIgqalzBeyIuADf3nEBZZb3HD1fkB1luqE/htmlembed?gid=0&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A24:B24"
     },
     {
-        "title":"Price Ticket Printer Double Flashing Green",
-        "tags":["price", "ticket", "printer", "light", "flashing", "green", "feed"],
-        "dept":"IT",
-        "sub":"Price Ticket Printer",
+        "title": "Price Ticket Printer Double Flashing Green",
+        "tags": [
+            "price",
+            "ticket",
+            "printer",
+            "light",
+            "flashing",
+            "green",
+            "feed"
+        ],
+        "dept": "IT",
+        "sub": "Price Ticket Printer",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1AuatUmWeoeIgqalzBeyIuADf3nEBZZb3HD1fkB1luqE/htmlembed?gid=0&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A25:B25"
     },
     {
-        "title":"Price Ticket Printer Solid Amber",
-        "tags":["price", "ticket", "printer", "light", "solid", "amber", "feed"],
-        "dept":"IT",
-        "sub":"Price Ticket Printer",
+        "title": "Price Ticket Printer Solid Amber",
+        "tags": [
+            "price",
+            "ticket",
+            "printer",
+            "light",
+            "solid",
+            "amber",
+            "feed"
+        ],
+        "dept": "IT",
+        "sub": "Price Ticket Printer",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1AuatUmWeoeIgqalzBeyIuADf3nEBZZb3HD1fkB1luqE/htmlembed?gid=0&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A26:B26"
     },
     {
-        "title":"Price Ticket Printer Alternating Red and Green",
-        "tags":["price", "ticket", "printer", "light", "alternating", "red", "green", "feed"],
-        "dept":"IT",
-        "sub":"Price Ticket Printer",
+        "title": "Price Ticket Printer Alternating Red and Green",
+        "tags": [
+            "price",
+            "ticket",
+            "printer",
+            "light",
+            "alternating",
+            "red",
+            "green",
+            "feed"
+        ],
+        "dept": "IT",
+        "sub": "Price Ticket Printer",
         "authLevel": "1",
-        "optionalPrompts": ["pleaseEscalate"],
+        "optionalPrompts": [
+            "pleaseEscalate"
+        ],
+        "tooltip": "",
         "source": ""
     },
     {
-        "title":"No Power to Paint Label Printer",
-        "tags":["power", "paint", "label", "printer", "labelwriter", "dymo"],
-        "dept":"IT",
-        "sub":"Paint Label Printer",
+        "title": "No Power to Paint Label Printer",
+        "tags": [
+            "power",
+            "paint",
+            "label",
+            "printer",
+            "labelwriter",
+            "dymo"
+        ],
+        "dept": "IT",
+        "sub": "Paint Label Printer",
         "authLevel": "1",
-        "optionalPrompts": ["noPowerPaintLabel"],
+        "optionalPrompts": [
+            "noPowerPaintLabel"
+        ],
+        "tooltip": "",
         "source": ""
     },
     {
-        "title":"'Failed to triPOS.NET, Side-by-Side Configuration is Incorrect",
-        "tags":["side by side", "side", "payment", "terminal", "tripos", "service"],
-        "dept":"IT",
-        "sub":"Payment Terminal",
+        "title": "'Failed to triPOS.NET, Side-by-Side Configuration is Incorrect",
+        "tags": [
+            "side by side",
+            "side",
+            "payment",
+            "terminal",
+            "tripos",
+            "service"
+        ],
+        "dept": "IT",
+        "sub": "Payment Terminal",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A190:B190"
     },
     {
-        "title":"Bin Ticket Printer Skipping Tickets and/or Printing Incorrectly",
-        "tags":["price", "ticket", "printer", "bin", "skip", "calibrate"],
-        "dept":"IT",
-        "sub":"Payment Terminal",
+        "title": "Bin Ticket Printer Skipping Tickets and/or Printing Incorrectly",
+        "tags": [
+            "price",
+            "ticket",
+            "printer",
+            "bin",
+            "skip",
+            "calibrate"
+        ],
+        "dept": "IT",
+        "sub": "Payment Terminal",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A176:B176"
     },
     {
-        "title":"Store Wants to Order More Theatro Earpieces",
-        "tags":["theatro", "ear", "piece", "order", "new", "devices"],
-        "dept":"IT",
-        "sub":"Theatro",
+        "title": "Store Wants to Order More Theatro Earpieces",
+        "tags": [
+            "theatro",
+            "ear",
+            "piece",
+            "order",
+            "new",
+            "devices"
+        ],
+        "dept": "IT",
+        "sub": "Theatro",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=56243274&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A33:D33"
     },
     {
-        "title":"Issues with Theatro Devices",
-        "tags":["theatro", "ear", "piece", "devices", "tech", "support", "issues"],
-        "dept":"IT",
-        "sub":"Theatro",
+        "title": "Issues with Theatro Devices",
+        "tags": [
+            "theatro",
+            "ear",
+            "piece",
+            "devices",
+            "tech",
+            "support",
+            "issues"
+        ],
+        "dept": "IT",
+        "sub": "Theatro",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1AuatUmWeoeIgqalzBeyIuADf3nEBZZb3HD1fkB1luqE/htmlembed?gid=0&amp;widget=false&amp;chrome=true&amp;single=true&amp;range=A28:B28"
     },
     {
-        "title":"Other Payment Terminal Issues (CardNumber Required, Slow Cards, Unseen Errors)",
-        "tags":["card", "number", "cardnumber", "payment", "terminal", "pinpad", "pin", "pad", "error", "C34", "chip", "emv", "swipe", "debit", "credit"],
-        "dept":"IT",
-        "sub":"Payment Terminal",
+        "title": "Other Payment Terminal Issues (CardNumber Required, Slow Cards, Unseen Errors)",
+        "tags": [
+            "card",
+            "number",
+            "cardnumber",
+            "payment",
+            "terminal",
+            "pinpad",
+            "pin",
+            "pad",
+            "error",
+            "C34",
+            "chip",
+            "emv",
+            "swipe",
+            "debit",
+            "credit"
+        ],
+        "dept": "IT",
+        "sub": "Payment Terminal",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1EHxtSvRCfrIEy3LK_fLgnRu5Ov7N6EdMVj2cmKu-Jfo/htmlembed?gid=0&widget=false&chrome=true&single=true&range=C34:D34"
     },
     {
-        "title":"'Access Denied' When Trying to Access Mi9 Portal/Mi9 Portal Password Reset",
-        "tags":["access", "denied", "password", "mi9", "merchant", "PO", "back", "office", "mail", "portal", "lock", "out", "reset"],
-        "dept":"IT",
-        "sub":"Mi9 Portal",
+        "title": "'Access Denied' When Trying to Access Mi9 Portal/Mi9 Portal Password Reset",
+        "tags": [
+            "access",
+            "denied",
+            "password",
+            "mi9",
+            "merchant",
+            "PO",
+            "back",
+            "office",
+            "mail",
+            "portal",
+            "lock",
+            "out",
+            "reset"
+        ],
+        "dept": "IT",
+        "sub": "Mi9 Portal",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&single=true&widget=false&chrome=true&range=A206:B206"
     },
     {
-        "title":"Host Monitor is Down",
-        "tags":["store", "live", "host", "monitor", "network"],
-        "dept":"IT",
-        "sub":"HQ Processes",
+        "title": "Host Monitor is Down",
+        "tags": [
+            "store",
+            "live",
+            "host",
+            "monitor",
+            "network"
+        ],
+        "dept": "IT",
+        "sub": "HQ Processes",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&single=true&widget=false&chrome=true&range=B54:D54"
     },
     {
-        "title":"Issues with Rental Machine",
-        "tags":["rental", "register", "computer", "machine"],
-        "dept":"IT",
-        "sub":"Rental",
+        "title": "Issues with Rental Machine",
+        "tags": [
+            "rental",
+            "register",
+            "computer",
+            "machine"
+        ],
+        "dept": "IT",
+        "sub": "Rental",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&single=true&widget=false&chrome=true&range=B30:D30"
     },
     {
-        "title":"Receipts Emailed to Customers",
-        "tags":["register", "receipt", "email", "default", "send", "customer"],
-        "dept":"IT",
-        "sub":"Register Software",
+        "title": "Receipts Emailed to Customers",
+        "tags": [
+            "register",
+            "receipt",
+            "email",
+            "default",
+            "send",
+            "customer"
+        ],
+        "dept": "IT",
+        "sub": "Register Software",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&single=true&widget=false&chrome=true&range=B30:D30"
     },
     {
-        "title":"Hardwarestore.com and Online Order Issues",
-        "tags":["hardwarestore.com", "hardwarestore", "hardware store", "online", "order", "website", "site"],
-        "dept":"IT",
-        "sub":"Hardwarestore.com",
+        "title": "Hardwarestore.com and Online Order Issues",
+        "tags": [
+            "hardwarestore.com",
+            "hardwarestore",
+            "hardware store",
+            "online",
+            "order",
+            "website",
+            "site"
+        ],
+        "dept": "IT",
+        "sub": "Hardwarestore.com",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=907924166&single=true&widget=false&chrome=true&range=B4:D4"
     },
     {
-        "title":"Configure API Server on Elvis Device",
-        "tags":["configure", "api", "server", "elvis", "welcome", "screen", "stuck"],
-        "dept":"IT",
-        "sub":"ELVIS Devices",
+        "title": "Configure API Server on Elvis Device",
+        "tags": [
+            "configure",
+            "api",
+            "server",
+            "elvis",
+            "welcome",
+            "screen",
+            "stuck"
+        ],
+        "dept": "IT",
+        "sub": "ELVIS Devices",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1AuatUmWeoeIgqalzBeyIuADf3nEBZZb3HD1fkB1luqE/htmlembed?gid=0&widget=false&single=true&chrome=true&range=A29:D29"
     },
     {
-        "title":"Covers for Payment Terminal Keypads",
-        "tags":["key", "covers", "payment", "terminal", "pin", "pad", "pinpad", "card", "reader"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Covers for Payment Terminal Keypads",
+        "tags": [
+            "key",
+            "covers",
+            "payment",
+            "terminal",
+            "pin",
+            "pad",
+            "pinpad",
+            "card",
+            "reader"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1_azII5U0-qWlpkAOptv5oMM8kUAZBBGMrs_xcf2kBJY/htmlembed?gid=2113782330&single=true&widget=false&chrome=true&range=B51:D51"
     },
     {
-        "title":"Buttons Showing Up on the Wrong Side of WinPOS (example: Buttons should be on the left but are showing on the right)",
-        "tags":["buttons", "showing", "left", "right", "wrong", "side", "winpos", "hand", "handed"],
-        "dept":"IT",
-        "sub":"Register Software",
+        "title": "Buttons Showing Up on the Wrong Side of WinPOS (example: Buttons should be on the left but are showing on the right)",
+        "tags": [
+            "buttons",
+            "showing",
+            "left",
+            "right",
+            "wrong",
+            "side",
+            "winpos",
+            "hand",
+            "handed"
+        ],
+        "dept": "IT",
+        "sub": "Register Software",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&single=true&widget=false&chrome=true&range=A208:B208"
     },
     {
-        "title":"Cards Declining on ALL REGISTERS",
-        "tags":["debit", "credit", "decline", "declining", "register", "payment", "terminal", "pinpad"],
-        "dept":"IT",
-        "sub":"Register Software",
+        "title": "Cards Declining on ALL REGISTERS",
+        "tags": [
+            "debit",
+            "credit",
+            "decline",
+            "declining",
+            "register",
+            "payment",
+            "terminal",
+            "pinpad"
+        ],
+        "dept": "IT",
+        "sub": "Register Software",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&single=true&widget=false&chrome=true&range=A20:B20"
     },
     {
-        "title":"Internet Not Working on One/Few Devices (Not Whole Network)",
-        "tags":["Internet", "paint", "computer", "wifi", "network", "connect"],
-        "dept":"IT",
-        "sub":"PC/POS Equipment",
+        "title": "Internet Not Working on One/Few Devices (Not Whole Network)",
+        "tags": [
+            "Internet",
+            "paint",
+            "computer",
+            "wifi",
+            "network",
+            "connect"
+        ],
+        "dept": "IT",
+        "sub": "PC/POS Equipment",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&widget=false&chrome=true&single=true&range=A210:B210"
     },
     {
-        "title":"'POS Operator XXX Fix Payroll #' on Store Reports",
-        "tags":["POS", "operator", "payroll", "number", "#", "xxx", "report", "GO%", "home", "team", "employee"],
-        "dept":"IT",
-        "sub":"Back Office (Mi9)",
+        "title": "'POS Operator XXX Fix Payroll #' on Store Reports",
+        "tags": [
+            "POS",
+            "operator",
+            "payroll",
+            "number",
+            "#",
+            "xxx",
+            "report",
+            "GO%",
+            "home",
+            "team",
+            "employee"
+        ],
+        "dept": "IT",
+        "sub": "Back Office (Mi9)",
         "authLevel": "1",
         "optionalPrompts": [],
+        "tooltip": "",
         "source": "https://docs.google.com/spreadsheets/d/1tmjYk9mlYNBW_s5s7TGndBt67Kb3I8l7tAaaHQUCApQ/htmlembed?gid=1612994648&widget=false&chrome=true&single=true&range=A212:B212"
     }
 ]
